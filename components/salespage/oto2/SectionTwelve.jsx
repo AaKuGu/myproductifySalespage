@@ -15,8 +15,8 @@ const SectionTweleve = ({ data, index }) => {
       <div
         className={`${
           index % 2 == 0
-            ? "flex-col lg:flex-row"
-            : "flex-col lg:flex-row-reverse"
+            ? "flex-col md:flex-row"
+            : "flex-col md:flex-row-reverse"
         } flex items-start justify-center gap-10 w-full px-5 md:px-10 `}
       >
         <div

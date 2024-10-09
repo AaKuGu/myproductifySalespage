@@ -64,7 +64,7 @@ export default MoneyBackGuarantee;
 const refundPolicyPoints = [
   "No tricks, no scams – just straight-forward, honest marketing.",
   "I believe in honest customers who get real results.",
-  "If you upgrade and, within 14 days, feel like it’s not for you for ANY reason, I’ve got you covered with a full refund.",
+  "If you upgrade and, within 30 days, feel like it’s not for you for ANY reason, I’ve got you covered with a full refund.",
   "Your peace of mind is my priority, so you can try it without any risk.",
   "This is your chance to invest in yourself and get those insane results with ease.",
   "Let’s attract high-paying clients and see your success skyrocket!",

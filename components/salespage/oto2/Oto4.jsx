@@ -102,7 +102,7 @@ const mainFeaturesData = [
   },
 ];
 
-const faqData = [
+export const faqData = [
   {
     q: "Do users need any software or app to download?",
     ans: "No, My Productify is a completely browser-based platform, allowing users to access it directly through their browser without needing to download anything.",

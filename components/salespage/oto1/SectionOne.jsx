@@ -7,27 +7,35 @@ const SectionOne = () => {
   return (
     <div
       className={`flex flex-col gap-5 min-h-fit w-full items-center justify-start text-white px-4 sm:px-6 md:px-8 lg:px-10 text-center py-2 `}
-      style={{ background: 'url("/background/darkbg.png")' }}
+      style={{ background: 'url("/background/xtraDarkBg.png")' }}
     >
-      <div className="font-extrabold text-[16px] 400:text-xl sm:text-2xl md:text-3xl my-5 font-montserrat w-[95%] 400:w-[90%] md:w-[80%]  text-center  flex flex-col items-center justify-center gap-10">
-        <div className={`${""} w-full md:w-[85%] lg:w-[75%] xl:w-[70%] `}>
-          Unlock Your Success:
-          <span className="text-orange-600 font-bold font-lato px-3 rounded-lg md:text-2xl 400:text-xl text-[16px] underline">
-            Get Full Reseller Rights to sell My Productify and Keep 100% of the
-            Profits!
-          </span>
+      <div className="font-extrabold text-[16px] 400:text-xl sm:text-2xl md:text-3xl my-5 font-montserrat w-[95%] 400:w-[90%] text-center  flex flex-col items-center justify-center gap-10">
+        <div className="flex items-center justify-center text-center border-[2px]  border-dotted border-white px-5 py-2 text-[16px] 400:text-[18px] md:text-[20px] lg:text-[22px] rounded-full tracking-wider">
+          CONGRATULATIONS! Thanks For Investing Into My Productify
+        </div>
+        <div
+          className={`${""} w-full md:w-[90%]  text-yellow-300 text-[25px] 600:text-[35px] lg:text-[40px] leading-[40px] md:leading-[50px]`}
+        >
+          Urgent Special Offer For My Productify Buyers:
+          <span className="text-white font-bold font-lato px-3 rounded-lg md:text-2xl 400:text-xl text-[16px] ">
+            Get ALL 'My Productify' Upgrades For A MASSIVE <u>72% Discount</u>
+          </span>{" "}
         </div>
 
         <div className="mt-3 400:text-lg sm:text-xl tracking-wider font-bold flex-col flex items-center justify-center gap-10">
           <div
-            className={`${""} text-[25px] 400:text-[30px] md:text-[40px] lg:text-[50px] leading-[40px] md:leading-[60px] font-extrabold`}
+            className={`${""} text-[25px] 400:text-[30px] md:text-[35px] lg:text-[50px] leading-[40px] md:leading-[60px] font-extrabold text-yellow-300`}
           >
-            Save Time and Eliminate Effort
+            Get My Productify Special Bundle Upgrade
           </div>
           <div
-            className={`${""} text-[16px] 400:text-[20px] md:text-[25px] lg:text-[30px]  leading-[30px] md:leading-[40px] lg:leading-[50px]`}
+            className={`${""} text-[16px] 400:text-[20px] md:text-[25px] lg:text-[30px]  leading-[30px] md:leading-[40px] lg:leading-[50px] w-[80%] font-normal`}
           >
-            with Ready-to-Sell Course Pages, Templates, and Marketing Materials!
+            to Unlock ALL the the Upgrades at a <u>MASSIVE Discount</u> to{" "}
+            <b>
+              <u>Maximize</u>
+            </b>{" "}
+            Your Results and Get the Best Out of My Productify Starting Today!
           </div>
         </div>
         <div className="header-text">
