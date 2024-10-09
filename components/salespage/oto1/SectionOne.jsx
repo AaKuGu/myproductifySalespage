@@ -1,15 +1,35 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import FirstImage from "@/public/logo/file.png";
 import WebsiteLogo from "@/public/logo/logoTransDark.png";
 
 const SectionOne = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null; // Prevent rendering on the server
+  }
+
   return (
     <div
       className={`flex flex-col gap-5 min-h-fit w-full items-center justify-start text-white px-4 sm:px-6 md:px-8 lg:px-10 text-center py-2 `}
       style={{ background: 'url("/background/xtraDarkBg.png")' }}
     >
       <div className="font-extrabold text-[16px] 400:text-xl sm:text-2xl md:text-3xl my-5 font-montserrat w-[95%] 400:w-[90%] text-center  flex flex-col items-center justify-center gap-10">
+        <div className="header-text">
+          <Image
+            src={WebsiteLogo}
+            width={400}
+            height={200}
+            alt="website logo"
+          />
+        </div>
         <div className="flex items-center justify-center text-center border-[2px]  border-dotted border-white px-5 py-2 text-[16px] 400:text-[18px] md:text-[20px] lg:text-[22px] rounded-full tracking-wider">
           CONGRATULATIONS! Thanks For Investing Into My Productify
         </div>
@@ -38,29 +58,67 @@ const SectionOne = () => {
             Your Results and Get the Best Out of My Productify Starting Today!
           </div>
         </div>
-        <div className="header-text">
-          <Image
-            src={WebsiteLogo}
-            width={400}
-            height={200}
-            alt="website logo"
-          />
-        </div>
+
         <div className="mt-4 md:mt-3 text-[16px] md:text-[20px] 400:text-lg tracking-widest font-normal w-[90%] md:w-[80%] leading-[40px] ">
-          Start Earning in the{" "}
-          <span className={`${""} text-purple-400 underline`}>
-            Next 30 Seconds
-          </span>{" "}
-          —Sell My Productify With{" "}
-          <span className={`${""} text-purple-400 underline`}>Zero Setup</span>{" "}
-          and{" "}
-          <span className={`${""} text-purple-400 underline`}>
-            Keep All the Profits!
-          </span>
+          Get Commercial License + Reseller License + Pro License
         </div>
       </div>
       {/* Logo Section */}
-
+      <script
+        src="https://fast.wistia.com/embed/medias/9vdo9ejgwj.jsonp"
+        async
+      ></script>
+      <script
+        src="https://fast.wistia.com/assets/external/E-v1.js"
+        async
+      ></script>
+      <div
+        class="wistia_responsive_padding"
+        style={{ padding: "56.25% 0 0 0", position: "relative" }}
+      >
+        <div
+          class="wistia_responsive_wrapper"
+          style={{
+            height: "100%",
+            left: "0",
+            position: "absolute",
+            top: "0",
+            width: "100%",
+          }}
+        >
+          <div
+            class="wistia_embed wistia_async_9vdo9ejgwj seo=true videoFoam=true"
+            style={{ height: "100%", position: "relative", width: "100%" }}
+          >
+            <div
+              class="wistia_swatch"
+              style={{
+                height: "100%",
+                left: "0",
+                opacity: 0,
+                overflow: "hidden",
+                position: "absolute",
+                top: "0",
+                transition: "opacity 200ms",
+                width: "100%",
+              }}
+            >
+              <img
+                src="https://fast.wistia.com/embed/medias/9vdo9ejgwj/swatch"
+                style={{
+                  filter: "blur(5px)",
+                  height: "100%",
+                  objectFit: "contain",
+                  width: "100%",
+                }}
+                alt=""
+                aria-hidden="true"
+                onload="this.parentNode.style.opacity=1;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Tagline */}
       <div className="w-full flex items-center justify-center text-[16px] 400:text-[18px] md:text-[22px] rounded-lg border-dashed border-white border-[2px] font-bold font-montserrat tracking-wider px-2 py-2 flex-col leading-[40px] md:leading-[50px]">
         <span>Discover How Our Top Members Are</span>

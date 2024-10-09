@@ -7,7 +7,7 @@ const SectionNineteen = () => {
     <div className="w-full md:min-h-screen h-auto flex items-center justify-center">
       <div className={`${sectionWidth} p-2 my-10 `}>
         <Image
-          src="/logo/image21.svg"
+          src="/logo/image21.webp"
           width={1250}
           height={800}
           // layout="fill"
