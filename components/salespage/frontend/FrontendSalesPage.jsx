@@ -62,14 +62,10 @@ const FrontendSalesPage = () => {
       <SectionFifteen />
       <PurchaseCard orange={true} />
       <ThreeStepsComponent />
-
       <SectionSixteen />
       <SectionSeventeen />
-
       <SectionEighteen />
-
       <SectionNineteen />
-
       <AboutMe />
       <TotalValue />
       <Faq data={faqData} />

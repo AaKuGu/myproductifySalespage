@@ -4,7 +4,7 @@ import React from "react";
 const MoneyBackGuarantee = () => {
   return (
     <div
-      className={`${""} flex items-center justify-center w-full h-auto`}
+      className={`${""} flex items-center justify-center w-full h-auto text-black`}
       style={{ background: "url('/background/bg1.png')" }}
     >
       <div
