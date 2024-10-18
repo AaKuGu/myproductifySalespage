@@ -6,6 +6,8 @@ import PurchaseCard from "./PurchaseCard";
 import Faq from "../frontend/Faq";
 import { faqData } from "../oto2/Oto4";
 import MoneyBackGuarantee from "../oto2/MoneyBackGuarantee";
+import DownsellComponent from "../DownsellComponent";
+import OrderNotComplete from "../OrderNotComplete";
 // import SectionOne from "./SectionOne";
 // import SectionTwo from "./SectionTwo";
 // import FewLeft from "./FewLeft";
@@ -25,16 +27,24 @@ import MoneyBackGuarantee from "../oto2/MoneyBackGuarantee";
 // import MainFooter from "../frontend/MainFooter";
 // import SectionTweleve from "../frontend/SectionTweleve";
 
-const Oto3 = () => {
+const proUpgradeDownsellData = {
+  subTitle: "Get the Pro Upgrade for just:",
+  lowerPrice: 37,
+  cutPrice: 47,
+  buttonText: "Get Instant Access To All My Productify Pro Upgrade",
+};
+const Oto3 = ({ downsellComp }) => {
   return (
     <div
       className={`${""} w-full min-h-screen flex items-center justify-center flex-col `}
     >
+      <OrderNotComplete />
+      {downsellComp && <DownsellComponent data={proUpgradeDownsellData} />}
       <SectionOne />
       <SectionTwo
         header1="Add the Power of a Custom Domain for Your Courses!"
         header2="Not Just Custom Route , Add Custom Domain As Well"
-        img="/features/customDomain.png"
+        img="/logo/customDomain.png"
       >
         <div>
           Adding a custom domain to your <strong>My Productify</strong> course
@@ -81,7 +91,7 @@ const Oto3 = () => {
         header1="Use Your Own Custom Footer"
         header2="Direct Every Page Visitor to Your Branding Website"
         reverse={true}
-        img="/features/customDomain.png"
+        img="/logo/removeWatermark.png"
         bgBlue={true}
       >
         <div>
@@ -101,7 +111,7 @@ const Oto3 = () => {
       <SectionTwo
         header1="Unlock the Power of 50 Additional Courses!"
         header2="More Courses || More Earnings"
-        img="/features/customDomain.png"
+        img="/logo/moreCourses.png"
       >
         <div>
           Imagine the possibilities with the ability to create{" "}
@@ -124,32 +134,33 @@ const Oto3 = () => {
         </div>
       </SectionTwo>
       <SectionTwo
-        header1="SuperCharge with 1,500 API Calls"
+        header1="SuperCharge with 1,500 Visits"
         header2="Scaling Will Never Be A Problem"
         reverse={true}
-        img="/features/customDomain.png"
+        img="/logo/Scaling.png"
         bgBlue={true}
       >
         <div>
-          With My <strong>Productify Pro</strong> , you'll receive{" "}
-          <strong>1,500 API calls</strong> per month, providing the foundational
-          resources you need to effectively launch and manage your courses
+          With My <strong>Productify Pro</strong>, you'll receive{" "}
+          <strong>1,500 visits</strong> per month, providing the essential
+          resources you need to effectively launch and manage your courses.
         </div>
         <div>
           This generous limit allows for seamless user registrations, easy
           access to course content, and efficient tracking of engagement,
           ensuring your users have a smooth experience from the start. As your
-          audience grows, you can easily scale your capabilities with a one-time
-          upgrade of just $20 to boost your limit to 3,000 API calls per month.
+          audience grows, you can easily upgrade for just $20 to boost your
+          limit to 3,000 visits per month.
         </div>
         <div>
           This flexibility ensures that you can{" "}
           <strong>accommodate increased traffic</strong>
           and interaction without interruptions. Experience the freedom to
           innovate and engage your audience, all while taking your courses to
-          the next level with our robust API support!
+          the next level with our robust support!
         </div>
       </SectionTwo>
+
       <TotalValue />
       <MoneyBackGuarantee />
       <PurchaseCard />

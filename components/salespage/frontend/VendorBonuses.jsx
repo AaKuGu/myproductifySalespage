@@ -33,7 +33,7 @@ const BonusCard = ({ data, i }) => {
   const { image, title, desc } = data;
   return (
     <div
-      className={`w-full h-auto flex items-center justify-center flex-col md:flex-row  shadow-lg rounded-lg p-3 md:p-5 bg-blue-100`}
+      className={`w-full h-auto flex items-center justify-center flex-col md:flex-row  shadow-lg rounded-lg p-3 md:p-5 bg-blue-50`}
     >
       <Image
         src={image}
@@ -49,7 +49,9 @@ const BonusCard = ({ data, i }) => {
         <div className="font-bold text-[22px] lg:text-[26px] font-raleway">
           {title}
         </div>
-        <div className="text-[18px] md:text-[16px] lg:text-[18px] font-bold text-gray-600">{desc}</div>
+        <div className="text-[18px] md:text-[16px] lg:text-[18px] font-bold text-gray-600">
+          {desc}
+        </div>
       </div>
     </div>
   );
@@ -58,22 +60,17 @@ const BonusCard = ({ data, i }) => {
 const bonusesData = [
   {
     image: "/logo/image3Trans.png",
-    title: "Reseller To 50 Done-For-You Online Courses (WORTH $297)",
-    desc: "SiteCoursePro App basically helps you take advantage of using 185,000+ Online Courses from others to make affiliate commissions. Here we give you 50 Done-For-You Online Courses With Reseller License So you can instantly add to your SiteCoursePro Site To Resell and Keep 100% Profits Per Sale",
+    title: "Bonus 1: Advanced Editing Features",
+    desc: "The first 50 buyers will unlock exclusive advanced editing features to enhance your projects. Don't miss out on this powerful tool!",
   },
   {
     image: "/logo/image3Trans.png",
-    title: "Reseller To 50 Done-For-You Online Courses (WORTH $297)",
-    desc: "SiteCoursePro App basically helps you take advantage of using 185,000+ Online Courses from others to make affiliate commissions. Here we give you 50 Done-For-You Online Courses With Reseller License So you can instantly add to your SiteCoursePro Site To Resell and Keep 100% Profits Per Sale",
+    title: "Bonus 2: Watermark Removal",
+    desc: "Get brand help by having our watermark removed! First 50 buyers only—stand out and showcase your work professionally!",
   },
   {
     image: "/logo/image3Trans.png",
-    title: "Reseller To 50 Done-For-You Online Courses (WORTH $297)",
-    desc: "SiteCoursePro App basically helps you take advantage of using 185,000+ Online Courses from others to make affiliate commissions. Here we give you 50 Done-For-You Online Courses With Reseller License So you can instantly add to your SiteCoursePro Site To Resell and Keep 100% Profits Per Sale",
-  },
-  {
-    image: "/logo/image3Trans.png",
-    title: "Reseller To 50 Done-For-You Online Courses (WORTH $297)",
-    desc: "SiteCoursePro App basically helps you take advantage of using 185,000+ Online Courses from others to make affiliate commissions. Here we give you 50 Done-For-You Online Courses With Reseller License So you can instantly add to your SiteCoursePro Site To Resell and Keep 100% Profits Per Sale",
+    title: "Bonus 3: Extra Course Creation Limit",
+    desc: "Secure your spot among the first 50 buyers and receive 20 more course creation slots. Expand your offerings and boost your income!",
   },
 ];

@@ -52,9 +52,10 @@ const TotalValue = () => {
           className={`${""} flex items-center justify-center flex-col gap-5 text-[16px] md:text-[18px] lg:text-[20px]`}
         >
           <div
-            className={`${""} text-[22px] md:text-[26px] lg:text-[30px] text-red-600 font-bold`}
+            className={`${""} text-[22px] md:text-[26px] lg:text-[30px] text-red-600 font-bold flex flex-col gap-2 my-7 items-center justify-center`}
           >
-            That's TOTAL of $3976 in Value
+            <span>That's TOTAL of $3976 in Value & </span>
+            <span> All Exclusive Bonuses</span>
           </div>
           <div>Today, You get this incredible product</div>
           <div>at less than 1/90th of it's worth</div>

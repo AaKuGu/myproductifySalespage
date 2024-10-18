@@ -27,7 +27,7 @@ const resellerLicenseBenefits = [
 export const upgradesData = [
   {
     title: "My Productify Pro Version",
-    titleValue: 97,
+    titleValue: 47,
     subTitle:
       "Skyrocketing Conversions, and Taking Full Control of Your Online   Presence! Without My Productify Branding",
     image: "/background/BundleHeroImage.png",
@@ -36,7 +36,7 @@ export const upgradesData = [
   },
   {
     title: "My Productify Reseller Version",
-    titleValue: 197,
+    titleValue: "97$ + 157",
     subTitle:
       "Save Time and Eliminate Effort with Ready-to-Sell Course Pages, Templates, and Marketing Materials!",
     image: "/background/BundleHeroImage.png",
@@ -54,5 +54,6 @@ export const optionOneUpgradePoints = [
 
 export const optionTwoUpgradePoints = [
   "My Productify Reseller License - 97$",
-  "My Productify Pro License - 47$"
-]
+  "My Productify Reseller License - 157$",
+  "My Productify Pro License - 47$",
+];

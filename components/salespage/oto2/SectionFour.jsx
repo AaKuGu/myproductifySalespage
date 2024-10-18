@@ -5,12 +5,15 @@ import React from "react";
 const SectionFour = () => {
   return (
     <div
-      className={` flex items-center justify-center w-full h-auto md:mih-h-screen bg-purple-900 text-white`}
+      className={` flex items-center justify-center w-full h-auto md:mih-h-screen text-white`}
+      style={{
+        background: "linear-gradient(to right,#000033, #330033)",
+      }}
     >
       <div
-        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-center justify-center flex-col-reverse md:flex-row gap-10 py-10 md:py-20`}
+        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-start justify-center flex-col-reverse md:flex-row gap-10 py-10 md:py-20`}
       >
-        <Image src="/logo/image9.png" width={600} height={200} />
+        <Image src="/logo/biggestProblem.png" width={500} height={700} />
         <div
           className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
         >

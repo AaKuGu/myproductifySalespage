@@ -31,7 +31,7 @@ const PurchaseCard = ({ orange = false }) => {
             >
               Get My Productify
             </span>
-            <span>& Save $3976 Now</span>
+            <span>& Save $978/M Now</span>
           </header>
 
           <PurchaseButtonDark />

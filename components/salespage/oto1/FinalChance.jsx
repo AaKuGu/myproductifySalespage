@@ -27,7 +27,7 @@ const FinalChance = () => {
             className={`${""} text-[15px] 500:text-[18px] md:text-[20px] lg:text-[25px] text-center text-gray-200`}
           >
             Total Price Of Everything If You Bought Each Upgrade One By One =
-            <b className={`${""} text-yellow-400 font-bold`}>$1,042</b> But When
+            <b className={`${""} text-yellow-400 font-bold`}>$301</b> But When
             You Get The My Productify "Bundle License" Right Now, You Get
             Everything AT A Special, Discounted Price...
           </div>

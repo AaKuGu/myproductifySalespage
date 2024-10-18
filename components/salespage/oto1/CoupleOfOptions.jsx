@@ -29,7 +29,7 @@ const CoupleOfOptions = () => {
           className={`${""} text-[24px] 400:text-[27px] 500:text-[31px] md:text-[35px] lg:text-[45px] text-black text-center my-5 gap-0 flex flex-col items-center justify-center`}
         >
           <div className={`${""} font-extrabold`}>
-            Total Price of Both Upgrades
+            Total Price of The Upgrades
           </div>
           <div
             className={`${""}  text-[18px] 400:text-[20px] 500:text-[23px] md:text-[25px] lg:text-[30px]`}
@@ -38,7 +38,7 @@ const CoupleOfOptions = () => {
           </div>
           <div className={`${""} mt-5`}>
             <p className={`${""} text-red-600 text-[50px] font-bold`}>
-              = $1402
+              = $301
             </p>
           </div>
         </div>

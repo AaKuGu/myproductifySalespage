@@ -16,6 +16,7 @@ import SectionTen from "./SectionTen";
 import SectionEleven from "./SectionEleven";
 import Faq from "../frontend/Faq";
 import MainFooter from "../frontend/MainFooter";
+import OrderNotComplete from "../OrderNotComplete";
 // import SectionTweleve from "../frontend/SectionTweleve";
 
 const Oto4 = () => {
@@ -23,6 +24,7 @@ const Oto4 = () => {
     <div
       className={`${""} w-full min-h-screen flex items-center justify-center flex-col `}
     >
+      <OrderNotComplete />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
@@ -74,7 +76,7 @@ const mainFeaturesData = [
       "Taps into a proven demand, making it easier to sell",
       "Addresses real customer pain points for better sales conversion",
     ],
-    imageLink: "/features/emailAutoresponder.png",
+    imageLink: "/logo/highDemand.png",
     width: 350,
     height: 350,
   },
@@ -85,7 +87,7 @@ const mainFeaturesData = [
       "Leverage cutting-edge technology or a distinctive advantage",
       "Stand out from competitors with a unique point of difference",
     ],
-    imageLink: "/features/emailAutoresponder.png",
+    imageLink: "/logo/innovative.png",
     width: 350,
     height: 350,
   },
@@ -96,7 +98,7 @@ const mainFeaturesData = [
       "Benefit from built-in branding strategies for higher buyer trust",
       "Increase conversion rates with pre-validated marketing resources",
     ],
-    imageLink: "/features/emailAutoresponder.png",
+    imageLink: "/logo/branding.png",
     width: 350,
     height: 350,
   },

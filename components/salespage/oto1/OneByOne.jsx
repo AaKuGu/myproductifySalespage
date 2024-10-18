@@ -18,7 +18,7 @@ const OneByOne = () => {
       <h1
         className={`${""} text-[22px] 500:text-[27px] md:text-[34px] lg:text-[40px] tracking-wider font-extrabold`}
       >
-         = <span className={`${""} text-red-500`}>$293</span>
+        = <span className={`${""} text-red-500`}>$301</span>
       </h1>
     </div>
   );

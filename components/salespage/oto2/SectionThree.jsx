@@ -33,9 +33,9 @@ const SectionThree = () => {
         </div>
 
         <Image
-          src="/logo/image9.png"
-          width={600}
-          height={200}
+          src="/logo/missing.png"
+          width={500}
+          height={700}
           // className={`${""} w-full`}
         />
       </div>

@@ -13,25 +13,26 @@ import NoThanks from "./NoThanks";
 import FinalChance from "./FinalChance";
 import FinalTwoButtons from "./FinalTwoButtons";
 import MainFooter from "../frontend/MainFooter";
+import DownsellComponent from "../DownsellComponent";
+import OrderNotComplete from "../OrderNotComplete";
 
-const Oto1 = () => {
+const bundleUpgradeDownsellData = {
+  subTitle: "Get the Bundle Upgrade for just:",
+  lowerPrice: 137,
+  cutPrice: 157,
+  buttonText: "Get Instant Access To All My Productify Upgrades",
+};
+
+const Oto1 = ({ downsellComp }) => {
   return (
     <div
-      className={`${""} w-full min-h-screen flex items-center justify-center flex-col text-white gap-5`}
+      className={`${""} w-full min-h-screen flex items-center justify-center flex-col text-white `}
       style={{
         background: "linear-gradient(to right,#000033, #330033)",
       }}
     >
-      <div
-        className={`${""} flex items-center justify-center w-full h-auto bg-yellow-800`}
-      >
-        <div
-          className={`${""} w-[95%] md:w-[90%] text-center  text-white font-bold text-lg md:text-xl lg:text-2xl py-3`}
-        >
-          Your Order Is Not Complete - Don't Close This Page
-        </div>
-      </div>
-
+      <OrderNotComplete />
+      {downsellComp && <DownsellComponent data={bundleUpgradeDownsellData} />}
       <SectionOne />
       <LetsDigIn />
       {upgradesData?.map((d, i) => {

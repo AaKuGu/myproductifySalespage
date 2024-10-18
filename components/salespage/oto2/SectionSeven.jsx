@@ -57,31 +57,31 @@ export const data = [
   {
     id: 1,
     title: "Proven System",
-    image: "/normal/i1.png",
+    image: "/logo/system.png",
     desc: "The foundation of your reselling journey is built on a tested and proven system that has already helped countless users achieve success. You’re not starting from scratch; you’re standing on the shoulders of those who have come before you.",
   },
   {
     id: 2,
     title: "Ready-Made Tools",
-    image: "/normal/i1.png",
+    image: "/logo/tools.png",
     desc: "With My Productify, you receive access to a complete suite of ready-made tools designed specifically for reselling. From customizable sales pages to marketing materials, everything you need is provided, saving you time and effort.",
   },
   {
     id: 3,
     title: "Comprehensive Support",
-    image: "/normal/i1.png",
+    image: "/logo/support.png",
     desc: "Our dedicated support team is here to help you every step of the way. Whether you have questions about setting up your funnel or need marketing tips, we’re committed to your success.",
   },
   {
     id: 4,
     title: "Community of Like-Minded Resellers",
-    image: "/normal/i1.png",
+    image: "/logo/resellers.png",
     desc: "Join a vibrant community of fellow resellers who are eager to share tips, strategies, and support. Networking with others in the industry can provide valuable insights and encouragement as you embark on your reselling journey.",
   },
   {
     id: 5,
     title: "Ongoing Updates and Improvements",
-    image: "/normal/i1.png",
+    image: "/logo/updates.png",
     desc: "The digital landscape is always changing, and so are we. By being part of the My Productify family, you’ll benefit from ongoing updates and improvements to the system, ensuring you always have the latest tools and features to maximize your success.",
   },
 ];

@@ -66,11 +66,11 @@ const FrontendSalesPage = () => {
       <SectionSeventeen />
       <SectionEighteen />
       <SectionNineteen />
-      <AboutMe />
+      <VendorBonuses />
       <TotalValue />
+      <AboutMe />
       <Faq data={faqData} />
       <MainFooter />
-      {/* <VendorBonuses /> */}
       {/* <ScrollButtons /> */}
     </div>
   );

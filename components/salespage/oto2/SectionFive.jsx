@@ -28,7 +28,7 @@ const SectionFive = () => {
             return <div key={i}>{d}</div>;
           })}
         </div> */}
-        <Image src="/logo/image2.png" width={1000} height={600} />
+        <Image src="/logo/software.png" width={1000} height={600} />
       </div>
     </div>
   );

@@ -289,7 +289,7 @@ const SectionTwo = () => {
             Get My Productify & Save $949 Monthly
           </div>
           <div className="text-lg sm:text-xl md:text-2xl">
-            Real Price- $978/M Get It Today For Only $19/M
+            Real Price- $978/M Get It Today For Only $17
           </div>
           <PurchaseButton />
         </div>

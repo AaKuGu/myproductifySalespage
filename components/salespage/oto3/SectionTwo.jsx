@@ -29,7 +29,7 @@ const SectionTwo = ({
             reverse ? "md:flex-row-reverse" : "md:flex-row"
           }`}
         >
-          <div className={`${""} w-full md:w-[40%] `}>
+          <div className={`${""} w-full md:w-[40%] border-[2px] border-black p-1`}>
             <Image
               src={img}
               width={400}

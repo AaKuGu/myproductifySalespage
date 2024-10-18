@@ -11,10 +11,10 @@ const SectionSix = () => {
       <div
         className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-center justify-center flex-col md:flex-row gap-10 py-10 md:py-20`}
       >
-        <Image src="/logo/image9.png" width={600} height={200} />
+        <Image src="/logo/goodNews.png" width={600} height={200} />
         <div
           className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
-        >
+        > 
           <header
             className={`text-[22px] md:text-[18px] lg:text-[26px] font-bold text-start w-full font-lato underline`}
           >

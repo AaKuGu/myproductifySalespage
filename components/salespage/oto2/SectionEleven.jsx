@@ -41,7 +41,7 @@ const Card = ({ d }) => {
     >
       {/* Icon/Image Section */}
       <div className={` flex items-center justify-center`}>
-        <Image src={d?.icon} width={100} height={100} alt="stat icon" />
+        <Image src={d?.icon} width={50} height={50} alt="stat icon" />
       </div>
 
       {/* Description Section */}
@@ -57,26 +57,26 @@ export const whatYouDontHaveToHassleWithPoints = [
   {
     title: "Product Creation",
     desc: "Say goodbye to the daunting process of creating your own products from scratch. With *My Productify*, you’re reselling a proven solution, so you can skip the hassle of product development.",
-    icon: "/icons/product-creation.png", // Update the icon path as needed
+    icon: "/logo/productIcon.png", // Update the icon path as needed
   },
   {
     title: "Technical Setup",
     desc: "Forget about complex technical setups or website building. We provide a fully functional sales funnel that’s ready to go, allowing you to focus on driving traffic and making sales instead.",
-    icon: "/icons/technical-setup.png", // Update the icon path as needed
+    icon: "/logo/settingsIcon.png", // Update the icon path as needed
   },
   {
     title: "Marketing Materials",
     desc: "No need to spend hours creating marketing materials or sales pages. You’ll receive professionally designed templates and resources, streamlining your marketing efforts without the extra effort.",
-    icon: "/icons/marketing-materials.png", // Update the icon path as needed
+    icon: "/logo/marketingIcon.png", // Update the icon path as needed
   },
   {
     title: "Customer Support",
     desc: "You won’t have to manage customer inquiries or support issues. Our team handles customer support for you, allowing you to concentrate on growing your reselling business.",
-    icon: "/icons/customer-support.png", // Update the icon path as needed
+    icon: "/logo/supportIcon.png", // Update the icon path as needed
   },
   {
     title: "Hidden Fees and Costs",
     desc: "Unlike other programs, there are no hidden fees or unexpected costs associated with reselling. What you see is what you get, ensuring full transparency and maximizing your profits.",
-    icon: "/icons/hidden-fees.png", // Update the icon path as needed
+    icon: "/logo/noFeesIcon.png", // Update the icon path as needed
   },
 ];
