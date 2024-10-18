@@ -25,7 +25,7 @@ const UpgradeDetails = ({
           Upgrade #{upgradeNumber}
         </div>
         <h2
-          className={`${""} font-bold text-[19px] 500:text-[25px] md:text-[30px] lg:text-[40px] text-center`}
+          className={`${""} font-bold text-[19px] 500:text-[20px] md:text-[25px] lg:text-[35px] text-center`}
         >
           {title} - <i className={`${""} text-red-500`}>{titleValue}$</i>
         </h2>
