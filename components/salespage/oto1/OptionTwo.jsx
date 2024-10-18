@@ -30,21 +30,25 @@ const OptionTwo = () => {
         Here’s What’s Included With The ‘Bundle Upgrade’:
       </div>
       <div
-        className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[16px] 500:text-[18px] md:text-[20px]`}
+        className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[16px] 500:text-[18px] md:text-[20px] `}
       >
-        {optionTwoUpgradePoints?.map((d, i) => {
-          return (
-            <div
-              key={i}
-              className={`${""}  flex items-center justify-center gap-3`}
-            >
-              <span className={`${""} text-purple-500`}>
-                <IoCheckmarkDoneCircleSharp />
-              </span>
-              upgrade #{i + 1} - {d}
-            </div>
-          );
-        })}
+        <div
+          className={`${""} flex items-start justify-center flex-col gap-5 w-[85%] `}
+        >
+          {optionTwoUpgradePoints?.map((d, i) => {
+            return (
+              <div
+                key={i}
+                className={`${""}  flex items-center justify-center gap-3`}
+              >
+                <span className={`${""} text-purple-500`}>
+                  <IoCheckmarkDoneCircleSharp />
+                </span>
+                upgrade #{i + 1} - {d}
+              </div>
+            );
+          })}
+        </div>
       </div>
       <div className={`${""} bg-white w-full rounded-lg h-[400px] text-black`}>
         Buy Button

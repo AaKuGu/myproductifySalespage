@@ -75,12 +75,12 @@ const resellerPurchaseCards = [
   },
   {
     image: "/logo/file2.png",
-    desc: "70 Reseller License",
+    desc: "100 Reseller License",
     buttonLink: "",
   },
   {
     image: "/logo/file2.png",
-    desc: "150 Reseller License",
+    desc: "200 Reseller License",
     buttonLink: "",
   },
 ];

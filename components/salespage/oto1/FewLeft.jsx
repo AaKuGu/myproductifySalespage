@@ -48,7 +48,7 @@ const FewLeft = () => {
           <div>Click The Button Below Now To Claim</div>
           <div>Your 'Fast Pass' Massive Discount Now</div>
         </div>
-        <Button />
+        <Button data="Get Instant Access To All My Productify Upgrades" />
         <div
           className={`${""} font-bold text-[16px] md:text-[20px] lg:text-[23px] mb-5 flex flex-col items-center justify-center gap-1`}
         >

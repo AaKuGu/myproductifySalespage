@@ -37,9 +37,7 @@ const CoupleOfOptions = () => {
             If You Bought <b>Each Upgrade</b>One By One
           </div>
           <div className={`${""} mt-5`}>
-            <p className={`${""} text-red-600 text-[50px] font-bold`}>
-              = $301
-            </p>
+            <p className={`${""} text-red-600 text-[50px] font-bold`}>= $558</p>
           </div>
         </div>
       </div>

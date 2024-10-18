@@ -12,7 +12,7 @@ const SectionTen = () => {
       <div
         className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-start justify-center flex-col md:flex-row gap-10 py-10 md:py-20`}
       >
-        <Image src="/logo/badNews.png" width={600} height={200} />
+        <Image src="/logo/badNews.png" width={400} height={200} />
         <div
           className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
         >
@@ -33,12 +33,12 @@ const SectionTen = () => {
             );
           })}
         </div>
-      </div>
+      </div>  
     </div>
   );
 };
 
-export default SectionTen;  
+export default SectionTen;
 
 const data = [
   {

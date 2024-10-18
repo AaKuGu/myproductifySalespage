@@ -36,7 +36,7 @@ export const upgradesData = [
   },
   {
     title: "My Productify Reseller Version",
-    titleValue: "97$ + 157",
+    titleValue: "97$ + 157$ + 257",
     subTitle:
       "Save Time and Eliminate Effort with Ready-to-Sell Course Pages, Templates, and Marketing Materials!",
     image: "/background/BundleHeroImage.png",
@@ -55,5 +55,6 @@ export const optionOneUpgradePoints = [
 export const optionTwoUpgradePoints = [
   "My Productify Reseller License - 97$",
   "My Productify Reseller License - 157$",
+  "My Productify Reseller License - 257$",
   "My Productify Pro License - 47$",
 ];
