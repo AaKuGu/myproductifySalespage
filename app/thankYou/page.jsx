@@ -4,11 +4,11 @@ import React from "react";
 const ThankYouPage = () => {
   return (
     <div className="flex items-start justify-center min-h-screen p-4 bg-gradient-to-br from-gray-200 to-gray-400">
-      <div className="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
+      <div className="w-full max-w-2xl p-6 bg-white rounded-lg shadow-lg flex flex-col items-center">
         <Image
           width={300}
           height={300}
-          src="logo/me2.png" // Replace with your photo URL
+          src="/logo/me2.png" // Replace with your photo URL
           alt="Aadarsh Gupta"
           className="w-40 h-40 rounded-full border-4 border-indigo-500 mb-4"
         />
@@ -29,15 +29,30 @@ const ThankYouPage = () => {
           </a>
           .
         </p>
+        <p className="text-center text-lg text-gray-600 mb-4">
+          If you purchased any upgrades, your account has been upgraded
+          accordingly.
+        </p>
         <p className="text-center text-lg text-gray-600">
-          Visit our website:{" "}
+          Visit parent website:{" "}
           <a
             href="https://www.aigodam.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-indigo-500 underline"
           >
-            www.aigodam.com
+            Ai Godam
+          </a>
+        </p>
+        <p className="text-center text-lg text-gray-600">
+          Visit product website:{" "}
+          <a
+            href="https://www.myproductify.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-500 underline"
+          >
+            My Productify
           </a>
         </p>
       </div>
