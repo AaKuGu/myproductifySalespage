@@ -22,7 +22,7 @@ const Header = () => {
       </ul>
       <Link
         href="/"
-        className={`${""} flex items-center justify-center px-[2vw] py-[0.5vw]  font-bold text-[5vw] 600:text-[1.5vw] bg-gradient-to-r from-[#000033] to-[#330000] 600:hover:from-[#330000] 600:hover:to-[#000033] duration-600`}
+        className={`${""} flex items-center justify-center px-[5vw] py-[2vw] md:px-[2vw] md:py-[0.5vw] font-bold text-[5vw] 600:text-[1.5vw] bg-gradient-to-r from-[#000033] to-[#330000] 600:hover:from-[#330000] 600:hover:to-[#000033] duration-600 rounded-lg`}
       >
         Affiliate&nbsp;Link
       </Link>

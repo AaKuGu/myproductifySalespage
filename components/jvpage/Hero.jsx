@@ -9,7 +9,19 @@ const Hero = () => {
       <header
         className={`${""} flex items-center justify-center flex-col gap-[2vw]`}
       >
-        <div className={`${''} text-yellow-400 text-[5vw]`}>Exclusive Product : </div>
+        <div>
+          Revolutionary Tool Instantly Crafts Stunning, Pro-Level Courses in Hot
+          Niches with Ready-to-Use Templates Launch in Just 30 Seconds!
+        </div>
+        <div>
+          Revolutionary Tool Instantly Crafts Stunning, Pro-Level Courses in Hot
+          Niches with Ready-to-Use Templates Launch in Just 30 Seconds!
+        </div>
+        <div>
+          Revolutionary Tool Instantly Crafts Stunning, Pro-Level Courses in Hot
+          Niches with Ready-to-Use Templates Launch in Just 30 Seconds!
+        </div>
+        
       </header>
     </div>
   );
