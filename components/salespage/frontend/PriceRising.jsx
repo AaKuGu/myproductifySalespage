@@ -40,7 +40,9 @@ const PriceRising = ({ isWhiteBg = true }) => {
       <div
         className={`${""} flex flex-col items-center justify-center md:flex-row gap-3 py-5  w-[90%] md:w-[95%] lg:w-[80%]`}
       >
-        <h2 className={`${""} text-[22px] 500:text-[30px] md:text-[28px] lg:text-[30px] font-bold`}>
+        <h2
+          className={`${""} text-[22px] 500:text-[30px] md:text-[28px] lg:text-[30px] font-bold`}
+        >
           Hurry! Price rising in:
         </h2>
         <div
