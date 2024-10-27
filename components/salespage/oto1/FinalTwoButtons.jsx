@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
 import AboutMe from "../frontend/AboutMe";
 import Image from "next/image";
+import Link from "next/link";
+import { handleSmoothScroll } from "@/utils/utils";
 
-const FinalTwoButtons = () => {
+const FinalTwoButtons = ({ downsellComp }) => {
   return (
     <div
       className={`${""} min-h-screen w-full flex items-center justify-center  text-black flex-col  `}
@@ -21,14 +25,19 @@ const FinalTwoButtons = () => {
         >
           {buttons?.map((d, i) => {
             return (
-              <button
+              <Link
+                href={downsellComp ? d?.downsellLink : d?.upsellLink}
+                target={i == 1 && "_blank"}
+                onClick={(e) => {
+                  i == 0 ? handleSmoothScroll(e) : null;
+                }}
                 className={`${
                   d?.color == "green" ? "from-[#600000]" : "from-[#600033]"
                 } bg-gradient-to-r to-[#000033] flex items-center justify-center flex-col gap-3 text-white font-bold px-5 py-4 rounded-lg text-[22px]`}
               >
                 <div>{d?.label?.title}</div>
                 <div>{d?.label?.subTitle}</div>
-              </button>
+              </Link>
             );
           })}
         </div>
@@ -50,7 +59,8 @@ const buttons = [
       title: "Yes Give Me 'Bundle Upgrade'",
       subTitle: "Yes Help Me Skip All The Guesswork",
     },
-    link: "",
+    upsellLink: "#WSOUpsellBuyButton",
+    downsellLink: "#WSODownsellBuyButton",
     color: "green",
   },
   {
@@ -58,7 +68,8 @@ const buttons = [
       title: "No Thanks",
       subTitle: "NO I Dont Want Any Work Easy Money",
     },
-    link: "",
+    upsellLink: "https://warriorplus.com/o/nothanks/r1wc27",
+    downsellLink: "https://warriorplus.com/o/nothanks/q593vd",
     color: "red",
   },
 ];

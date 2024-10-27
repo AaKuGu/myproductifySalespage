@@ -2,8 +2,10 @@ import React from "react";
 import UpgradeDetails from "./UpgradeDetails";
 import OptionOne from "./OptionOne";
 import OptionTwo from "./OptionTwo";
+import WSOUpsellBuyButton from "./WSOBuyButton";
+import WSODownsellBuyButton from "./WSODownsellBuyButton";
 
-const CoupleOfOptions = () => {
+const CoupleOfOptions = ({ downsellComp }) => {
   return (
     <div
       className={`${""} w-full min-h-screen flex items-center justify-center flex-col text-black bg-white`}
@@ -37,8 +39,17 @@ const CoupleOfOptions = () => {
             If You Bought <b>Each Upgrade</b>One By One
           </div>
           <div className={`${""} mt-5`}>
-            <p className={`${""} text-red-600 text-[50px] font-bold`}>= $558</p>
+            <p className={`${""} text-red-600 text-[50px] font-bold`}>= $598</p>
           </div>
+          <div
+            className={`${""}  text-[18px] 400:text-[20px] 500:text-[23px] md:text-[25px] lg:text-[30px]`}
+          >
+            and regular price Of The Bundle Upgrade is <b>357$</b>
+          </div>
+          <div className={`${""} font-bold text-2xl my-5 md:my-10 underline`}>
+            But
+          </div>
+          {downsellComp ? <WSODownsellBuyButton /> : <WSOUpsellBuyButton />}
         </div>
       </div>
     </div>

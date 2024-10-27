@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const FewLeft = () => {
+const FewLeft = ({ downsellComp }) => {
   return (
     <div
       className={`${""} flex items-center justify-center w-full min-h-screen`}
@@ -46,9 +46,14 @@ const FewLeft = () => {
           className={`${""} flex items-center justify-center flex-col gap-1 font-bold text-[20px] md:text-[25px] lg:text-[30px] mb-5 md:mb-10`}
         >
           <div>Click The Button Below Now To Claim</div>
-          <div>Your 'Fast Pass' Massive Discount Now</div>
+          <div>Your 'Bundle Pass' Massive Discount Now</div>
         </div>
-        <Button data="Get Instant Access To All My Productify Upgrades" />
+        <Button
+          data={{
+            title: "Get Instant Access To All My Productify Upgrades",
+            link: downsellComp ? "#WSODownsellBuyButton" : "WSOUpsellBuyButton",
+          }}
+        />
         <div
           className={`${""} font-bold text-[16px] md:text-[20px] lg:text-[23px] mb-5 flex flex-col items-center justify-center gap-1`}
         >

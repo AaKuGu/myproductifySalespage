@@ -4,8 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "warriorplus.com",
-        pathname: "/o2/**",
+        hostname: "**",
       },
     ],
   },

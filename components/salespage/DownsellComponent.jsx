@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./oto1/Button";
 
 const DownsellComponent = ({ data }) => {
-  const { subTitle, lowerPrice, cutPrice, buttonText } = data;
+  const { subTitle, lowerPrice, cutPrice, buttonData } = data;
   return (
     <div
       className="flex items-center justify-center h-auto p-4 w-full bg-center bg-cover"
@@ -19,11 +19,11 @@ const DownsellComponent = ({ data }) => {
             ${cutPrice}
           </span>
         </div>
-        <p className="text-md text-gray-400">That's a $20 discount!</p>
+        <p className="text-md text-gray-400">That's a $30 discount!</p>
         <p className="mt-4 text-green-500 font-semibold 300:text-[18px] 500:text-[25px] md:text-[30px]">
           Act Now and Save!
         </p>
-        <Button data={buttonText} />
+        <Button data={{ ...buttonData }} />
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const NoThanks = () => {
                   <IoMdCloseCircle size={20} />
                 </span>{" "}
                 {d}
-              </div>
+              </div>  
             );
           })}
         </div>

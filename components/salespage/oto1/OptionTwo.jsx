@@ -50,9 +50,7 @@ const OptionTwo = () => {
           })}
         </div>
       </div>
-      <div className={`${""} bg-white w-full rounded-lg h-[400px] text-black`}>
-        Buy Button
-      </div>
+    
     </div>
   );
 };

@@ -29,6 +29,7 @@ import Faq from "./Faq";
 import MainFooter from "./MainFooter";
 import VendorBonuses from "./VendorBonuses";
 import "@/components/authenticated/css/animation.css";
+import WSOBuyJButton from "./WSOBuyJButton";
 
 const FrontendSalesPage = () => {
   return (
@@ -68,6 +69,7 @@ const FrontendSalesPage = () => {
       <SectionNineteen />
       <VendorBonuses />
       <TotalValue />
+      <WSOBuyJButton />
       <AboutMe />
       <Faq data={faqData} />
       <MainFooter />

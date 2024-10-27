@@ -15,12 +15,16 @@ import FinalTwoButtons from "./FinalTwoButtons";
 import MainFooter from "../frontend/MainFooter";
 import DownsellComponent from "../DownsellComponent";
 import OrderNotComplete from "../OrderNotComplete";
+import WSOUpsellBuyButton from "./WSOBuyButton";
 
 const bundleUpgradeDownsellData = {
   subTitle: "Get the Bundle Upgrade for just:",
-  lowerPrice: 137,
-  cutPrice: 157,
-  buttonText: "Get Instant Access To All My Productify Upgrades",
+  lowerPrice: 167,
+  cutPrice: 197,
+  buttonData: {
+    link: "#WSODownsellBuyButton",
+    title: "Get Instant Access To All My Productify Upgrades",
+  },
 };
 
 const Oto1 = ({ downsellComp }) => {
@@ -51,13 +55,13 @@ const Oto1 = ({ downsellComp }) => {
       })}
       <OneByOne />
       <hr className={`${""} w-full h-[3px] bg-white text-white`} />
-      <CoupleOfOptions />
+      <CoupleOfOptions downsellComp={downsellComp} />
       <MoneyBackGuarantee />
-      <FewLeft />
+      <FewLeft downsellComp={downsellComp} />
       <PriceRising />
       <NoThanks />
       <FinalChance />
-      <FinalTwoButtons />
+      <FinalTwoButtons downsellComp={downsellComp} />
       <MainFooter />
     </div>
   );
