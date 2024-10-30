@@ -5,13 +5,13 @@ const AboutMe = ({ hideText = false }) => {
   return (
     <section className="w-screen h-auto sm:min-h-screen flex items-center justify-center">
       <div
-        className={`${""} w-[90%] sm:w-[95%] md:w-[80%] flex items-center justify-center flex-col gap-10 my-[10vw] lg:my-[5vw]`}
+        className={`${""} w-[90%] sm:w-[95%] md:w-[80%] flex items-center justify-center flex-col gap-10 my-[20vw] lg:my-[5vw] `}
       >
         <div
-          className={`${""} flex flex-col sm:flex-row items-center justify-center gap-5 w-full`}
+          className={`${""} flex flex-col sm:flex-row items-center justify-center gap-5 w-full `}
         >
           <header className="flex flex-col items-center justify-center gap-5 lg:gap-10 text-center">
-            <span className="text-[5vw] lg:text-[3vw] font-bold font-ubuntu">
+            <span className="text-[6vw] lg:text-[3vw] font-bold font-ubuntu">
               Thanks For Checking Out
             </span>
             <div className="header-text mb-[2vw] lg:mb-[0.2vw]">
@@ -20,7 +20,7 @@ const AboutMe = ({ hideText = false }) => {
                 height={100}
                 width={400}
                 alt="website logo"
-                className="w-[50vw] lg:w-[25vw] "
+                className="w-[70vw] lg:w-[25vw] "
               />
             </div>
             <span>
@@ -29,7 +29,7 @@ const AboutMe = ({ hideText = false }) => {
                 width={300}
                 height={100}
                 alt="My Name"
-                className="w-[50vw] lg:w-[25vw] "
+                className="w-[70vw] lg:w-[25vw] "
               />
             </span>
           </header>

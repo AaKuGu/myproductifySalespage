@@ -12,7 +12,7 @@ const SectionEleven = () => {
       }}
     >
       <div
-        className={`${""} flex flex-col-reverse sm:flex-row items-center justify-center w-[90%] sm:w-[95%] gap-10 sm:py-20  py-10 md:py-20`}
+        className={`${""} flex flex-col-reverse sm:flex-row items-center justify-center w-[90%] sm:w-[95%] gap-[10vw] lg:gap-[5vw] py-[10vw] lg:py-[5vw]`}
       >
         <div className={`${""} w-full  md:w-[50%]`}>
           <Image
@@ -24,7 +24,7 @@ const SectionEleven = () => {
         </div>
 
         <div
-          className={`${""} flex flex-col  items-center justify-between text-white text-start w-full md:w-[50%]  `}
+          className={`${""} flex flex-col  items-center justify-between text-white text-start w-full md:w-[50%] gap-[3vw] lg:gap-[1.4vw] `}
         >
           <header
             className={`${""} font-extrabold text-[6vw] lg:text-[2.5vw] w-full  font-kaushanScript text-center sm:text-start mb-[1vw] lg:mb-[3vw]`}

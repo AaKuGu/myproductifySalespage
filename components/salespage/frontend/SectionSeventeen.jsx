@@ -16,7 +16,7 @@ const SectionSeventeen = () => {
         />
       </div>
       <div
-        className={`w-[90%] lg:w-[80%] flex items-center justify-center  sm:flex-row gap-10 py-10 z-10 sm:py-20`}
+        className={`w-[90%] lg:w-[80%] flex items-center justify-center  flex-col lg:flex-row gap-10 py-10 z-10 sm:py-20`}
       >
         <div
           className={`${""} flex flex-col items-center justify-center gap-5 md:gap-10 text-black w-full `}

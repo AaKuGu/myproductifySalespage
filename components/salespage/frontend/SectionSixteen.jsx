@@ -8,7 +8,7 @@ const SectionSixteen = () => {
       className={`${""} flex items-center justify-center bg-black w-full sm:min-h-screen h-auto`}
     >
       <div
-        className={`flex items-center justify-center  sm:flex-row gap-10 py-10 sm:py-20 w-[90%] lg:w-[80%]`}
+        className={`flex items-center justify-center  flex-col lg:flex-col gap-10 py-10 sm:py-20 w-[90%] lg:w-[80%] `}
       >
         <div className={`${""} w-full md:w-[40%]`}>
           <Image

@@ -18,7 +18,7 @@ const PurchaseButton = () => {
         Click Here To Get My-Productify Today
       </Link>
       <Image
-        src="/logo/moneyback.png"
+        src="/logo/smallMoneyBack.png"
         width={300}
         height={20}
         className="w-[50vw] md:w-[40vw]" // Responsive image sizes
