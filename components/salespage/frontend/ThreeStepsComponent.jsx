@@ -4,12 +4,21 @@ import ThreeSteps from "./ThreeSteps";
 
 const ThreeStepsComponent = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 sm:gap-10 px-2 sm:px-3 md:px-4 py-12 sm:py-20 w-full bg-gray-100">
-      <header className="font-bold text-xl md:text-2xl lg:text-4xl text-center">
+    <div
+      className="flex flex-col items-center justify-center gap-[7vw] lg:gap-[4vw] py-[10vw] lg:py-[4vw] w-full bg-gray-100"
+      style={{
+        background: 'url("/background/one.png")',
+        backgroundAttachment: "fixed", // Parallax effect
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      <header className="font-bold text-[5vw] lg:text-[3vw]  text-center">
         My Productify Works In{" "}
         <span className="text-pink-900">3 Easy Steps</span>
       </header>
-      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-8 sm:gap-10 items-center justify-center px-1 sm:px-2 md:px-3 lg:px-5 py-5">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-[10vw] lg:gap-[5vw] items-center justify-center px-[2vw] py-[2vw] text-white">
         {steps?.map((d, i) => (
           <ThreeSteps d={d} key={i} i={i} />
         ))}

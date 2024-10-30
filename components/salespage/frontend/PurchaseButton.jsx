@@ -6,11 +6,14 @@ import { handleSmoothScroll } from "@/utils/utils";
 
 const PurchaseButton = () => {
   return (
-    <div className="flex flex-col gap-3 px-5 py-2 items-center justify-center">
+    <div className="flex flex-col gap-3 px-[1vw] py-2 items-center justify-center ">
       <Link
         href="#wsoBuyButton"
         onClick={handleSmoothScroll} // Attach the smooth scroll handler
-        className="py-2 sm:py-4 md:py-6 lg:py-8 px-2 sm:px-3 md:px-4 bg-orange-500 text-[16px] sm:text-lg md:text-xl lg:text-2xl font-extrabold tracking-wide rounded-[15px] sm:rounded-[18px] md:rounded-[20px] pulse text-center"
+        className="py-[4vw] px-[2vw] lg:p-[2vw] bg-orange-500 text-[4.5vw] lg:text-[2vw] font-bold tracking-wide rounded-[1vw] pulse text-center italic"
+        style={{
+          background: "linear-gradient(to bottom,  #0052cc,  #80ffff)",
+        }}
       >
         Click Here To Get My-Productify Today
       </Link>
@@ -18,7 +21,7 @@ const PurchaseButton = () => {
         src="/logo/moneyback.png"
         width={300}
         height={20}
-        className="sm:w-[350px] md:w-[450px] lg:w-[550px]" // Responsive image sizes
+        className="w-[50vw] md:w-[40vw]" // Responsive image sizes
         alt="Money Back Guarantee"
       />
     </div>

@@ -94,7 +94,7 @@ const Oto3 = ({ downsellComp }) => {
         img="/logo/removeWatermark.png"
         bgBlue={true}
       >
-        <div>
+        <div> 
           With <strong>My Productify Pro</strong>, you gain complete control
           over your branding, down to the finest details. Remove any default
           branding elements from your course pages, ensuring they are uniquely

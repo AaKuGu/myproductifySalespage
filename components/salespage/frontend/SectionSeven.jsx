@@ -11,9 +11,11 @@ const SectionSeven = () => {
         background: "linear-gradient(to top right, blue, red)",
       }}
     >
-      <div className={`${sectionWidth} gap-10`}>
+      <div
+        className={`w-[90%] lg:w-[80%] flex items-center justify-center flex-col gap-[5vw] lg:gap-[3vw] my-[5vw] lg:my-[3vw]`}
+      >
         <header
-          className={`${""} font-bold text-lg md:text-xl text-white  text-center `}
+          className={`${""} font-bold text-[4vw] lg:text-[2.5vw] text-white  text-center `}
         >
           Freelancers Are Charging Thousands of Dollars Worldwide to Create a
           Single Training Course for Their Clients!

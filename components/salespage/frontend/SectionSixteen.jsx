@@ -7,23 +7,27 @@ const SectionSixteen = () => {
     <div
       className={`${""} flex items-center justify-center bg-black w-full sm:min-h-screen h-auto`}
     >
-      <div className={`${sectionWidth} sm:flex-row gap-10 py-10 sm:py-20`}>
-        <div className={`${""} w-full`}>
+      <div
+        className={`flex items-center justify-center  sm:flex-row gap-10 py-10 sm:py-20 w-[90%] lg:w-[80%]`}
+      >
+        <div className={`${""} w-full md:w-[40%]`}>
           <Image
-            src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_1280.png"
-            width={300}
-            height={600}
+            src="/logo/girl3.png"
+            width={500}
+            height={650}
             className={`${""} min-w-full`}
           />
         </div>
         <div
-          className={`${""} flex flex-col items-center justify-center gap-5 md:gap-10 text-white w-full `}
+          className={`${""} flex flex-col items-center justify-center gap-5 md:gap-10 text-white w-full lg:w-[60%]`}
         >
           <div
-            className={`${""} flex flex-col items-start justify-center gap-5 text-[22px] sm:text-[24px] lg:text-[26px] font-bold w-full`}
+            className={`${""} flex flex-col items-start justify-center gap-[5vw] lg:gap-[3vw] font-bold w-full`}
           >
-            <div>We Save Your Money</div>
-            <div>
+            <div className={`${""} text-[6vw] lg:text-[3.5vw]`}>
+              We Save Your Money
+            </div>
+            <div className={`${""} text-[4vw] lg:text-[1.5vw]`}>
               And Let You Build{" "}
               <span className={`${""} text-purple-500`}>
                 Stunning Course Pages Without Paying To Any Freelancers
@@ -31,7 +35,7 @@ const SectionSixteen = () => {
             </div>
           </div>
           <div
-            className={`${""} flex flex-col items-start justify-center gap-10 text-[18px] md:text-[20px] lg:text-[22px]`}
+            className={`${""} flex flex-col items-start justify-center gap-[4vw] lg:gap-[2vw] text-[4vw] lg:text-[1.5vw]`}
           >
             {data?.map((d, i) => {
               return <div key={i}>{d}</div>;

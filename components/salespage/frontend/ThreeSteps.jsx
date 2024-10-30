@@ -8,8 +8,11 @@ const ThreeSteps = ({ d, i }) => {
     <div
       className={`${
         i % 2 == 0 ? "flex-col md:flex-row" : "flex-col md:flex-row-reverse"
-      } flex items-center justify-center gap-5 py-10 w-[90%] h-auto md:h-[350px] text-xl md:text-2xl lg:text-4xl  rounded-2xl button-hover overflow-hidden px-2 md:px-5 `}
-      style={{ boxShadow: "0px 0px 25px 5px #ccf2ff" }}
+      } flex items-center justify-center gap-[3vw] lg:gap-[5vw] w-[90%] lg:w-[70vw] p-[2vw]   rounded-2xl button-hover overflow-hidden   `}
+      style={{
+        // boxShadow: "0px 0px 25px 5px #a366ff",
+        background: "linear-gradient(to right, blue,  purple)",
+      }}
     >
       <div
         className={`${""} rounded-xl w-full overflow-hidden flex items-center justify-center`}
@@ -18,22 +21,20 @@ const ThreeSteps = ({ d, i }) => {
           src={image}
           width={550}
           height={370}
-          className={`${""} w-[140%] h-auto max-w-[600px] max-h-[400px] `}
+          className={`${""} w-[140%] lg:w-[50vw]  `}
         />
       </div>
-      <div className={`${""} flex items-end justify-center flex-col gap-3  w-full`}>
-        <div
-          className={`${""} text-purple-600 font-teko text-2xl md:text-3xl lg:text-4xl`}
-        >
+      <div
+        className={`${""} flex items-end justify-center flex-col gap-3  w-full`}
+      >
+        <div className={`${""}  font-teko text-[6vw] lg:text-[3vw]`}>
           {stepNo}
         </div>
-        <div
-          className={`${""} font-extrabold text-purple-700 text-xl md:text-2xl lg:text-3xl`}
-        >
+        <div className={`${""} font-extrabold  text-[6vw] lg:text-[3vw]`}>
           {title}
         </div>
         <p
-          className={`${""} mt-5 text-lg md:text-xl lg:text-2xl font-roboto text-center md:text-start font-bold`}
+          className={`${""} mt-5 text-[4vw] lg:text-[1.5vw] font-roboto text-center md:text-start font-bold`}
         >
           {desc}
         </p>

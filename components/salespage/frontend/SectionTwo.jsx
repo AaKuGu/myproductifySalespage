@@ -214,28 +214,52 @@ const SectionTwo = () => {
 
   return (
     <div
-      className="flex flex-col lg:flex-row gap-3 md:gap-4 lg:gap-5 py-10 md:py-16 lg:py-20 px-2 md:px-4 items-start justify-center w-full min-h-screen text-white "
-      style={{ background: 'url("/background/darkbg.png")' }}
+      className="flex flex-col lg:flex-row gap-[2vw] py-[5vw] px-2 md:px-4 w-full min-h-screen text-white items-center justify-center lg:items-start"
+      style={{
+        background: 'url("/background/two.png")',
+        backgroundAttachment: "fixed", // Parallax effect
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
+      {/* Your content goes here */}
+
       {/* Left Section */}
-      <div className="w-full lg:w-[50%] flex flex-col gap-5 ">
-        <header className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-bold mb-4 leading-[40px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px]">
-          Starting Your Own “Online Education” Business Has Never Been Easier…
+      <div className="w-full lg:w-[50%] flex flex-col gap-[10vw] lg:gap-[4vw]  ">
+        <header className="text-center  border-[1vw] border-dashed border-white text-white p-[2vw] lg:p-[1vw] flex flex-col gap-0 bg-gray-900">
+          <div className={`${""} text-[3vw] lg:text-[2vw] `}>
+            It Has Never Been{" "}
+            <i>
+              <u>Easier</u>
+            </i>{" "}
+            to Start Your Own{" "}
+          </div>
+          <div
+            className={`${""} italic text-[#ffff4d] font-bold text-[5vw] lg:text-[3vw]`}
+          >
+            Online Education Business
+          </div>{" "}
         </header>
 
         {/* Wistia embed */}
         <WistiaCode />
 
         {/* Center Section */}
-        <div className="flex flex-col items-center justify-center py-10 px-[10px] sm:px-[20px] text-center gap-7">
-          <div className="text-lg sm:text-xl md:text-2xl leading-[25px] sm:leading-[30px] md:leading-[35px]">
+        <div className="flex flex-col items-center justify-center py-10 px-[10px] sm:px-[20px] text-center gap-[4vw] lg:gap-[2vw] ">
+          <div className="text-[5vw] lg:text-[2vw] border-white border-dotted border-[1vw] lg:border-[0.2vw]  px-[5vw] py-[1vw] rounded-lg ">
             <div>Creating Your First Profitable</div>
             <div>Course Product Just Got Faster & Easier</div>
           </div>
-          <div className="font-bold text-xl sm:text-2xl md:text-3xl">
+          <div className="font-bold text-xl sm:text-2xl md:text-3xl text-[5vw] lg:text-[2vw]">
             Get My Productify & Save $949 Monthly
           </div>
-          <div className="text-lg sm:text-xl md:text-2xl">
+          <div
+            className="text-[5vw] lg:text-[2vw] px-[1vw] py-[0.5vw] rounded-[0.5vw] font-bold"
+            style={{
+              background: "linear-gradient(to bottom, purple , blue)",
+            }}
+          >
             Real Price- $978/M Get It Today For Only $17
           </div>
           <PurchaseButton />
@@ -243,15 +267,13 @@ const SectionTwo = () => {
       </div>
 
       {/* Right Section */}
-      <div className="w-full lg:w-[40%] flex flex-col gap-5 text-base sm:text-lg md:text-xl items-start justify-center">
+      <div className="w-full lg:w-[40%] flex flex-col gap-[4vw] lg:gap-[1.5vw] text-[5vw] lg:text-[1.5vw] items-start justify-center ">
         {courseFeatures?.map((d, i) => (
-          <div key={i} className="flex gap-5 items-center justify-center">
-            <div className="w-[20px] h-[20px] rounded-full">
-              <PlusIcon className="text-orange-500" size={20} />
+          <div key={i} className="flex gap-5 items-center justify-start">
+            <div className=" flex items-center justify-center  rounded-full ">
+              <PlusIcon className="text-orange-500 h-[4vw] w-[4vw] lg:h-[2vw] lg:w-[2vw]  " />
             </div>
-            <span className="font-semibold tracking-wide leading-[20px] sm:leading-[25px] md:leading-[30px]">
-              {d}
-            </span>
+            <div className="font-semibold ">{d}</div>
           </div>
         ))}
       </div>

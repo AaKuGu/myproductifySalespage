@@ -16,29 +16,31 @@ const SectionEleven = () => {
       >
         <div className={`${""} w-full  md:w-[50%]`}>
           <Image
-            src="/logo/image7.png"
-            width={200}
-            height={400}
-            className={`${""} w-[70%] `}
+            src="/logo/girl1.png"
+            width={500}
+            height={650}
+            className={`${""} w-full`}
           />
         </div>
 
         <div
-          className={`${""} flex flex-col gap-10 items-center justify-center text-white text-start w-full md:w-[50%] `}
+          className={`${""} flex flex-col  items-center justify-between text-white text-start w-full md:w-[50%]  `}
         >
           <header
-            className={`${""} font-extrabold text-[18px] sm:text-[22px] w-full mb-2 font-kaushanScript text-center sm:text-start`}
+            className={`${""} font-extrabold text-[6vw] lg:text-[2.5vw] w-full  font-kaushanScript text-center sm:text-start mb-[1vw] lg:mb-[3vw]`}
           >
             Instantly Dominate
           </header>
-          <div className={`${""} text-[14px] sm:text-[18px] w-full text-start`}>
+          <div
+            className={`${""} text-[4vw] lg:text-[1.5vw] w-full text-start mb-[3.5vw] lg:mb-[2vw]`}
+          >
             The “Online Learning” market is HUGE…
           </div>
           {data?.map((d, i) => {
             return (
               <div
                 key={i}
-                className={`${""} w-full text-start text-[14px] sm:text-[18px]`}
+                className={`${""} w-full text-start text-[4vw] lg:text-[1.5vw] mb-[3.5vw] lg:mb-[2vw]`}
               >
                 {d}
               </div>

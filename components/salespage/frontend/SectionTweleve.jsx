@@ -1,14 +1,15 @@
 import Image from "next/image";
 import React from "react";
-
+import { FaRegCircleRight } from "react-icons/fa6";
 const SectionTweleve = ({ data, index }) => {
   const { header, arrayOfData, imageLink, width, height } = data;
   return (
     <div
-      className={`flex flex-col items-center justify-center gap-10 py-10 w-full px-5 md:px-[40px] bg-black text-white`}
+      className={`flex flex-col items-center justify-center gap-10 py-10 w-[90%]  text-white `}
     >
       <header
-        className={`font-bold text-3xl md:text-4xl lg:text-5xl font-ubuntu italic underline text-center`}
+        className={`font-bold text-[7vw] lg:text-[4vw] font-ubuntu italic underline text-center mb-[5vw] `}
+       
       >
         {header}
       </header>
@@ -17,27 +18,33 @@ const SectionTweleve = ({ data, index }) => {
           index % 2 == 0
             ? "flex-col lg:flex-row"
             : "flex-col lg:flex-row-reverse"
-        } flex items-center justify-center gap-10 w-full px-5 md:px-10`}
+        } flex items-start justify-center gap-[10vw]  lg:gap-[5vw] text-[5vw] lg:text-[2vw] w-full`}
       >
         <div
-          className={`flex flex-col items-start justify-center text-lg md:text-xl lg:text-2xl gap-5 md:gap-10 text-start`}
+          className={`flex flex-col items-start justify-center gap-[5vw] md:gap-10 text-start text-[4vw] lg:text-[1.8vw] font-normal`}
         >
           {arrayOfData?.map((d, i) => {
             return (
-              <div key={i} className={`text-start w-full`}>
+              <div
+                key={i}
+                className={`text-start w-full flex items-center justify-start gap-[2vw] lg:gap-[1vw] `}
+              >
+                <span className={`${""} text-yellow-400`}>
+                  <FaRegCircleRight />
+                </span>
                 {d}
               </div>
             );
           })}
         </div>
         <div
-          className={`flex items-center justify-center w-full md:w-[50%] subtle-rotate`}
+          className={`flex items-center justify-center w-full lg:w-[50%] subtle-rotate`}
         >
           <Image
             src={imageLink}
             width={350}
             height={height}
-            className={`p-[6px] border-[3px] border-gray-700 w-full h-auto`}
+            className={`p-[6px] border-[1vw] lg:border-[0.5vw] border-white w-full lg:w-[30vw] h-auto`}
           />
         </div>
       </div>

@@ -4,12 +4,17 @@ import React from "react";
 const SectionFifteen = () => {
   return (
     <section className="flex items-center justify-center w-screen h-auto lg:min-h-screen bg-gray-100">
-      <div className="flex flex-col gap-5 lg:gap-10 my-10 px-4 md:px-8 lg:px-16 ">
+      <div className="flex flex-col gap-5 lg:gap-10 my-[10vw] lg:my-[5vw] px-4 md:px-8 lg:px-16 ">
         <div className="flex flex-col gap-5 lg:gap-10">
-          <header className="text-red-900 font-dancingScript text-2xl md:text-3xl lg:text-4xl">
-            The Ultimate Tool for Creating ‘Online Learning’ Hubs…
+          <header className="text-red-900 font-dancingScript ">
+            <div className={`${""} text-[4vw] lg:text-[1.5vw]`}>
+              The Ultimate Tool for Creating
+            </div>
+            <div className={`${""} text-[6vw] lg:text-[2.5vw]`}>
+              ‘Online Learning’ Hubs…
+            </div>
           </header>
-          <header className="text-lg md:text-xl lg:text-2xl font-bold">
+          <header className="text-[4vw] lg:text-[3vw] font-bold">
             And Fill It With Hundreds Of High-Quality Courses…
           </header>
         </div>
@@ -30,11 +35,11 @@ const AllStepsComp = ({ d, i }) => {
   const { image, title, desc } = d;
   return (
     <div className="flex flex-col items-center justify-center gap-10 w-full bg-red-50 p-4 md:p-8 lg:p-16">
-      <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-orange-600 italic font-kaushanScript">
+      <div className="text-[6vw] lg:text-[2.5vw] font-bold text-orange-600 italic font-kaushanScript">
         Step : {i}
       </div>
       <Image src={image} width={1900} height={1000} className="w-full h-auto" />
-      <div className="text-lg md:text-xl lg:text-2xl">{title}</div>
+      <div className="text-[4vw] lg:text-[1.5vw]">{title}</div>
     </div>
   );
 };

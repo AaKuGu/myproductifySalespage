@@ -5,26 +5,38 @@ import React from "react";
 const SectionSeventeen = () => {
   return (
     <div
-      className={`${""} flex items-center justify-center bg-gray-700 w-full sm:min-h-screen h-auto`}
+      className={`${""} flex items-center justify-center bg-white w-full sm:min-h-screen h-auto relative `}
     >
-      <div className={`${sectionWidth} sm:flex-row gap-10 py-10 sm:py-20`}>
+      <div className="absolute inset-0 ">
+        <Image
+          src="/logo/background3.png"
+          layout="fill"
+          objectFit="cover"
+          // alt="Background"
+        />
+      </div>
+      <div
+        className={`w-[90%] lg:w-[80%] flex items-center justify-center  sm:flex-row gap-10 py-10 z-10 sm:py-20`}
+      >
         <div
-          className={`${""} flex flex-col items-center justify-center gap-5 md:gap-10 text-white w-full `}
+          className={`${""} flex flex-col items-center justify-center gap-5 md:gap-10 text-black w-full `}
         >
           <div
-            className={`${""} flex flex-col items-start justify-center gap-5 text-[22px] sm:text-[24px] lg:text-[26px] font-bold w-full`}
+            className={`${""} flex flex-col items-start justify-center gap-5  font-bold w-full`}
           >
-            <div>Best Part Is</div>
+            <div className={`${""} text-[6vw] lg:text-[3.5vw]`}>
+              Best Part Is
+            </div>
             <div>
               <span
-                className={`${""} text-[22px] sm:text-[26px] md:text-[23px] lg:text-[29px] text-purple-500`}
+                className={`${""} text-purple-500 text-[6vw] lg:text-[3.5vw]`}
               >
                 No Upfront Cost
               </span>{" "}
             </div>
           </div>
           <div
-            className={`${""} flex flex-col items-start justify-center gap-10 text-[18px] md:text-[20px] lg:text-[22px]`}
+            className={`${""} flex flex-col items-start justify-center gap-[5vw] lg:gap-[3vw] text-[4vw] lg:text-[1.5vw]`}
           >
             {data?.textData?.map((d, i) => {
               return <div key={i}>{d}</div>;
@@ -47,7 +59,7 @@ const SectionSeventeen = () => {
 export default SectionSeventeen;
 
 export const data = {
-  image: "https://cdn.pixabay.com/photo/2016/06/15/10/39/man-1458632_1280.png",
+  image: "/logo/sideImage3.png",
   textData: [
     "We don't have coders, designers, tech support, or anything of that sort…",
     "We never invest in traffic in any way possible…",

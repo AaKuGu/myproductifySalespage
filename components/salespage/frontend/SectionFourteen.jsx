@@ -4,17 +4,17 @@ import React from "react";
 
 const SectionFourteen = () => {
   return (
-    <section className="w-full h-auto lg:h-screen bg-black flex items-center justify-center p-4 md:p-8 lg:p-12">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start my-10 lg:my-0 ">
-        <div className="flex flex-col lg:w-1/2 text-white lg:gap-10">
-          <header className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
+    <section className="w-full h-auto lg:min-h-screen  flex items-center justify-center p-4 md:p-8 lg:p-12 bg-black">
+      <div className="flex flex-col lg:flex-row items-center lg:items-center my-10 lg:my-0 w-[90%] justify-center lg:justify-between gap-[5vw] lg:gap-[3vw] h-full">
+        <div className="flex flex-col lg:w-1/2 text-white lg:gap-10 justify-center h-full  ">
+          <header className="text-[6vw] lg:text-[2.5vw] font-bold mb-4">
             We Made It Incredibly Easy For ANYONE…
           </header>
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col gap-[5vw] lg:gap-[3vw]">
             {data?.map((d, i) => (
               <div
                 key={i}
-                className="text-start w-full text-base md:text-lg lg:text-xl"
+                className="text-start w-full text-[4vw] lg:text-[1.5vw]"
               >
                 {d}
               </div>
@@ -22,11 +22,11 @@ const SectionFourteen = () => {
           </div>
         </div>
 
-        <div className="mt-8 lg:mt-0 lg:ml-8 lg:w-1/2">
+        <div className="w-full lg:w-[35vw] ">
           <Image
-            src="/logo/image11.png"
-            width={700}
-            height={700}
+            src="/logo/man2.png"
+            width={500}
+            height={500}
             className="w-full h-auto"
             alt="Logo"
           />

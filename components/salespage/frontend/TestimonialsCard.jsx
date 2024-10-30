@@ -8,35 +8,41 @@ const TestimonialsCard = ({ data }) => {
 
   return (
     <div
-      className={`flex flex-col items-center justify-start gap-5 px-5 py-8 md:px-8 lg:px-10 lg:py-10 w-full h-auto md:min-h-[900px] lg:min-h-[800px] xl:min-h-[750px] `}
-      style={{ boxShadow: "0px 0px 55px 30px #ccd9ff" }}
+      className={`flex flex-col items-center justify-start gap-[3vw] lg:gap-[2vw] p-[4vw] w-full h-auto border-[1vw] lg:border-[0.5vw] border-yellow-500 text-white`}
+      style={{
+        // boxShadow: "0px 0px 55px 30px #ccd9ff",
+        background: "linear-gradient(to right, #5c0099 , #000066)",
+      }}
     >
       <div
-        className={`w-full h-[150px] sm:h-[180px] md:h-[200px] flex items-center justify-center`}
+        className={`w-[50vw] lg:w-[10vw] flex items-center justify-center border-[1vw] lg:border-[0.5vw] rounded-full `}
       >
         <Image
           src={image}
           width={150}
           height={150}
-          className={`rounded-full shadow-lg p-1`}
+          className={`rounded-full shadow-lg w-[50vw] lg:w-[10vw]`}
         />
       </div>
 
       <div
-        className={`font-extrabold text-gray-600 text-xl sm:text-2xl font-raleway`}
+        className={`font-extrabold text-[4vw] lg:text-[1.4vw] font-raleway text-white`}
       >
         {name}
       </div>
 
       <div className={`flex gap-2`}>
         {[1, 2, 3, 4, 5].map((_, index) => {
-          return <FaStar key={index} size={16} className={`text-yellow-500`} />;
+          return (
+            <FaStar
+              key={index}
+              className={`text-yellow-500 text-[4vw] lg:text-[1.5vw]`}
+            />
+          );
         })}
       </div>
 
-      <div
-        className={`text-base sm:text-lg md:text-xl mt-3 sm:mt-5 leading-10 sm:leading-7 md:leading-[40px] text-center`}
-      >
+      <div className={`text-[5vw] lg:text-[1.4vw] mt-3 sm:mt-5 text-center`}>
         {desc}
       </div>
     </div>

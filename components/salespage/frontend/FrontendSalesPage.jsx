@@ -38,17 +38,24 @@ const FrontendSalesPage = () => {
     >
       <SectionOne />
       <SectionTwo />
-      <PriceRising isWhiteBg={false} />
+      <PriceRising isWhiteBg={true} />
       <ThreeStepsComponent />
       <div
-        className={`${""} w-[100vw] min-h-[100vh] flex flex-col items-center justify-center gap-[2vw] bg-black`}
+        className={`${""} w-[100vw] min-h-[100vh] flex flex-col items-center justify-center gap-[2vw] bg-black py-[3vw]`}
+        style={{
+          background: 'url("/background/bg2.png")',
+          backgroundAttachment: "fixed", // Parallax effect
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
       >
         {mainFeaturesData?.map((d, i) => {
           return <SectionTweleve data={d} index={i} key={i} />;
         })}
       </div>
       <Testimonials />
-      <SectionThree />
+      <SectionThree /> 
       <SectionFour />
       <SectionFive />
       <SectionSix />
@@ -89,7 +96,7 @@ const mainFeaturesData = [
       "Easily connect your domain without needing technical skills",
       "Maintain full control over your brand's online presence",
     ],
-    imageLink: "/features/customDomain.png",
+    imageLink: "/logo/customDomain.png",
     width: 350,
     height: 350,
   },

@@ -4,8 +4,8 @@ import React from "react";
 const SectionEighteen = () => {
   return (
     <section className="flex w-screen h-auto lg:min-h-screen items-center justify-center bg-gradient-to-r from-[#100073] to-[#570144]">
-      <div className="w-[90%] flex flex-col items-center justify-center my-10 md:my-20 text-white  gap-10 lg:gap-10">
-        <header className="font-bold font-dmSans text-[22px] md:text-[26px]">
+      <div className="w-[90%] flex flex-col items-center justify-center my-[10vw] lg:my-[5vw] text-white gap-[5vw] lg:gap-[3vw]">
+        <header className="font-bold font-dmSans text-[5vw] lg:text-[3vw]">
           My Productify Works For Everyone
         </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center w-full">
@@ -19,10 +19,10 @@ const SectionEighteen = () => {
                   src={d?.image}
                   height={200}
                   width={300}
-                  className={`${""} w-full sm:min-w-[300px] sm:min-h-[175px] sm:max-w-[300px] sm:max-h-[175px] lg:min-w-[300px] lg:min-h-[175px] lg:max-w-[300px] lg:max-h-[175px] rounded-xl border-orange-500 border-[2px]`}
+                  className={`${""} w-full md:flex-row rounded-xl border-orange-500 border-[2px]`}
                 />
               </div>
-              <div className="bg-gradient-to-tr from-purple-900 to-blue-950 rounded-full font-bold text-center px-4 py-2">
+              <div className="bg-gradient-to-tr from-purple-900 to-blue-950 rounded-full font-bold text-center px-4 py-2 text-[4vw] lg:text-[1.5vw]">
                 {d.title}
               </div>
             </div>
@@ -39,14 +39,12 @@ export const data = [
   {
     id: 1,
     title: "Affiliate Marketers",
-    image:
-      "https://cdn.pixabay.com/photo/2016/11/06/09/54/internet-marketing-1802610_1280.png",
+    image: "/logo/affiliateMarketing.png",
   },
   {
     id: 2,
     title: "Coaches & Consultants",
-    image:
-      "https://cdn.pixabay.com/photo/2024/09/22/07/45/ai-generated-9065310_1280.jpg",
+    image: "/logo/affiliateMarketing.png",
   },
   {
     id: 3,

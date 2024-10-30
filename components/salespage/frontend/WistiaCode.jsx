@@ -12,7 +12,7 @@ const WistiaCode = () => {
         async
       ></script>
       <div
-        className="border-[2px] border-white"
+        className="border-[5px] border-white rounded-lg"
         style={{ padding: "56.25% 0 0 0", position: "relative" }}
       >
         <div

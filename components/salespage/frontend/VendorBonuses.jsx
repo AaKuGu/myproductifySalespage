@@ -5,15 +5,15 @@ const VendorBonuses = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center gap-20 pt-20">
       <div className="flex flex-col items-center justify-center gap-5 text-center px-4 md:px-8 lg:px-16">
-        <header className="font-bold text-3xl md:text-4xl lg:text-5xl font-kaushanScript text-red-500">
+        <header className="font-bold text-[6vw] lg:text-[3vw] font-kaushanScript text-red-500">
           Here are Additional Bonuses
         </header>
-        <header className="text-2xl md:text-3xl lg:text-4xl font-bold font-montserrat">
+        <header className="text-[4.5vw] lg:text-[2vw] font-bold font-montserrat">
           To Supercharge Your Profits From Day#1!
         </header>
-        <span className="text-lg md:text-xl lg:text-2xl font-notoSans">
+        <span className="text-[5vw] lg:text-[2vw] font-notoSans">
           Act Now To Get{" "}
-          <span className="font-raleway text-2xl md:text-3xl lg:text-4xl">
+          <span className="font-raleway text-[5vw] lg:text-[2vw]">
             $891 In Bonuses
           </span>
         </span>
@@ -43,13 +43,13 @@ const BonusCard = ({ data, i }) => {
         alt={`Bonus ${i}`}
       />
       <div className="flex flex-col items-start justify-center gap-5 text-center md:text-left">
-        <div className="text-2xl md:text-3xl lg:text-4xl text-red-500 font-openSans font-extrabold">
+        <div className="text-[6vw] lg:text-[3vw] text-red-500 font-openSans font-extrabold">
           Bonus {i + 1}
         </div>
-        <div className="font-bold text-[22px] lg:text-[26px] font-raleway">
+        <div className="font-bold text-[4vw] lg:text-[1.5vw] font-raleway">
           {title}
         </div>
-        <div className="text-[18px] md:text-[16px] lg:text-[18px] font-bold text-gray-600">
+        <div className="text-[4vw] lg:text-[1.5vw] font-bold text-gray-600">
           {desc}
         </div>
       </div>

@@ -9,36 +9,35 @@ const SectionFour = () => {
     <div
       className={`flex flex-col gap-5 sm:gap-8 p-5 sm:p-8 w-full min-h-screen items-center justify-center`}
     >
-      <div className={`${sectionWidth} gap-10`}>
-        <header
-          className={`font-bold text-2xl sm:text-3xl md:text-4xl px-5 sm:px-8 lg:px-12 text-center leading-9 sm:leading-8 md:leading-[50px]  2xl:leading-[60px] text-black`}
-        >
-          My Productify Creates Profitable Courses In Any Niche Without The
-          Hassle of…
+      <div className={`flex items-center justify-center flex-col gap-[5vw] my-[10vw] lg:my-[5vw] w-[90%] lg:w-[80%] `}>
+        <header className={`font-bold text-[5vw] lg:text-[3vw] text-black flex flex-col items-center justify-center gap-[3vw] lg:gap-[1vw] `}>
+          <div>My Productify Creates </div>
+          <div>Profitable Courses In Any Niche</div>
+          <div> Without The Hassle of…</div>
         </header>
         <section
-          className={`grid grid-cols-1 sm:grid-cols-2  gap-5 md:gap-10  items-center justify-center flex-wrap `}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-[10vw] lg:gap-[4vw] items-center justify-center flex-wrap w-full `}
         >
           {sectionFourData?.map((d, i) => {
             return (
               <div
                 key={i}
-                className={`flex flex-col gap-4 sm:gap-6 w-full items-center justify-center p-5 h-auto sm:min-h-[630px]`}
+                className={`flex flex-col gap-[5vw] lg:gap-[3vw] w-full items-center justify-center p-[4vw] lg:p-[2vw] h-auto sm:min-h-[630px]`}
                 style={{ boxShadow: "0px 0px 55px 30px #ccd9ff" }}
               >
                 <Image
                   src={d?.image}
                   width={300}
                   height={300}
-                  className="max-w-full h-auto"
+                  className="w-full "
                 />
                 <div
-                  className={`px-5 py-2 sm:px-8 sm:py-3 bg-red-700 shadow-lg shadow-red-900 rotate-2 w-full text-center font-bold text-sm sm:text-base md:text-lg text-white subtle-rotate font-montserrat`}
+                  className={`px-5 py-2 sm:px-8 sm:py-3 bg-red-700 shadow-lg shadow-red-900 rotate-2 w-full text-center font-bold text-[5vw] lg:text-[2vw] text-white subtle-rotate font-montserrat`}
                 >
                   {d?.title}
                 </div>
                 <div
-                  className={`text-sm sm:text-base md:text-lg text-center mt-3 sm:mt-4`}
+                  className={`text-[4vw] lg:text-[1.5vw] text-center mt-3 sm:mt-4`}
                 >
                   {d?.desc}
                 </div>

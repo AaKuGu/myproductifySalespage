@@ -1,23 +1,23 @@
 import React from "react";
 
-const Faq = ({data}) => {
+const Faq = ({ data }) => {
   return (
     <div className="w-full min-h-screen bg-blue-50 flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-5 w-[90%] md:w-[80%] my-10">
-        <header className="font-bold text-2xl md:text-3xl lg:text-4xl text-center">
+      <div className="flex flex-col items-center justify-center gap-[5vw] lg:gap-[2.5vw] w-[90%] md:w-[80%] my-[10vw] lg:my-[5vw]">
+        <header className="font-bold text-[5vw] lg:text-[3vw] text-center">
           <i>
             <u>Check our FAQ below</u>
           </i>
           , or contact us to know more.
         </header>
-        <header className="font-bold text-3xl md:text-4xl lg:text-5xl mb-10 text-center">
+        <header className="font-bold text-[6vw] lg:text-[3vw] mb-10 text-center">
           Frequently Asked Questions
         </header>
         <div className="flex flex-col items-center justify-center gap-7">
           {data?.map((d, i) => (
             <div
               key={i}
-              className="flex flex-col items-start justify-center gap-2 text-start text-lg md:text-xl lg:text-2xl w-full"
+              className="flex flex-col items-start justify-center gap-2 text-start text-[4vw] lg:text-[1.5vw] w-full"
             >
               <div className="text-blue-600 font-bold">Q: {d?.q}</div>
               <div>{d?.ans}</div>
@@ -30,8 +30,6 @@ const Faq = ({data}) => {
 };
 
 export default Faq;
-
-
 
 // import React from "react";
 

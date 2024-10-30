@@ -8,10 +8,10 @@ const SectionEight = () => {
       className={`${""} flex flex-col gap-10 items-center justify-center bg-green-100 w-full min-h-screen py-10  overflow-hidden`}
     >
       <div
-        className={`${""} flex flex-col w-[90%] md:w-[95%] py-10 md:py-20 gap-5 sm:gap-7 md:gap-[50px]  items-center justify-center font-kaushanScript`}
+        className={`${""} flex flex-col w-[90%] md:w-[95%] gap-[5vw] lg:gap-[3vw] my-[5vw] lg:my-[3vw]  items-center justify-center font-kaushanScript`}
       >
         <header
-          className={`${""} font-extrabold text-[22px] md:text-[26px] tracking-wide`}
+          className={`${""} font-extrabold text-[7vw] lg:text-[3.5vw] tracking-wide`}
         >
           From This
         </header>
@@ -32,7 +32,7 @@ const SectionEight = () => {
           />
         </div>
         <header
-          className={`${""} font-extrabold text-[22px] md:text-[26px] tracking-wide my-5 font-montserrat`}
+          className={`${""} font-extrabold text-[7vw] lg:text-[3.5vw] tracking-wide`}
         >
           To This
         </header>
@@ -53,25 +53,26 @@ const SectionEight = () => {
         </div>
       </div>
       <div
-        className={`${""} my-5 text-orange-600 text-2xl font-kaushanScript `}
+        className={`${""} my-[5vw] lg:my-[3vw] text-orange-600 text-[5vw] lg:text-[2vw] font-kaushanScript `}
       >
         In &nbsp;&nbsp;Less &nbsp;&nbsp; Than &nbsp;&nbsp; A &nbsp;&nbsp; Minute
       </div>
       <div
-        className={`${""} flex flex-col gap-10 py-10 items-center justify-center bg-white w-full`}
+        className={`${""} flex flex-col gap-[10vw] lg:gap-[5vw] items-center justify-center bg-white w-full py-[10vw] lg:py-[5vw]`}
       >
         <div
-          className={`${textH} text-center  text-gray-500 font-bold lg:font-normal`}
+          className={`text-[6vw] lg:text-[2vw] text-center  text-gray-500 font-bold lg:font-normal`}
         >
           My Productify Allows Us To Compete With
         </div>
-        <div
-          className={`${textS} font-bold flex flex-wrap gap-10 items-center justify-center text-gray-500 font-ptSans`}
+        <Image src="/logo/platforms.png" width={1000} height={700} className={`${''} w-[80vw]`} />
+        {/* <div
+          className={`text-[6vw] lg:text-[2vw] font-bold flex flex-wrap gap-[5vw]  items-center justify-center text-gray-500 font-ptSans`}
         >
           {sectionEightData?.map((d, i) => {
             return <div key={i}>{d}</div>;
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

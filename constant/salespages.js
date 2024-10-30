@@ -1,25 +1,22 @@
 
 export const courseFeatures = [
   "First To Market Tool Creates Profitable Course Pages In Any Niche In 3 Clicks",
-  "Create Attention-Grabbing Content Even When You’re On The Go",
   "Customize Your Course Pages with Your Own Branded Domain",
   "Simplify Course Sharing with Short Links for Easy Promotion",
   "Generate QR Codes Instantly to Boost Course Accessibility",
   "Integrate Seamlessly with Email Autoresponders to Automate Your Marketing",
   "Monetize Your Courses Instantly With Zero Grunt Work",
   "Engage Hordes Of Hungry Audiences Globally With Powerful Courses",
-  "Smartly Turn Any Template Into Profitable Courses In The Market",
   "Say Goodbye To Struggling With The Complexities Of Traditional Course Builders",
-  "Research, Organize, And Generate Stunning Pages For Your Courses",
-  "Zero Research, Coding, Designing, Or Any Manual Work Needed",
-  "Just User Ready To Launch Templates Or Customize Little Bit",
   "Launch A New Course In Any Niche & In Any Language With A Click",
-  "Get 1-On-1 Professional Expert Advice With Any Issue You May Encounter",
-  "Never Pay Monthly Again (Offer Expires Soon)",
-  "From Idea To Course In Just A Few Minutes",
-  "No Upfront Cost Required, Get Started For Free",
-  "Iron Clad 30 Days Money-Back Guarantee",
+  "Zero Research, Coding, Designing, Or Any Manual Work Needed",
+  "Access a Library of Proven Templates to Kickstart Your Course Creation",
+  "Leverage Built-In Analytics to Track Course Performance and Boost Engagement",
+  "Enjoy 24/7 Customer Support to Assist You Every Step of the Way",
+  "Join a Thriving Community of Creators for Networking and Collaboration Opportunities",
 ];
+
+
 
 export const steps = [
   {
