@@ -32,7 +32,7 @@ export const handleSmoothScroll = (event) => {
   if (targetElement) {
     targetElement.scrollIntoView({
       behavior: "smooth", // Smooth scrolling
-      block: "center", // Align to the start of the target element
+      block: "start", // Align to the start of the target element
     });
   }
 };
