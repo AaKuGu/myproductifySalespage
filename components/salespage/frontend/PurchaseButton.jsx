@@ -10,7 +10,7 @@ const PurchaseButton = () => {
       <Link
         href="#wsoBuyButton"
         onClick={handleSmoothScroll} // Attach the smooth scroll handler
-        className="py-[4vw] px-[2vw] lg:p-[2vw] bg-orange-500 text-[4.5vw] lg:text-[2vw] font-bold tracking-wide rounded-[1vw] pulse text-center italic"
+        className="py-[4vw] px-[2vw] lg:p-[2vw] bg-orange-500 text-[4.5vw] lg:text-[1.9vw] font-bold tracking-wide rounded-[1vw] pulse text-center italic"
         style={{
           background: "linear-gradient(to bottom,  #0052cc,  #80ffff)",
         }}

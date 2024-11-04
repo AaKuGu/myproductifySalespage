@@ -74,7 +74,7 @@ const FrontendSalesPage = () => {
       <SectionSeventeen />
       <SectionEighteen />
       <SectionNineteen />
-      <VendorBonuses />
+      {/* <VendorBonuses /> */}
       <TotalValue />
       <WSOBuyJButton />
       <AboutMe />

@@ -8,7 +8,7 @@ const SectionEighteen = () => {
         <header className="font-bold font-dmSans text-[5vw] lg:text-[3vw]">
           My Productify Works For Everyone
         </header>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center justify-center w-full">
           {data?.map((d, i) => (
             <div
               key={i}
@@ -49,60 +49,51 @@ export const data = [
   {
     id: 3,
     title: "Online Educators",
-    image:
-      "https://cdn.pixabay.com/photo/2020/05/31/09/30/online-course-5241968_1280.jpg",
+    image: "/logo/onlineCourses.png",
   },
   {
     id: 4,
     title: "Small Business Owners",
-    image:
-      "https://cdn.pixabay.com/photo/2024/08/30/14/02/ai-generated-9009342_640.jpg",
+    image: "/logo/BusinessOwners.png",
   },
   {
     id: 5,
     title: "Content Creators",
-    image:
-      "https://cdn.pixabay.com/photo/2015/01/05/17/19/filmstrip-589491_640.jpg",
+    image: "/logo/contentCreators.png",
   },
   {
     id: 6,
     title: "Freelancers",
-    image:
-      "https://cdn.pixabay.com/photo/2023/10/16/15/52/business-8319519_640.png",
+    image: "/logo/freelancers.png",
   },
   {
     id: 7,
     title: "Digital Marketers",
-    image: "https://cdn.pixabay.com/photo/2016/04/13/22/42/seo-1327870_640.png",
+    image: "/logo/digitalMarketing.png",
   },
   {
     id: 8,
     title: "Authors & Writers",
-    image:
-      "https://cdn.pixabay.com/photo/2024/03/03/23/53/ai-generated-8611493_640.png",
+    image: "/logo/authors.png",
   },
   {
     id: 9,
     title: "E-commerce Entrepreneurs",
-    image:
-      "https://cdn.pixabay.com/photo/2024/03/26/11/57/woman-8656653_1280.jpg",
+    image: "/logo/Ecommerce.png",
   },
   {
     id: 10,
     title: "Non-Profit Organizations",
-    image:
-      "https://cdn.pixabay.com/photo/2014/09/08/12/48/silhouettes-439150_640.jpg",
+    image: "/logo/nonProfit.png",
   },
   {
     id: 11,
     title: "Event Planners",
-    image:
-      "https://cdn.pixabay.com/photo/2014/01/22/22/28/planning-250091_640.jpg",
+    image: "/logo/eventPlanners.png",
   },
   {
     id: 12,
     title: "Fitness Trainers",
-    image:
-      "https://cdn.pixabay.com/photo/2022/09/13/07/32/personal-trainer-7451170_640.jpg",
+    image: "/logo/fitness.png",
   },
 ];

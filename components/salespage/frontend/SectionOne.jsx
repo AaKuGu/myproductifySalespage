@@ -29,6 +29,7 @@ const SectionOne = () => {
             width={400}
             alt="website logo"
             className="w-[50vw] lg:w-[25vw] "
+            priority={true}
           />
         </div>
 

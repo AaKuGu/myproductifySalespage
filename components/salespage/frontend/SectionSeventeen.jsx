@@ -43,7 +43,7 @@ const SectionSeventeen = () => {
             })}
           </div>
         </div>
-        <div className={`${""} w-full sm:w-[50%]`}>
+        <div className={`${""} w-full lg:w-[50%]`}>
           <Image
             src={data?.image}
             width={300}
