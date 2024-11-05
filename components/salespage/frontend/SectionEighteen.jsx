@@ -39,12 +39,12 @@ export const data = [
   {
     id: 1,
     title: "Affiliate Marketers",
-    image: "/logo/affiliateMarketing.png",
+    image: "/logo/affiliateMarketing2.png",
   },
   {
     id: 2,
     title: "Coaches & Consultants",
-    image: "/logo/affiliateMarketing.png",
+    image: "/logo/coaches.png",
   },
   {
     id: 3,

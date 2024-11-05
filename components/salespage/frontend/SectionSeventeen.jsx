@@ -5,7 +5,7 @@ import React from "react";
 const SectionSeventeen = () => {
   return (
     <div
-      className={`${""} flex items-center justify-center bg-white w-full sm:min-h-screen h-auto relative `}
+      className={`${""} flex items-center justify-center bg-white w-full h-auto relative `}
     >
       <div className="absolute inset-0 ">
         <Image

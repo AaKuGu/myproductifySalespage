@@ -5,7 +5,7 @@ import React from "react";
 const SectionNine = () => {
   return (
     <div
-      className={` flex items-center justify-center w-full h-auto lg:mih-h-screen bg-black text-white`}
+      className={` flex items-center justify-center w-full h-auto bg-black text-white`}
     >
       <div
         className={`${""} w-[90%] lg:w-[95%] flex flex-col lg:flex-row gap-10 lg:gap-5 py-10 lg:py-20 my-[5vw] lg:my-[3vw] relative`}

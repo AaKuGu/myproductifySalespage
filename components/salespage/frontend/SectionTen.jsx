@@ -13,7 +13,7 @@ const SectionTen = () => {
   return (
     <div
       style={{ background: "url('/logo/bg1.png')", backgroundSize: "contain" }}
-      className={`${""} w-full h-auto md:min-h-screen flex items-center justify-center`}
+      className={`${""} w-full h-auto flex items-center justify-center`}
     >
       <div
         className={`${""} w-[90%] md:w-[95%] flex flex-col items-center justify-center gap-[5vw] lg: py-10 md:py-20 `}

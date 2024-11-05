@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutMe = ({ hideText = false }) => {
   return (
-    <section className="w-screen h-auto sm:min-h-screen flex items-center justify-center">
+    <section className="w-screen h-auto flex items-center justify-center">
       <div
         className={`${""} w-[90%] sm:w-[95%] md:w-[80%] flex items-center justify-center flex-col gap-10 my-[20vw] lg:my-[5vw] `}
       >

@@ -4,7 +4,7 @@ import React from "react";
 const SectionEleven = () => {
   return (
     <div
-      className={`${""} w-full h-auto lg:min-h-screen flex items-center justify-center`}
+      className={`${""} w-full h-auto flex items-center justify-center`}
       style={{
         backgroundImage: "url('/logo/image3.png')",
         backgroundSize: "contain",

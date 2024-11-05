@@ -1,4 +1,5 @@
 import AffiliateLinkButton from "@/components/jvpage/AffiliateLinkButton";
+import Funnels from "@/components/jvpage/Funnels";
 import GraphicsAndSwipes from "@/components/jvpage/GraphicsAndSwipes";
 import Header from "@/components/jvpage/Header";
 import Hero from "@/components/jvpage/Hero";
@@ -29,6 +30,7 @@ const page = () => {
         <Header />
         <Hero />
         <Reciprocation />
+        <Funnels />
         <WPSection />
         <JvSupport />
         <div className={`${""} my-[5vw] lg:my-[3vw]`}>

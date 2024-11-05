@@ -24,7 +24,7 @@ const TotalValue = () => {
         </header>
         <div className=" md:bg-blue-200 rounded-lg px-2 md:px-5">
           <Image
-            src="/logo/file2.png"
+            src="/logo/productImage2.png"
             width={500}
             height={500}
             alt="File Image"
@@ -58,7 +58,9 @@ const TotalValue = () => {
             <span>That's TOTAL of $3976 in Value & </span>
             <span> All Exclusive Bonuses</span>
           </div>
-          <div className={`${''} flex items-center justify-center flex-col gap-[3vw] lg:gap-[1vw]`}>
+          <div
+            className={`${""} flex items-center justify-center flex-col gap-[3vw] lg:gap-[1vw]`}
+          >
             <div>Today, You get this incredible product</div>
             <div>at less than 1/90th of it's worth</div>
             <div className={`${""} font-bold`}>

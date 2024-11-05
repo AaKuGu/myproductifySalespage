@@ -4,7 +4,7 @@ import React from "react";
 
 const SectionFourteen = () => {
   return (
-    <section className="w-full h-auto lg:min-h-screen  flex items-center justify-center p-4 md:p-8 lg:p-12 bg-black">
+    <section className="w-full h-auto flex items-center justify-center p-4 md:p-8 lg:p-12 bg-black">
       <div className="flex flex-col lg:flex-row items-center lg:items-center my-10 lg:my-0 w-[90%] justify-center lg:justify-between gap-[5vw] lg:gap-[3vw] h-full">
         <div className="flex flex-col lg:w-1/2 text-white lg:gap-10 justify-center h-full  ">
           <header className="text-[6vw] lg:text-[2.5vw] font-bold mb-4">

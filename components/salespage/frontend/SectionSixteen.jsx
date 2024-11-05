@@ -5,7 +5,7 @@ import React from "react";
 const SectionSixteen = () => {
   return (
     <div
-      className={`${""} flex items-center justify-center bg-black w-full sm:min-h-screen h-auto`}
+      className={`${""} flex items-center justify-center bg-black w-full h-auto`}
     >
       <div
         className={`flex items-center justify-center  flex-col lg:flex-row gap-10 py-10 sm:py-20 w-[90%] lg:w-[80%] `}

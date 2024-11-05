@@ -1,7 +1,7 @@
 import React from "react";
 
 const WSOBuyJButton = () => {
-  return <div id="wsoBuyButton">WSOBuyJButton</div>;
+  return <div id="wsoBuyButton"></div>;
 };
 
 export default WSOBuyJButton;
