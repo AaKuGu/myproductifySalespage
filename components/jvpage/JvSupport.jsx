@@ -8,7 +8,7 @@ const JvSupport = () => {
   return (
     <div
       id="support"
-      className={`${""} min-h-screen flex items-center justify-center flex-col w-[90%] lg:w-[70%] gap-[7vw] lg:gap-[3vw] py-[10vw] lg:py-[5vw]`}
+      className={`${""} h-auto flex items-center justify-center flex-col w-[90%] lg:w-[70%] gap-[7vw] lg:gap-[3vw] py-[10vw] lg:py-[5vw]`}
     >
       <div className={`${""} text-[6vw] lg:text-[3.5vw] font-normal`}>
         Get In Touch If You <strong>Need Anything</strong>
@@ -44,7 +44,7 @@ const JvSupport = () => {
                 href={d?.link}
                 key={i}
                 target="_blank"
-                className={`${""} flex items-center justify-center gap-[5vw] lg:gap-[2vw] text-black bg-white px-[1.5vw] py-[0.5vw] text-[3vw] lg:text-[1.5vw] rounded-lg italic`}
+                className={`${""} flex items-center justify-center gap-[5vw] lg:gap-[2vw] text-black bg-white px-[4vw] py-[1vw] lg:px-[2vw] lg:py-[0.5vw]  text-[6vw] lg:text-[3.5vw] rounded-lg italic`}
               >
                 {d?.icon} {d?.label}
               </Link>

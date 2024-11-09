@@ -21,7 +21,7 @@ const PurchaseButtonDark = () => {
 
   return (
     <div
-      className={`${""} flex flex-col gap-3 px-2 md:px-3 xl:px-5 py-2 items-center justify-center w-fit `}
+      className={`${""} flex flex-col gap-3 px-2 md:px-3 xl:px-5 py-2 items-center justify-center w-fit text-white`}
     >
       <Link
         href="#wsoBuyButton"

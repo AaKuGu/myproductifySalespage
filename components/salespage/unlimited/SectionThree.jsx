@@ -19,7 +19,7 @@ const SectionThree = () => {
           className={`${""} flex items-center justify-center flex-col gap-[4vw] lg:gap-[1.5vw]`}
         >
           {" "}
-          <header className="text-[8vw] lg:text-[4vw] font-bold mb-4 underline italic">
+          <header className="text-[5vw] lg:text-[2.5vw]  font-bold mb-4 underline italic">
             Here’s What My Productify Unlimited Means for You
           </header>
           <div className={`${""} text-[4vw] lg:text-[1.5vw] `}>

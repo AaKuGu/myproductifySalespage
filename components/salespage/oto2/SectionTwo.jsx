@@ -8,13 +8,14 @@ const SectionTwo = () => {
       className={` flex items-center justify-center w-full h-auto md:mih-h-screen bg-black text-white`}
     >
       <div
-        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-center justify-center flex-col gap-10 py-10 md:py-20`}
+        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-center justify-center flex-col p-[2vw] lg:p-[1vw] my-[10vw] lg:my-[5vw] gap-[5vw]  lg:gap-[2.5vw]`}
       >
         <div
-          className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
+          className={`${""} flex flex-col gap-[5vw] lg:gap-[2.5vw] items-center justify-center w-full`}
         >
           <header
-            className={`text-[22px] md:text-[18px] lg:text-[26px] font-bold text-start w-full font-lato underline`}
+            className={`text-[6vw] lg:text-[3.5vw]
+ font-bold text-start w-full font-lato underline`}
           >
             Here’s the Real Truth That Nobody Else Will Share With You.
           </header>
@@ -22,7 +23,8 @@ const SectionTwo = () => {
             return (
               <div
                 key={i}
-                className={`text-[18px] md:text-[16px] lg:text-[22px] text-start w-full`}
+                className={`text-[4vw] lg:text-[1.5vw]
+ text-start w-full`}
               >
                 {d}
               </div>
@@ -34,7 +36,7 @@ const SectionTwo = () => {
           src="/logo/money.png"
           width={600}
           height={200}
-          // className={`${""} w-full`}
+          className={`${""} w-full lg:w-[50vw]`}
         />
       </div>
     </div>

@@ -5,4 +5,4 @@ const page = () => {
   return <Oto4 />;
 };
 
-export default page;
+export default page; 

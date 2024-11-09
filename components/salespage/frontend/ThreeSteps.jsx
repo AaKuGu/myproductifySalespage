@@ -7,7 +7,7 @@ const ThreeSteps = ({ d, i }) => {
   return (
     <div
       className={`${
-        i % 2 == 0 ? "flex-col md:flex-row" : "flex-col md:flex-row-reverse"
+        i % 2 == 0 ? "flex-col lg:flex-row" : "flex-col lg:flex-row-reverse"
       } flex items-center justify-center gap-[3vw] lg:gap-[5vw] w-[90%] lg:w-[70vw] p-[2vw]   rounded-2xl button-hover overflow-hidden   `}
       style={{
         // boxShadow: "0px 0px 25px 5px #a366ff",
@@ -34,7 +34,7 @@ const ThreeSteps = ({ d, i }) => {
           {title}
         </div>
         <p
-          className={`${""} mt-5 text-[4vw] lg:text-[1.5vw] font-roboto text-center md:text-start font-bold`}
+          className={`${""} mt-5 text-[4vw] lg:text-[1.5vw] font-roboto text-center lg:text-start font-bold`}
         >
           {desc}
         </p>

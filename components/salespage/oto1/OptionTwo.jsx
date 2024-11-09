@@ -6,31 +6,36 @@ import { optionOneUpgradePoints, optionTwoUpgradePoints } from "./constant";
 
 const OptionTwo = () => {
   return (
-    <div className="flex items-center justify-center w-full min-h-screen bg-purple-900 text-white flex-col px-2 md:px-4 lg:px-5 gap-10 py-10 relative ">
+    <div className="flex items-center justify-center w-full h-auto bg-blue-900 text-white flex-col px-[1vw] lg:px-[0.3vw] relative shadow-lg rounded-lg shadow-blue-100 border border-gray-400 py-[10vw] lg:py-[5vw] gap-[5vw] lg:gap-[2.5vw]">
       <div
-        className={`${""} bg-yellow-500 px-5 py-2 text-black font-bold text-[20px] md:text-[23px] lg:text-[25px] rounded-full absolute top-[-20px]`}
+        className={`${""} text-[5vw] lg:text-[2vw] bg-yellow-500 px-[2vw] lg:px-[1vw] py-[0.5vw] lg:py-[0.3vw] text-black font-bold rounded-full absolute bottom-[100%]`}
       >
         Option #2
       </div>
       <div
-        className={`${""} font-bold text-[25px] 500:text-[30px] lg:text-[40px]  text-center mt-5`}
+        className={`${""} font-bold text-[6vw] lg:text-[3.5vw] text-center mt-5`}
       >
         Get The `Bundle Version`
       </div>
-      <div>
-        <Image src="/background/BundleHeroImage.png" width={600} height={400} />
-      </div>
       <div
-        className={`${""} text-[14px] 400:text-[16px] md:text-[18px] lg:text-[20px] text-center`}
+        className={`${""} border-white border-[0.5vw] lg:border-[0.2vw] p-[0.5vw] lg:p-[0.4vw] `}
       >
-        This Option Gives You Access To ALL Of The Upgrades At A
+        <Image
+          src="/logo/bundleBanner.png"
+          width={600}
+          height={400}
+          className={`${""} w-full lg:w-[30vw]`}
+        />
+      </div>
+      <div className={`${""}text-[4vw] lg:text-[1.5vw] text-center`}>
+        This Option Gives You Access To ALL Of The Upgrades At A{" "}
         <b>Highly-Discounted</b> ONE TIME Price:
       </div>
-      <div className={`${""} font-bold text-[20px] md:text-[24px] text-center`}>
+      <div className={`${""} font-bold text-[5vw] lg:text-[1.5vw] text-center`}>
         Here’s What’s Included With The ‘Bundle Upgrade’:
       </div>
       <div
-        className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[16px] 500:text-[18px] md:text-[20px] `}
+        className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[3vw] lg:text-[1.5vw] `}
       >
         <div
           className={`${""} flex items-start justify-center flex-col gap-5 w-[85%] `}
@@ -44,13 +49,12 @@ const OptionTwo = () => {
                 <span className={`${""} text-purple-500`}>
                   <IoCheckmarkDoneCircleSharp />
                 </span>
-                upgrade #{i + 1} - {d}
+                Upgrade #{i + 1} - {d}
               </div>
             );
           })}
         </div>
       </div>
-    
     </div>
   );
 };

@@ -13,37 +13,46 @@ const UpgradeDetails = ({
 }) => {
   return (
     <div
-      className="min-h-screen w-full flex items-center justify-center "
+      className="h-auto w-full flex items-center justify-center "
       style={{
         background: "linear-gradient(to right,#000033, #330033)",
       }}
     >
-      <div className="flex items-center justify-center w-[90%] md:w-[80%] min-h-screen bg-white text-black flex-col px-2 md:px-4 lg:px-5 gap-5 py-10">
+      <div className="flex items-center justify-start w-[90%] lg:w-[80%] h-auto bg-white text-black flex-col px-[2vw] lg:px-[1vw] py-[10vw] lg:py-[5vw] gap-[5vw] lg:gap-[2.5vw]">
         <div
-          className={`${""} bg-yellow-500 px-5 py-2 text-black font-bold text-[20px] md:text-[23px] lg:text-[25px] rounded-full`}
+          className={`${""} bg-yellow-500 px-[5vw] lg:px-[2vw] py-[1vw] lg:py-[0.5vw] text-black font-bold text-[6vw] lg:text-[3.5vw] rounded-full`}
         >
           Upgrade #{upgradeNumber}
         </div>
         <h2
-          className={`${""} font-bold text-[19px] 500:text-[20px] md:text-[25px] lg:text-[35px] text-center`}
+          className={`${""} font-bold text-[5vw] lg:text-[1.8vw] text-center`}
         >
           {title} - <i className={`${""} text-red-500`}>{titleValue}$</i>
         </h2>
         <div
-          className={`${""}  flex items-center justify-center text-[16px] 500:text-[20px] md:text-[23px] text-center w-full md:w-[80%]`}
+          className={`${""}  flex items-center justify-center text-[4vw] lg:text-[1.5vw] text-center w-full lg:w-[80%]`}
         >
           {subTitle}
         </div>
-        <div>
-          <Image src={image} width={600} height={400} />
+        <div
+          className={`${""} border-blue-900 border-[0.5vw] p-[0.5vw] lg:p-[0.2vw]`}
+        >
+          <Image
+            src={image}
+            width={600}
+            height={400}
+            className={`${""} w-full lg:w-[60vw]`}
+          />
         </div>
         <div
-          className={`${""} bg-yellow-400 text-black font-bold text-center py-3 p-3 400:text-[16px] 600:text-[20px] md:text-[23px]`}
+          className={`${""} bg-yellow-400 text-black font-bold text-center p-[2vw] lg:p-[1vw] text-[4vw] lg:text-[1.5vw]`}
         >
           Here Is What Included When Your Upgrade To <u>{version}</u>
         </div>
+        {/* //text-[6vw] lg:text-[3.5vw] */}
+        {/* //text-[4vw] lg:text-[1.5vw] */}
         <div
-          className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[16px] 500:text-[18px] md:text-[20px]`}
+          className={`${""}  flex items-center justify-center w-full h-auto flex-col gap-5 text-normal text-[4vw] lg:text-[1.5vw]`}
         >
           {data?.map((d, i) => {
             return (

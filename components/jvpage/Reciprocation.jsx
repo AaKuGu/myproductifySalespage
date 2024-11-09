@@ -4,7 +4,7 @@ import { FaRegHandPointRight } from "react-icons/fa";
 const Reciprocation = () => {
   return (
     <div
-      className={`${""} min-h-screen w-full flex items-center justify-center flex-col  bg-black`}
+      className={`${""} h-auto w-full flex items-center justify-center flex-col  bg-black`}
       style={{
         background: 'url("/background/two.png")',
         backgroundAttachment: "fixed",
@@ -28,7 +28,7 @@ const Reciprocation = () => {
           className={`${""} flex items-start justify-center flex-col gap-[3vw] lg:gap-[1vw] text-[3vw] lg:text-[1.8vw] font-normal w-full lg:w-[50%]`}
         >
           <div
-            className={`${""} flex items-center justify-center gap-[3vw] lg:gap-[2vw]`}
+            className={`${""} w-full flex items-start justify-center gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
           >
             <span className={`${""} text-yellow-300`}>
               <FaRegHandPointRight />
@@ -36,7 +36,7 @@ const Reciprocation = () => {
             <span>If you promote us, we'll promote you back.</span>
           </div>
           <div
-            className={`${""} flex items-center justify-center gap-[3vw] lg:gap-[2vw]`}
+            className={`${""} w-full flex items-start justify-center gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
           >
             <span className={`${""} text-yellow-300`}>
               <FaRegHandPointRight />
@@ -45,7 +45,7 @@ const Reciprocation = () => {
             launch.
           </div>
           <div
-            className={`${""} flex items-center justify-center gap-[3vw] lg:gap-[2vw]`}
+            className={`${""} w-full flex items-start justify-center gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
           >
             <span className={`${""} text-yellow-300`}>
               <FaRegHandPointRight />
@@ -55,7 +55,7 @@ const Reciprocation = () => {
             customers and list. These always help with conversions.
           </div>
           <div
-            className={`${""} flex items-center justify-center gap-[3vw] lg:gap-[2vw]`}
+            className={`${""} w-full flex items-start justify-center gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
           >
             <span className={`${""} text-yellow-300`}>
               <FaRegHandPointRight />

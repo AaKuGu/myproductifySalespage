@@ -7,8 +7,8 @@ const ActualSteps = ({ d, i }) => {
   return (
     <div
       className={`${
-        i % 2 == 0 ? "flex-col md:flex-row" : "flex-col md:flex-row-reverse"
-      } flex items-center justify-center gap-5 py-10 w-full h-auto  text-xl md:text-2xl lg:text-4xl  rounded-2xl button-hover overflow-hidden px-2 md:px-5 `}
+        i % 2 == 0 ? "flex-col lg:flex-row" : "flex-col lg:flex-row-reverse"
+      } flex items-center justify-center gap-5 w-full h-auto   rounded-2xl button-hover overflow-hidden px-[1.5vw]  py-[5vw] lg:py-[0.3vw]`}
       style={{ boxShadow: "0px 0px 25px 5px #ccf2ff" }}
     >
       <div
@@ -18,27 +18,28 @@ const ActualSteps = ({ d, i }) => {
           src={image}
           width={550}
           height={370}
-          className={`${""} w-[140%] h-auto max-w-[600px] max-h-[400px] `}
+          className={`${""} w-[140%] lg:w-[40vw] `}
         />
       </div>
       <div
-        className={`${""} flex items-end justify-center flex-col gap-3  w-full`}
+        className={`${""} flex items-end justify-center flex-col gap-[5vw] lg:gap-[3vw]  w-full`}
       >
         <div
-          className={`${""} text-purple-600 font-teko text-2xl md:text-3xl lg:text-4xl`}
+          className={`${""} text-purple-600 font-teko text-[6vw] lg:text-[3.5vw]`}
         >
           {stepNo}
         </div>
         <div
-          className={`${""} font-extrabold text-purple-700 text-xl md:text-2xl lg:text-3xl`}
+          className={`${""} font-extrabold text-purple-700 text-[5vw] lg:text-[2.5vw] `}
         >
           {title}
         </div>
         <div
-          className={`${""} w-full h-auto flex items-center justify-center md:justify-end`}
+          className={`${""} w-full h-auto flex items-center justify-center lg:justify-end`}
         >
           <p
-            className={`${""} mt-5 text-[16px] 400:text-lg md:text-xl lg:text-2xl font-roboto text-center md:text-start w-[80%] font-bold `}
+            className={`${""} mt-5 text-[4vw] lg:text-[1.5vw]
+  font-roboto text-center lg:text-start w-[80%] font-bold lg:leading-[2.5vw] leading-[7vw] `}
           >
             {desc}
           </p>

@@ -7,13 +7,15 @@ import { sectionWidth } from "@/utils/utils";
 const SectionEleven = () => {
   return (
     <div
-      className={`flex flex-col gap-10 p-5 sm:p-8 md:p-10 lg:p-16 items-center justify-center w-full bg`}
+      className={`flex flex-col gap-[10vw] lg:gap-[5vw] lg:p-[5vw] p-[10vw] items-center justify-center w-full bg`}
     >
-      <div className={`${sectionWidth} gap-10`}>
+      <div
+        className={`flex items-center justify-center flex-col gap-[10vw] lg:gap-[5vw]`}
+      >
         {/* Heading */}
         {/* Subheading */}
         <div
-          className={`text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-center leading-tight md:leading-[50px] px-5 sm:px-10 md:px-20 lg:px-40`}
+          className={` text-[5vw] lg:text-[2.5vw]  font-extrabold text-center leading-[10vw] lg:leading-[5vw]`}
         >
           With Reseller License Of 'My Productify', You Don't Have To Hassle
           With
@@ -21,7 +23,7 @@ const SectionEleven = () => {
 
         {/* Cards Section */}
         <div
-          className={`grid grid-cols-1 sm:grid-cols-2  gap-10 items-center justify-center w-full `}
+          className={`grid grid-cols-1 lg:grid-cols-2  gap-10 items-center justify-center w-full `}
         >
           {whatYouDontHaveToHassleWithPoints?.map((d, i) => {
             return <Card key={i} d={d} />;
@@ -37,18 +39,28 @@ export default SectionEleven;
 const Card = ({ d }) => {
   return (
     <div
-      className={`flex flex-col gap-4 w-full min-h-[200px] items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-700 to-purple-700 text-white text-lg  rotate-2 pulse px-5 py-3 `}
+      className={`flex flex-col gap-[5vw] lg:gap-[2.5vw] w-full min-h-[200px] items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-700 to-purple-700 text-white text-lg  rotate-2 pulse lg:p-[2vw] p-[5vw] `}
     >
       {/* Icon/Image Section */}
       <div className={` flex items-center justify-center`}>
-        <Image src={d?.icon} width={50} height={50} alt="stat icon" />
+        <Image
+          src={d?.icon}
+          width={50}
+          height={50}
+          alt="stat icon"
+          className={`${""} w-[10vw] lg:w-[2.5vw]`}
+        />
       </div>
 
       {/* Description Section */}
-      <div className={`${""} text-[22px] md:text-[26px] font-bold`}>
+      <div className={`${""} text-[6vw] lg:text-[3.5vw] font-bold`}>
         {d?.title}
       </div>
-      <div className={`${""} text-[18px] md:text-[22px]`}>{d?.desc}</div>
+      <div
+        className={`${""} text-[3vw] lg:text-[1.5vw] leading-[5vw] lg:leading-[2.5vw]`}
+      >
+        {d?.desc}
+      </div>
     </div>
   );
 };

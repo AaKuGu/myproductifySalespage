@@ -5,20 +5,23 @@ import React from "react";
 const SectionFour = () => {
   return (
     <div
-      className={` flex items-center justify-center w-full h-auto md:mih-h-screen text-white`}
+      className={` flex items-center justify-center w-full h-auto lg:mih-h-screen text-white`}
       style={{
         background: "linear-gradient(to right,#000033, #330033)",
       }}
     >
       <div
-        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-start justify-center flex-col-reverse md:flex-row gap-10 py-10 md:py-20`}
+        className={`${""} w-[90%] lg:w-[95%] lg:w-[80%] flex items-start justify-center flex-col-reverse lg:flex-row gap-[5vw] lg:gap-[2.5vw] my-[10vw] lg:my-[5vw]`}
       >
-        <Image src="/logo/biggestProblem.png" width={500} height={700} />
+        <Image src="/logo/biggestProblem.png" width={500} height={700}
+        className={`${''} w-full lg:w-[40vw]`}
+        />
         <div
-          className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
+          className={`${""} flex flex-col gap-[5vw] lg:gap-[2.5vw] items-center justify-center w-full`}
         >
           <header
-            className={`text-[22px] md:text-[18px] lg:text-[26px] font-bold text-start w-full font-lato underline`}
+            className={`text-[6vw] lg:text-[3vw]
+ font-bold text-start w-full font-lato underline`}
           >
             The Biggest Problem Is
           </header>
@@ -26,7 +29,8 @@ const SectionFour = () => {
             return (
               <div
                 key={i}
-                className={`text-[18px] md:text-[16px] lg:text-[22px] text-start w-full`}
+                className={`text-[4vw] lg:text-[2vw]
+ text-start w-full`}
               >
                 {d}
               </div>

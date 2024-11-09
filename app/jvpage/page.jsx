@@ -12,7 +12,7 @@ import React from "react";
 const page = () => {
   return (
     <div
-      className={`${""} min-h-screen w-full flex items-center justify-start flex-col text-white bg-contain bg-center bg-no-repeat`}
+      className={`${""} h-auto w-full flex items-center justify-start flex-col text-white bg-contain bg-center bg-no-repeat`}
       // style={{
       //   background: "linear-gradient(to right,#000000, #1a0000)",
       // }}

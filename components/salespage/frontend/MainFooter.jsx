@@ -6,7 +6,7 @@ const MainFooter = () => {
   return (
     <div className="flex items-center justify-center w-full h-auto  bg-black text-white">
       <div className=" flex flex-col items-center justify-center w-[95%] 400:w-[90%] my-[10vw] lg:my-[5vw] gap-5 ">
-        <div className="header-text mb-[2vw] lg:mb-[0.2vw]">
+        <div className="header-text-[4vw] lg:text-[1.5vw]]">
           <Image
             src="/logo/myProductifyLogo.png"
             height={100}
@@ -18,7 +18,7 @@ const MainFooter = () => {
         <div className="font-bold text-[4vw] lg:text-[1.5vw] text-center">
           My Productify 2024 – Copyright © All Rights Reserved
         </div>
-        <div className="my-5 text-center text-[4vw] lg:text-[1.5vw] px-4 md:px-8 lg:px-16">
+        <div className="my-5 text-center text-[4vw] lg:text-[1.5vw] px-4 lg:px-16">
           Earnings Disclaimer: We strive to provide an accurate representation
           of our product and its potential benefits. Any claims regarding actual
           earnings or results can be substantiated upon request. The

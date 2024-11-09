@@ -33,13 +33,13 @@ const Features = () => {
       className={`${""} h-auto w-full lg:w-[70%] flex items-center justify-start flex-col`}
     >
       <header
-        className={`${""} italic underline text-[4vw] lg:text-[2vw] mb-[3vw] lg:mb-[1.2vw]  w-full text-start`}
+        className={`${""} italic underline text-[6vw] lg:text-[1.5vw] mb-[3vw] lg:mb-[1.2vw]  w-full text-start`}
       >
         <span className={`${"font-bold "} text-[inherit]`}>
           Features
         </span>
       </header>
-      <main className={`${""} font-normal text-[4vw] lg:text-[1.5vw]`}>
+      <main className={`${""} font-normal text-[5vw] lg:text-[1.5vw]`}>
         <ul className="list-disc pl-5">
           {features.map((feature, index) => (
             <li key={index} className="mb-[5vw] lg:mb-[3vw]">

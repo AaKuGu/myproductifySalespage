@@ -38,7 +38,7 @@ const SectionOne = () => {
         Launch Your Course Product with Ease: Introducing My Productify
       </div> */}
 
-        <div className="flex justify-center py-[2vw] lg:py-[0.5vw] text-white rounded-full text-[3vw] lg:text-[2vw] font-roboto border-purple-500 border-[0.2vw] mb-[1vw] lg:mb-[0.2vw] w-full lg:w-auto text-center lg:px-[1vw] bg-gray-900">
+        <div className="flex justify-center py-[2vw] lg:py-[0.5vw] text-white rounded-full text-[3vw] lg:text-[2vw] font-roboto border-purple-500 border-[0.2vw] mb-[1vw] lg:mb-[0.2vw] w-full lg:w-auto text-center px-[2vw] lg:px-[1vw] bg-gray-900">
           Launch Your Course Product with Ease: Introducing My Productify
         </div>
 

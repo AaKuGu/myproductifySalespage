@@ -62,7 +62,7 @@ const SectionFive = () => {
 
           <div className="w-full lg:w-[35vw] ">
             <Image
-              src="/logo/girl1.png"
+              src="/logo/sideImage5.png"
               width={500}
               height={500}
               className="w-full h-auto"

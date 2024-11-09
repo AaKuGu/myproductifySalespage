@@ -1,44 +1,56 @@
 import Image from "next/image";
 import React from "react";
-import FirstImage from "@/public/logo/file.png";
-import WebsiteLogo from "@/public/logo/logoTransDark.png";
 
 const SectionOne = () => {
   return (
     <div
-      className={`flex flex-col gap-5 min-h-fit w-full items-center justify-start text-white px-4 sm:px-6 md:px-8 lg:px-10 text-center py-2 `}
-      style={{ background: 'url("/background/darkbg.png")' }}
+      className={`flex flex-col gap-[5vw] lg:gap-[3vw] min-h-fit w-full items-center justify-start text-white p-[2vw] lg:p-[1vw] text-center `}
+      style={{
+        background: 'url("/background/heroBg.png")',
+        backgroundAttachment: "fixed", // Parallax effect
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
-      <div className="font-extrabold text-[16px] 400:text-xl sm:text-2xl md:text-3xl my-5 font-montserrat w-[95%] 400:w-[90%] md:w-[80%]  text-center  flex flex-col items-center justify-center gap-10">
-        <div className={`${""} w-full md:w-[85%] lg:w-[75%] xl:w-[70%] `}>
+      <div className="header-text w-full flex items-center justify-center ">
+        <Image
+          src="/logo/Reseller.png"
+          width={700}
+          height={150}
+          alt="website logo"
+          className={`${""} w-full lg:w-[40vw]`}
+        />
+      </div>
+      <div
+        className="font-extrabold text-[5vw] lg:text-[2.5vw]
+-xl sm:text-2xl lg:text-3xl my-5 font-montserrat w-[95%] 400:w-[90%] lg:w-[80%]  text-center  flex flex-col items-center justify-center gap-[10vw] lg:gap-[5vw]"
+      >
+        <div
+          className={`${""} w-full lg:w-[70%] leading-[7vw] lg:leading-[5vw] text-[6vw] lg:text-[3.5vw]`}
+        >
           Unlock Your Success:
-          <span className="text-orange-600 font-bold font-lato px-3 rounded-lg md:text-2xl 400:text-xl text-[16px] underline">
+          <span className="text-orange-600 font-bold font-lato px-3 rounded-lg text-[5vw] lg:text-[2.7vw] underline">
             Get Full Reseller Rights to sell My Productify and Keep 100% of the
             Profits!
           </span>
         </div>
 
-        <div className="mt-3 400:text-lg sm:text-xl tracking-wider font-bold flex-col flex items-center justify-center gap-10">
-          <div
-            className={`${""} text-[25px] 400:text-[30px] md:text-[40px] lg:text-[50px] leading-[40px] md:leading-[60px] font-extrabold`}
-          >
+        <div className="mt-3 400:text-lg sm:text-xl tracking-wider font-bold flex-col flex items-center justify-center gap-[5vw] lg:gap-[2vw]">
+          <div className={`${""} text-[6vw] lg:text-[3.5vw] font-extrabold`}>
             Save Time and Eliminate Effort
           </div>
           <div
-            className={`${""} text-[16px] 400:text-[20px] md:text-[25px] lg:text-[30px]  leading-[30px] md:leading-[40px] lg:leading-[50px]`}
+            className={`${""} text-[5vw] lg:text-[2vw] leading-[6vw] lg:leading-[3vw]`}
           >
             with Ready-to-Sell Course Pages, Templates, and Marketing Materials!
           </div>
         </div>
-        <div className="header-text">
-          <Image
-            src={WebsiteLogo}
-            width={400}
-            height={200}
-            alt="website logo"
-          />
-        </div>
-        <div className="mt-4 md:mt-3 text-[16px] md:text-[20px] 400:text-lg tracking-widest font-normal w-[90%] md:w-[80%] leading-[40px] ">
+
+        <div
+          className="mt-4 lg:mt-3 text-[5vw] lg:text-[2vw]
+  tracking-widest font-normal w-[90%] lg:w-[80%] leading-[10vw] lg:leading-[5vw]"
+        >
           Start Earning in the{" "}
           <span className={`${""} text-purple-400 underline`}>
             Next 30 Seconds
@@ -54,7 +66,10 @@ const SectionOne = () => {
       {/* Logo Section */}
 
       {/* Tagline */}
-      <div className="w-full flex items-center justify-center text-[16px] 400:text-[18px] md:text-[22px] rounded-lg border-dashed border-white border-[2px] font-bold font-montserrat tracking-wider px-2 py-2 flex-col leading-[40px] md:leading-[50px]">
+      <div
+        className="w-full flex items-center justify-center text-[5vw] lg:text-[2.5vw]
+ rounded-lg border-dashed border-white border-[1vw] lg:border-[0.5vw] font-bold font-montserrat tracking-wider p-[1vw] lg:p-[0.5vw] flex-col leading-[10vw] lg:leading-[5vw]"
+      >
         <span>Discover How Our Top Members Are</span>
         <span className={`${""} text-yellow-500 underline`}>
           MAKING $5000- $10,000 Every Week
@@ -69,22 +84,27 @@ const SectionOne = () => {
       </div>
 
       <div
-        className={`${""} font-raleway text-[22px] md:text-[25px] xl:text-[29px] font-bold text-yellow-500 my-5`}
+        className={`${""} font-raleway text-[4vw] lg:text-[1.5vw]
+font-bold text-yellow-500 my-5`}
       >
         Keep 100% Profits
       </div>
 
-      <div className="bg-orange-200 text-black px-4 sm:px-6 md:px-8 lg:px-10 py-2 font-bold text-sm sm:text-lg md:text-xl lg:text-2xl rounded-full">
+      <div
+        className="bg-orange-200 text-black px-[5vw] lg:px-[2vw] py-[1vw] lg:py-[0.5vw] font-bold text-[4vw] lg:text-[1.5vw]
+ rounded-full"
+      >
         Tap into a Thriving Market and Profit from Reselling a Revolutionary
         Tool
       </div>
 
       <div className={`${""} w-[90%] h-auto flex items-center justify-center `}>
         <Image
-          src={FirstImage}
-          // width={666} // Original width
-          // height={600} // Original height
+          src="/logo/banner3.png"
+          width={1000} // Original width
+          height={500} // Original height
           alt="Description of the image"
+          className={`${""} w-full lg:w-[60vw]`}
         />
       </div>
     </div>

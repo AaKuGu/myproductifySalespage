@@ -24,7 +24,7 @@ const SectionOne = () => {
         {/* Logo Section */}
         <div className="header-text mb-[2vw] lg:mb-[0.2vw]">
           <Image
-            src="/logo/myProductifyLogo.png"
+            src="/logo/unlimited.png"
             height={100}
             width={400}
             alt="website logo"
@@ -39,7 +39,7 @@ const SectionOne = () => {
       </div> */}
 
         {/* Main Heading */}
-        <div className="font-bold  my-5 gap-[2vw] lg:gap-[0.2vw] flex flex-col tracking-wider w-full items-center justify-center">
+        <div className="font-bold  my-5 gap-[2vw] lg:gap-[0.5vw] flex flex-col tracking-wider w-full items-center justify-center">
           <div className={`${""} text-[4vw] lg:text-[3vw]`}>
             Unlock Your Full Earning Potential with
           </div>

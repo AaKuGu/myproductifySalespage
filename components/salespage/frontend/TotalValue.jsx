@@ -7,7 +7,7 @@ const TotalValue = () => {
   return (
     <section className="flex items-center justify-center w-screen h-auto lg:min-h-screen gap-5 ">
       <div
-        className="flex items-center justify-center w-[90%] flex-col md:w-[80%] gap-[5vw] lg:gap-[3vw] my-[10vw] lg:my-[5vw] py-[10vw] lg:py-[5vw] px-[1vw] border-blue-300 border-[2px] border-dashed"
+        className="flex items-center justify-center w-[90%] flex-col gap-[5vw] lg:gap-[3vw] my-[10vw] lg:my-[5vw] py-[10vw] lg:py-[5vw] px-[2vw] lg:px-[1vw] border-blue-300 border-[2px] border-dashed"
         style={{ boxShadow: "0px 0px 55px 2px #cedcff" }}
       >
         <header className="flex flex-col items-center justify-center text-center gap-2 md:gap-4 lg:gap-6">
@@ -24,8 +24,8 @@ const TotalValue = () => {
         </header>
         <div className=" md:bg-blue-200 rounded-lg px-2 md:px-5">
           <Image
-            src="/logo/productImage2.png"
-            width={500}
+            src="/logo/banner1.png"
+            width={1000}
             height={500}
             alt="File Image"
             className="w-[90vw] md:w-[50vw]"

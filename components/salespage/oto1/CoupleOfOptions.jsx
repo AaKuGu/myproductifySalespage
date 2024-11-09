@@ -8,45 +8,42 @@ import WSODownsellBuyButton from "./WSODownsellBuyButton";
 const CoupleOfOptions = ({ downsellComp }) => {
   return (
     <div
-      className={`${""} w-full min-h-screen flex items-center justify-center flex-col text-black bg-white`}
+      className={`${""} w-full h-auto flex items-center justify-center flex-col text-black bg-white`}
       //   style={{
       //     background: "linear-gradient(to right,#000033, #330033)",
       //   }}
     >
       <div
-        className={`${""}  flex items-center justify-center w-[90%] flex-col gap-10 my-10 500:my-15 lg:my-20`}
+        className={`${""}  flex items-center justify-center w-[90%] flex-col gap-[10vw] lg:gap-[5vw] my-[10vw] lg:my-[5vw]`}
       >
-        <header
-          className={`${""} text-[20px] 400:text-[23px] 500:text-[25px] md:text-[30px] lg:text-[40px] font-extrabold`}
-        >
+        <header className={`${""} text-[5vw] lg:text-[2.5vw] font-extrabold`}>
           You have Couple Of Options At This Point...
         </header>
         <section
-          className={`${""}  flex items-start justify-center flex-col md:flex-row gap-5 md:gap-3 lg:gap-5`}
+          className={`${""}  flex items-start justify-center flex-col lg:flex-row gap-[10vw] lg:gap-[2.5vw]`}
         >
           <OptionOne />
           <OptionTwo />
         </section>
         <div
-          className={`${""} text-[24px] 400:text-[27px] 500:text-[31px] md:text-[35px] lg:text-[45px] text-black text-center my-5 gap-0 flex flex-col items-center justify-center`}
+          className={`${""} text-[24px] 400:text-[27px] 500:text-[31px] lg:text-[35px]  text-black text-center my-5 gap-0 flex flex-col items-center justify-center`}
         >
-          <div className={`${""} font-extrabold`}>
+          <div className={`${""} text-[6vw] lg:text-[3.5vw] font-extrabold`}>
             Total Price of The Upgrades
           </div>
-          <div
-            className={`${""}  text-[18px] 400:text-[20px] 500:text-[23px] md:text-[25px] lg:text-[30px]`}
-          >
-            If You Bought <b>Each Upgrade</b>One By One
+          <div className={`${""} text-[6vw] lg:text-[3.5vw]`}>
+            If You Bought <b>Each Upgrade</b> One By One
           </div>
           <div className={`${""} mt-5`}>
-            <p className={`${""} text-red-600 text-[50px] font-bold`}>= $598</p>
+            <p
+              className={`${""} text-red-600 text-[6vw] lg:text-[3.5vw] font-bold`}
+            >
+              = $241
+            </p>
           </div>
           <div
-            className={`${""}  text-[18px] 400:text-[20px] 500:text-[23px] md:text-[25px] lg:text-[30px]`}
+            className={`${""} font-bold text-[6vw] lg:text-[3.5vw] my-5 lg:my-10 underline`}
           >
-            and regular price Of The Bundle Upgrade is <b>357$</b>
-          </div>
-          <div className={`${""} font-bold text-2xl my-5 md:my-10 underline`}>
             But
           </div>
           {downsellComp ? <WSODownsellBuyButton /> : <WSOUpsellBuyButton />}

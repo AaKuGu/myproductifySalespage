@@ -12,6 +12,7 @@ const proUpgradeBenefits = [
 ];
 
 const resellerLicenseBenefits = [
+  "Unlimited Reseller License: Sell as many licenses as you want with zero restrictions—unlimited sales, unlimited profits!",
   "100% Profit Retention: Every sale you make is pure profit—no royalties or fees—giving you full control over your income.",
   "Comprehensive Sales Tools: Save time with ready-made sales materials, so you can start selling immediately without having to create anything from scratch.",
   "No Product Development Needed: Skip the time, effort, and cost of creating your own product—all the hard work has been done for you.",
@@ -24,24 +25,46 @@ const resellerLicenseBenefits = [
   "Full Support: Enjoy dedicated support to help you navigate any challenges, ensuring you have everything you need to run a successful reseller business.",
 ];
 
+const unlimitedUpgradeBenefits = [
+  "Unlimited Course Creation: Create as many courses as you want without any restrictions, expanding your reach and income potential.",
+  "Unlimited Student Enrollments: Grow your audience with no limits on student sign-ups, enabling you to impact more lives and build a loyal following.",
+  "Unlimited Lead Generation: Capture as many leads as you can, building a massive email list to scale your business and maximize engagement.",
+  "Unlimited Sales Opportunities: Generate as many sales as your marketing can drive—no cap on earnings, giving you complete freedom to scale.",
+  "Unlimited Custom Domains: Launch multiple branded courses with distinct custom domains, building a strong online presence across niches.",
+  "Enhanced Traffic Handling: Seamlessly manage high-traffic days and big launches with optimized performance, ensuring a smooth user experience.",
+  "Unlimited Access to Premium Templates: Enjoy exclusive access to a growing library of high-converting templates, keeping your pages fresh and effective.",
+  "Freedom to Experiment and Grow: Test new ideas, create niche courses, or expand your offerings without any limitations—My Productify Unlimited grows with you.",
+  "Ultimate Revenue Potential: With no limits on courses, students, or domains, your earning potential is only constrained by your ambition and marketing strategy.",
+  "Total Business Ownership: Maintain full control over every aspect of your platform and business identity, building a brand that’s truly yours without restrictions.",
+];
+
 export const upgradesData = [
   {
     title: "My Productify Pro Version",
-    titleValue: 47,
+    titleValue: 37,
     subTitle:
       "Skyrocketing Conversions, and Taking Full Control of Your Online   Presence! Without My Productify Branding",
-    image: "/background/BundleHeroImage.png",
+    image: "/logo/proBanner.png",
     version: "My Productify Pro Upgrade",
     data: proUpgradeBenefits,
   },
   {
     title: "My Productify Reseller Version",
-    titleValue: "97$ + 197$ + 257",
+    titleValue: 157,
     subTitle:
       "Save Time and Eliminate Effort with Ready-to-Sell Course Pages, Templates, and Marketing Materials!",
-    image: "/background/BundleHeroImage.png",
+    image: "/logo/resellerBanner.png",
     version: "My Productify Pro Upgrade",
-    data: proUpgradeBenefits,
+    data: resellerLicenseBenefits,
+  },
+  {
+    title: "My Productify Unlimited Version",
+    titleValue: 47,
+    subTitle:
+      "Unlock Unlimited Growth Potential with No Limits on Courses, Students, Leads, or Sales!",
+    image: "/logo/unlimitedBanner.png",
+    version: "My Productify Unlimited Upgrade",
+    data: unlimitedUpgradeBenefits,
   },
 ];
 
@@ -53,8 +76,7 @@ export const optionOneUpgradePoints = [
 ];
 
 export const optionTwoUpgradePoints = [
-  "My Productify Reseller License - 97$",
-  "My Productify Reseller License - 197$",
-  "My Productify Reseller License - 257$",
-  "My Productify Pro License - 47$",
+  "My Productify Reseller License - 157$",
+  "My Productify Pro License - 37$",
+  "My Productify Unlimited License - 47$",
 ];

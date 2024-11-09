@@ -169,7 +169,7 @@ const WPSection = () => {
   if (isMounted)
     return (
       <div
-        className={`min-h-screen bg-black flex items-center justify-center flex-col relative w-full`}
+        className={`h-auto bg-black flex items-center justify-center flex-col relative w-full`}
         style={{
           background: 'url("/background/two.png")',
           backgroundAttachment: "fixed",

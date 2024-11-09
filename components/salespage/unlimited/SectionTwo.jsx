@@ -69,7 +69,7 @@ const SectionTwo = () => {
           </div>
         </div>
         <div
-          className={`${""} flex items-center justify-center flex-col lg:flex-row gap-[5vw] lg:gap-[3vw]`}
+          className={`${""} flex items-center justify-center flex-col-reverse lg:flex-row gap-[5vw] lg:gap-[3vw]`}
         >
           <div className="w-full lg:w-[35vw] ">
             <Image

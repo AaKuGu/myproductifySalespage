@@ -4,7 +4,7 @@ import { CiDollar } from "react-icons/ci";
 const WhyPromote = () => {
   return (
     <div
-      className={`${""} min-h-screen flex items-center justify-center flex-col w-[90%] lg:w-[70%] gap-[10vw] lg:gap-[5vw] mt-[10vw] lg:mt-[5vw]`}
+      className={`${""} h-auto flex items-center justify-center flex-col w-[90%] lg:w-[70%] gap-[10vw] lg:gap-[5vw] mt-[10vw] lg:mt-[5vw]`}
     >
       <div
         className={`${""} flex items-center justify-center flex-col gap-[5vw] lg:gap-[1vw] `}
@@ -24,7 +24,7 @@ const WhyPromote = () => {
         className={`${""} flex flex-col lg:flex-row items-center justify-center gap-[5vw] lg:gap-[2vw]`}
       >
         <div
-          className={`${""} w-full flex items-start justify-center flex-col gap-[2vw] lg:gap-[1.4vw]  text-[4vw] lg:text-[1.3vw]`}
+          className={`${""} w-full flex items-start justify-center flex-col gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
         >
           {whyToPromoteOne?.map((d, i) => {
             return (
@@ -32,7 +32,7 @@ const WhyPromote = () => {
                 key={i}
                 className={`${""} flex items-start justify-center gap-[1.5vw] lg:gap-[1vw] `}
               >
-                <span className={`${''}lg:text-[3vw] text-[5vw]`}>
+                <span className={`${""}lg:text-[3vw] text-[5vw]`}>
                   <CiDollar />
                 </span>
                 {d}
@@ -41,7 +41,7 @@ const WhyPromote = () => {
           })}
         </div>
         <div
-          className={`${""} w-full flex items-start justify-center flex-col gap-[2vw] lg:gap-[1vw] text-[4vw] lg:text-[1.3vw]`}
+          className={`${""} w-full flex items-start justify-center flex-col gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
         >
           {whyToPromoteTwo?.map((d, i) => {
             return (

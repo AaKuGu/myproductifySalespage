@@ -5,26 +5,31 @@ import React from "react";
 const SectionSix = () => {
   return (
     <div
-      className={` flex items-center justify-center w-full h-auto md:mih-h-screen  text-white`}
+      className={` flex items-center justify-center w-full h-auto lg:mih-h-screen  text-white`}
       style={{ background: "linear-gradient(to right , purple, blue " }}
     >
       <div
-        className={`${""} w-[90%] md:w-[95%] lg:w-[80%] flex items-center justify-center flex-col md:flex-row gap-10 py-10 md:py-20`}
+        className={`${""} w-[90%] lg:w-[95%] lg:w-[80%] flex items-center justify-center flex-col lg:flex-row gap-10 py-[10vw] lg:py-[5vw]`}
       >
-        <Image src="/logo/goodNews.png" width={600} height={200} />
+        <Image
+          src="/logo/goodNews.png"
+          width={600}
+          height={200}
+          className={`${""} w-full lg:w-[40vw]`}
+        />
         <div
-          className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
-        > 
+          className={`${""} flex flex-col gap-[5vw] lg:gap-[2.5vw] items-center justify-center w-full`}
+        >
           <header
-            className={`text-[22px] md:text-[18px] lg:text-[26px] font-bold text-start w-full font-lato underline`}
-          >
+            className={`text-[5vw] lg:text-[2.5vw]  font-bold text-start w-full font-lato underline`}
+          > 
             Good News : The Perfact Solution
           </header>
           {data?.map((d, i) => {
             return (
               <div
                 key={i}
-                className={`text-[16px] lg:text-[20px] text-start w-full`}
+                className={`text-[4vw] lg:text-[1.5vw]  text-start w-full`}
               >
                 {d}
               </div>

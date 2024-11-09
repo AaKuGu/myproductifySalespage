@@ -8,6 +8,7 @@ import { faqData } from "../oto2/Oto4";
 import MoneyBackGuarantee from "../oto2/MoneyBackGuarantee";
 import DownsellComponent from "../DownsellComponent";
 import OrderNotComplete from "../OrderNotComplete";
+import MainFooter from "../frontend/MainFooter";
 // import SectionOne from "./SectionOne";
 // import SectionTwo from "./SectionTwo";
 // import FewLeft from "./FewLeft";
@@ -29,9 +30,12 @@ import OrderNotComplete from "../OrderNotComplete";
 
 const proUpgradeDownsellData = {
   subTitle: "Get the Pro Upgrade for just:",
-  lowerPrice: 37,
-  cutPrice: 47,
-  buttonText: "Get Instant Access To All My Productify Pro Upgrade",
+  lowerPrice: 27,
+  cutPrice: 37,
+  buttonData: {
+    link: "#WSODownsellBuyButton",
+    title: "Get Instant Access To All My Productify Pro",
+  },
 };
 const Oto3 = ({ downsellComp }) => {
   return (
@@ -94,7 +98,7 @@ const Oto3 = ({ downsellComp }) => {
         img="/logo/removeWatermark.png"
         bgBlue={true}
       >
-        <div> 
+        <div>
           With <strong>My Productify Pro</strong>, you gain complete control
           over your branding, down to the finest details. Remove any default
           branding elements from your course pages, ensuring they are uniquely
@@ -165,6 +169,7 @@ const Oto3 = ({ downsellComp }) => {
       <MoneyBackGuarantee />
       <PurchaseCard />
       <Faq data={faqData} />
+      <MainFooter />
       {/* <SectionTwo /> */}
       {/* <SectionThree /> */}
       {/* <SectionFour /> */}

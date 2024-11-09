@@ -14,7 +14,7 @@ const SectionNine = () => {
           className={`${""} flex flex-col gap-10 items-center justify-center w-full`}
         >
           <header
-            className={`text-[22px] md:text-[18px] lg:text-[26px] font-bold text-start w-full font-lato underline`}
+            className={`text-[4vw] lg:text-[1.5vw] font-bold text-start w-full font-lato underline`}
           >
             The Biggest Problem Is
           </header>
@@ -22,7 +22,7 @@ const SectionNine = () => {
             return (
               <div
                 key={i}
-                className={`text-[18px] md:text-[16px] lg:text-[22px] text-start w-full`}
+                className={`v text-start w-full`}
               >
                 {d}
               </div>

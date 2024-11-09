@@ -8,7 +8,7 @@ const Button = ({ data }) => {
     <a
       href={data?.link}
       onClick={handleSmoothScroll} // Attach the smooth scroll handler
-      className={`bg-yellow-400 text-black px-5 py-2 font-bold text-[20px] md:text-[25px] lg:text-[28px] mb-5 md:mb-10 transition-transform transform hover:scale-105 cursor-pointer w-[90%] md:w-[70%] my-5 animate-bounce text-center`}
+      className={`bg-yellow-400 text-black px-5 py-[2vw] lg:py-[1vw] font-bold text-[4vw] lg:text-[1.5vw] mb-5 lg:mb-10 transition-transform transform hover:scale-105 cursor-pointer w-[90%] lg:w-[70%] my-5 animate-bounce text-center`}
     >
       {data?.title}
     </a>

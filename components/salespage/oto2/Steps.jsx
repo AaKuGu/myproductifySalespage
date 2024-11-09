@@ -5,32 +5,28 @@ const Steps = () => {
   return (
     <div className="flex items-center justify-center w-full h-auto">
       <div
-        className={`${""} w-[90%] md:w-[85%] xl:w-[80%] flex items-center justify-center my-10 flex-col gap-10`}
+        className={`${""} w-[90%] lg:w-[85%] xl:w-[80%] flex items-center justify-center my-[10vw] lg:my-[5vw] flex-col gap-[10vw] lg:gap-[5vw]`}
       >
-        <header className="text-xl md:text-2xl lg:text-4xl text-center flex flex-col gap-5">
-          <div
-            className={`${""} text-[20px] md:text-[27px] xl:text-[34px] font-bold`}
-          >
+        <header className="text-center flex flex-col leading-[10vw] lg:leading-[5vw] ">
+          <div className={`${""} text-[5vw] lg:text-[2.5vw]  font-bold mb-[5vw] lg:mb-[2.5vw] border-[0.5vw] lg:border-[0.25vw] border-black`}>
             Setup A Complete Business in 3 Simple Steps
           </div>
-          <div className={`${""} text-[16px] md:text-[20px] xl:text-[24px] `}>
+          <div
+            className={`${""} text-[4vw] lg:text-[1.5vw] underline italic  mb-[5vw] lg:mb-[2.5vw]`}
+          >
             And Earn Over 6 Figure Every Year Selling This Powerful App That
             Almost Everyone Online Craves For…
           </div>
-          <div
-            className={`${""} text-[20px] md:text-[27px] xl:text-[34px] font-bold`}
-          >
+          <div className={`${""} text-[6vw] lg:text-[3.5vw] font-bold`}>
             MAKE Easy Profits In{" "}
             <span className={`${""} text-purple-800`}>3 Easy</span>
           </div>
-          <div
-            className={`${""} text-[20px] md:text-[27px] xl:text-[34px] font-bold`}
-          >
+          <div className={`${""}text-[6vw] lg:text-[3.5vw] font-bold`}>
             <span className={`${""} text-purple-900`}>Steps</span> Using
-            My-Productify Reseller
+            My-Productify Reseller license
           </div>
         </header>
-        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-8 sm:gap-10 items-center justify-center  py-5 w-full">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-[5vw] lg:gap-[3vw] items-center justify-center  py-5 w-full">
           {steps?.map((d, i) => (
             <ActualSteps d={d} key={i} i={i} />
           ))}

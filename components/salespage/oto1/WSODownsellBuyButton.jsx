@@ -14,6 +14,7 @@ const WSODownsellBuyButton = () => {
         src={"/logo/bundleDownsellBuyButton.png"}
         width={500}
         height={500}
+        className={`${""} w-full lg:w-[40vw]`}
       />
     </Link>
   );

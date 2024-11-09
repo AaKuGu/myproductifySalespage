@@ -31,24 +31,22 @@ const PriceRising = ({ isWhiteBg = true }) => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center gap-5 md:flex-col w-full h-auto"
+      className="flex flex-col items-center justify-center gap-[10vw] lg:gap-[5vw] lg:flex-col w-full h-auto"
       style={{
         backgroundColor: isWhiteBg ? "white" : "red",
         color: isWhiteBg ? "red" : "white",
       }}
     >
       <div
-        className={`${""} flex flex-col items-center justify-center md:flex-row gap-3 py-5  w-[90%] md:w-[95%] lg:w-[80%]`}
+        className={`${""} flex flex-col items-center justify-center lg:flex-row gap-[10vw] lg:gap-[5vw] py-5 w-[90%] lg:w-[80%]`}
       >
-        <h2
-          className={`${""} text-[22px] 500:text-[30px] md:text-[28px] lg:text-[30px] font-bold`}
-        >
+        <h2 className={`${""} text-[5vw] lg:text-[2vw] font-bold`}>
           Hurry! Price rising in:
         </h2>
         <div
           className={`${
             isWhiteBg && "bg-red-100"
-          } flex justify-center space-x-4 mt-4  px-5 py-2 rounded-lg sm:text-[16px] md:text-[18px] lg:text-[20px] font-bold`}
+          } flex justify-center space-x-4 p-[2vw] lg:p-[1vw] rounded-lg text-[5vw] lg:text-[2vw] font-bold`}
         >
           <div className="text-center">
             <div>{days}</div>

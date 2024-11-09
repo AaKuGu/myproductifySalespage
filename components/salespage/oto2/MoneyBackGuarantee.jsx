@@ -1,35 +1,42 @@
 import Image from "next/image";
 import React from "react";
 
-const MoneyBackGuarantee = () => {
+const   MoneyBackGuarantee = () => {
   return (
     <div
       className={`${""} flex items-center justify-center w-full h-auto text-black`}
-      style={{ background: "url('/background/bg1.png')" }}
+      style={{
+        background: "url('/background/bg1.png')",
+        backgroundAttachment: "fixed", // Parallax effect
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div
-        className={`${""} w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] flex items-center justify-center flex-col gap-10 my-10`}
+        className={`${""} w-[90%]  lg:w-[80%]  flex items-center justify-center flex-col gap-[10vw] lg:gap-[5vw] my-[10vw] lg:my-[5vw]`}
       >
         <header
           className={`${""} flex flex-col items-center justify-center gap-5 font-notoSans`}
         >
           <div
-            className={`${""} text-[18px] sm:text-[23px] md:text-[26px] lg:text-[29px] xl:text-[35px]`}
+            className={`${""} text-[6vw] lg:text-[3.5vw]
+`}
           >
             And Don't Forget
           </div>
           <div
-            className={`${""} flex items-center justify-center flex-col font-bold text-[18px] sm:text-[23px] md:text-[26px] lg:text-[29px] xl:text-[35px]`}
+            className={`${""} flex items-center justify-center flex-col font-bold text-[4vw] lg:text-[1.5vw]`}
           >
             <div>You Are Fully Protected With Our</div>
             <div>30 Days Money Back Guarantee</div>
           </div>
         </header>
         <div
-          className={`${""} flex items-center justify-center gap-10 flex-col md:flex-row border-[5px] border-yellow-600 rounded-xl py-10 px-5 bg-yellow-100`}
+          className={`${""} flex items-center justify-center gap-10 flex-col lg:flex-row border-[5px] border-yellow-600 rounded-xl p-[5vw] lg:p-[2.5vw] bg-yellow-100`}
         >
           <div
-            className={`${""} flex items-center justify-center w-full md:w-[40%] lg:w-[30%] `}
+            className={`${""} flex items-center justify-center w-full lg:w-[40%] `}
           >
             <Image
               src={
@@ -37,16 +44,17 @@ const MoneyBackGuarantee = () => {
               }
               width={300}
               height={300}
+              className={`${""} w-full lg:w-[30vw]`}
             />
           </div>
           <div
-            className={`${""} w-full flex items-start justify-center flex-col gap-7 `}
+            className={`${""} w-full flex items-start justify-center flex-col gap-[3vw] lg:gap-[1.5vw] `}
           >
             {refundPolicyPoints?.map((d, i) => {
               return (
                 <div
                   key={i}
-                  className={`${""} text-[16px] 400:text-[18px] font-bold`}
+                  className={`${""} text-[4vw] lg:text-[1.5vw] font-bold`}
                 >
                   {d}
                 </div>

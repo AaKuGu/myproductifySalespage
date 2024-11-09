@@ -2,8 +2,8 @@ import React from "react";
 
 const Faq = ({ data }) => {
   return (
-    <div className="w-full min-h-screen bg-blue-50 flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-[5vw] lg:gap-[2.5vw] w-[90%] md:w-[80%] my-[10vw] lg:my-[5vw]">
+    <div className="w-full min-h-screen bg-blue-50 text-black flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center gap-[5vw] lg:gap-[2.5vw] w-[90%] lg:w-[80%] my-[10vw] lg:my-[5vw]">
         <header className="font-bold text-[5vw] lg:text-[3vw] text-center">
           <i>
             <u>Check our FAQ below</u>

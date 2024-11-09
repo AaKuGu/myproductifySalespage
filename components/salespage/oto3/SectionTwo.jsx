@@ -15,21 +15,23 @@ const SectionTwo = ({
         bgBlue && "bg-red-100"
       } h-auto w-full flex items-center justify-center flex-col`}
     >
-      <div className="flex items-center justify-center w-[90%] md:w-[95%] lg:w-[80%] flex-col gap-5 my-10">
+      <div className="flex items-center justify-center w-[90%] flex-col gap-[5vw] lg:gap-[2.5vw] my-[10vw] lg:my-[5vw]">
         <header
-          className={`${""} flex items-center justify-center flex-col gap-5 text-[25px] md:text-[30px] lg:text-[35px] font-bold`}
+          className={`${""} flex items-center justify-center flex-col gap-5 text-[5vw] lg:text-[2.5vw]  font-bold`}
         >
           <div className={`${""} text-red-700`}>{header1}</div>
-          <div className={`${""} text-[24px] md:text-[30px] text-black`}>
+          <div className={`${""} text-[4vw] lg:text-[2vw]  text-black`}>
             {header2}
           </div>
         </header>
         <div
-          className={`flex items-start justify-center flex-col gap-5 mt-5 ${
-            reverse ? "md:flex-row-reverse" : "md:flex-row"
+          className={`flex items-start justify-center flex-col gap-[5vw] lg:gap-[2.5vw] mt-5 ${
+            reverse ? "lg:flex-row-reverse" : "lg:flex-row"
           }`}
         >
-          <div className={`${""} w-full md:w-[40%] border-[2px] border-black p-1`}>
+          <div
+            className={`${""} w-full lg:w-[40%] border-[2px] border-black p-1`}
+          >
             <Image
               src={img}
               width={400}
@@ -38,7 +40,7 @@ const SectionTwo = ({
             />
           </div>
 
-          <div className="flex items-center justify-center flex-col gap-3 w-full md:w-[60%] text-[20px]">
+          <div className="flex items-center justify-center flex-col gap-3 w-full lg:w-[60%] text-[4vw] lg:text-[1.5vw] ">
             {children}
           </div>
         </div>

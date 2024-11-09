@@ -10,7 +10,12 @@ const WSOUpsellBuyButton = () => {
       className={`${""} w-full rounded-lg h-auto text-black flex items-center justify-center`}
       id="WSOUpsellBuyButton"
     >
-      <Image src={"/logo/bundleUpsellBuyButton.png"} width={500} height={500} />
+      <Image
+        src={"/logo/bundleUpsellBuyButton.png"}
+        width={500}
+        height={500}
+        className={`${""} w-full lg:w-[40vw]`}
+      />
     </Link>
   );
 };

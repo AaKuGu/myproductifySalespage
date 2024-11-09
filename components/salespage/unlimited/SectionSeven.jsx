@@ -19,7 +19,7 @@ const SectionSeven = () => {
           className={`${""} flex items-center justify-center flex-col gap-[4vw] lg:gap-[1.5vw]`}
         >
           {" "}
-          <header className="text-[6vw] lg:text-[3vw] font-bold mb-4 underline italic  text-center">
+          <header className="text-[5vw] lg:text-[3vw] font-bold mb-4 underline italic  text-center">
             Imagine the Future of Your Online Business—Without Limits
           </header>
           <div className={`${""} text-[4vw] lg:text-[1.5vw] `}>
@@ -74,6 +74,17 @@ const SectionSeven = () => {
             </div>
           </div>
         </div> */}
+        <div
+          className={`${""} w-[90%] h-auto flex items-center justify-center `}
+        >
+          <Image
+            src="/logo/banner3.png"
+            width={1000} // Original width
+            height={500} // Original height
+            alt="Description of the image"
+            className={`${""} w-full lg:w-[60vw]`}
+          />
+        </div>
       </div>
     </section>
   );

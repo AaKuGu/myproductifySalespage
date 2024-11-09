@@ -6,7 +6,7 @@ const OrderNotComplete = () => {
       className={`${""} flex items-center justify-center w-full h-auto bg-yellow-800`}
     >
       <div
-        className={`${""} w-[95%] md:w-[90%] text-center  text-white font-bold text-lg md:text-xl lg:text-2xl py-3`}
+        className={`${""} w-[95%] md:w-[90%] text-center  text-white font-bold text-[4.5vw] lg:text-[2vw] py-[2vw] lg:py-[1vw] `}
       >
         Your Order Is Not Complete - Don't Close This Page
       </div>

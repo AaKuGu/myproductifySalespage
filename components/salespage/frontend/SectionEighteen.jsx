@@ -8,11 +8,11 @@ const SectionEighteen = () => {
         <header className="font-bold font-dmSans text-[5vw] lg:text-[3vw]">
           My Productify Works For Everyone
         </header>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center justify-center w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-[5vw] lg:gap-[2.5vw] items-center justify-center w-full">
           {data?.map((d, i) => (
             <div
               key={i}
-              className="flex flex-col items-center justify-center sm:justify-between gap-0 rounded-xl  md:justify-start w-full  sm:gap-5"
+              className="flex flex-col items-center justify-center sm:justify-between gap-[3vw] lg:gap-[1.5vw] rounded-xl  md:justify-start w-full  "
             >
               <div className="flex items-center justify-center relative w-full rounded-xl  px-2">
                 <Image
@@ -22,7 +22,7 @@ const SectionEighteen = () => {
                   className={`${""} w-full md:flex-row rounded-xl border-orange-500 border-[2px]`}
                 />
               </div>
-              <div className="bg-gradient-to-tr from-purple-900 to-blue-950 rounded-full font-bold text-center px-4 py-2 text-[4vw] lg:text-[1.5vw]">
+              <div className="bg-gradient-to-tr from-purple-900 to-blue-950 rounded-full font-bold text-center px-[1vw] py-[0.5vw] text-[4vw] lg:text-[1.5vw]">
                 {d.title}
               </div>
             </div>

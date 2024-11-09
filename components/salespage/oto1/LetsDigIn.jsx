@@ -7,16 +7,16 @@ const LetsDigIn = () => {
       style={{ backgroundColor: "#330080" }}
     >
       <section
-        className={`${""} flex items-center justify-center w-[90%]  h-auto text-[20px] 500:text-[30px] md:text-[40px] font-extrabold flex-col text-white gap-5 mt-10 mb-20 text-center`}
+        className={`${""} flex items-center justify-center w-[90%]  h-auto text-[6vw] lg:text-[3.5vw] font-extrabold flex-col text-white gap-5 my-[5vw] lg:my-[3vw] text-center`}
       >
         <div>Here's Whats Included With</div>
         <div
-          className={`${""} text-[20px] w-[95%] 400:text-[25px] 600:text-[30px] md:text-[40px] md:w-full`}
+          className={`${""}  w-[95%] lg:w-full`}
         >
           My Productify Bundle Upgrade
         </div>
         <div
-          className={`${""} rounded-full bg-white text-black px-5 text-[25px] my-5`}
+          className={`${""} rounded-full bg-white text-black px-[3vw] text-[6vw] my-5`}
         >
           Let's Dig In
         </div>

@@ -7,38 +7,40 @@ import { sectionWidth } from "@/utils/utils";
 const SectionSeven = () => {
   return (
     <div
-      className={`flex flex-col gap-5 sm:gap-8 p-5 sm:p-8 w-full min-h-screen items-center justify-center`}
+      className={`flex flex-col gap-5 py-[10vw] lg:py-[5vw] w-full min-h-screen items-center justify-center border-t-[0.5vw] border-black`}
     >
-      <div className={`${sectionWidth} gap-10`}>
+      <div
+        className={` gap-[10vw] lg:gap-[5vw] w-[90%] flex items-center justify-center flex-col`}
+      >
         <header
-          className={`font-bold text-2xl sm:text-3xl md:text-4xl px-5 sm:px-8 lg:px-12 text-center leading-9 sm:leading-8 md:leading-[50px]  2xl:leading-[60px] text-black`}
+          className={`font-bold text-[5vw] lg:text-[2vw]  px-5 sm:px-8 lg:px-12 text-center leading-[10vw] lg:leading-[5vw] text-black`}
         >
           Unlock Your Reselling Potential with a Proven System and Powerful
           Tools
         </header>
         <section
-          className={`grid grid-cols-1 sm:grid-cols-2  gap-5 md:gap-10  items-center justify-center flex-wrap `}
+          className={`grid grid-cols-1 lg:grid-cols-2 gap-[5vw] lg:gap-[2.5vw] items-center justify-center flex-wrap  w-full`}
         >
           {data?.map((d, i) => {
             return (
               <div
                 key={i}
-                className={`flex flex-col gap-10 font-bold sm:gap-6 w-full items-center justify-center p-5 h-auto sm:min-h-[630px]`}
+                className={`flex flex-col gap-[5vw] lg:gap-[2.5vw] font-bold w-full lg:w-[40vw] items-center justify-center lg:p-[2vw] p-[5vw] h-auto `}
                 style={{ boxShadow: "0px 0px 55px 30px #ccd9ff" }}
               >
                 <Image
                   src={d?.image}
-                  width={300}
-                  height={300}
-                  className="max-w-full h-auto"
+                  width={500}
+                  height={500}
+                  className="max-w-full lg:w-[30vw] h-auto"
                 />
                 <div
-                  className={`px-5 py-2 sm:px-8 sm:py-3 bg-red-700 shadow-lg shadow-red-900 rotate-2 w-full text-center font-bold text-sm sm:text-base md:text-lg text-white subtle-rotate font-montserrat`}
+                  className={`px-[1vw] lg:px-[0.5vw] py-[1vw] lg:py-[1vw] bg-red-700 shadow-lg shadow-red-900 rotate-2 w-full text-center font-bold text-[3.5vw] lg:text-[1.5vw]  text-white subtle-rotate font-montserrat`}
                 >
                   {d?.title}
                 </div>
                 <div
-                  className={`text-[16px] 400:text-[18px] md:text-[22px] text-center mt-3 sm:mt-4`}
+                  className={`text-[4vw] lg:text-[1.5vw] text-center mt-3 sm:mt-4`}
                 >
                   {d?.desc}
                 </div>

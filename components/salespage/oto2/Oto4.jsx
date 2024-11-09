@@ -17,33 +17,54 @@ import SectionEleven from "./SectionEleven";
 import Faq from "../frontend/Faq";
 import MainFooter from "../frontend/MainFooter";
 import OrderNotComplete from "../OrderNotComplete";
+import DownsellComponent from "../DownsellComponent";
 // import SectionTweleve from "../frontend/SectionTweleve";
 
-const Oto4 = () => {
+const Oto4 = ({ downsellComp }) => {
+  const resellerUpgradeDownsellData = {
+    subTitle: "Get the Reseller Upgrade for just:",
+    lowerPrice: 137,
+    cutPrice: 157,
+    buttonData: {
+      link: "#WSODownsellBuyButton",
+      title: "Get Instant Access To My Productify Reseller",
+    },
+  };
+
   return (
     <div
       className={`${""} w-full min-h-screen flex items-center justify-center flex-col `}
     >
       <OrderNotComplete />
+      {downsellComp && <DownsellComponent data={resellerUpgradeDownsellData} />}
       <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
       <SectionFive />
       <div
-        className={`${""} w-full min-h-[100vh] flex flex-col items-center justify-center gap-[2vw] text-black py-10 font-bold `}
-        style={{ backgroundImage: "url('/background/bg1.png')" }}
+        className={`${""} w-full min-h-[100vh] flex flex-col items-center justify-center gap-[2vw] text-black py-[10vw] lg:py-[5vw] font-bold `}
+        // style={{ backgroundImage: "url('/background/bg1.png')" }}
+        style={{
+          backgroundImage: "url('/background/bg1.png')",
+          backgroundAttachment: "fixed", // Parallax effect
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
       >
         <header
-          className={`${""}  flex flex-col items-center justify-center w-[95%] 400:w-[90%] `}
+          className={`${""}  flex flex-col items-center justify-center w-[95%] 400:w-[90%]  `}
         >
           <div
-            className={`${""} font-bold md:font-normal text-[16px] 400:text-[18px] md:text-[22px] xl:text-[26px] text-center  `}
+            className={`${""} font-bold lg:font-normal text-[6vw] lg:text-[3.5vw]
+ text-center  `}
           >
             To Make SERIOUS Money Selling Software
           </div>
           <div
-            className={`${""} text-[22px] font-bold md:text-[29px] xl:text-[38px] text-purple-900 mt-5`}
+            className={`${""}  font-bold text-[6vw] lg:text-[3.5vw]
+text-purple-900 mt-5 `}
           >
             You Need 3 Things
           </div>
@@ -77,8 +98,8 @@ const mainFeaturesData = [
       "Addresses real customer pain points for better sales conversion",
     ],
     imageLink: "/logo/highDemand.png",
-    width: 350,
-    height: 350,
+    width: 500,
+    height: 500,
   },
   {
     header: "Innovative Technology or Unique Selling Point",

@@ -9,19 +9,19 @@ import { handleSmoothScroll } from "@/utils/utils";
 const FinalTwoButtons = ({ downsellComp }) => {
   return (
     <div
-      className={`${""} min-h-screen w-full flex items-center justify-center  text-black flex-col  `}
+      className={`${""} h-auto w-full flex items-center justify-center  text-black flex-col  `}
     >
       <div
-        className={`${""}  flex items-center justify-between px-5 flex-col w-full`}
+        className={`${""} flex items-center justify-between px-5 flex-col w-full`}
       >
         <Image
           src="/oto1/ActNow.png"
           width={500}
           height={300}
-          className={`${""} w-full h-auto md:w-[500px] md:h-[300px]`}
+          className={`${""} w-full h-auto lg:w-[40vw]`}
         />
         <div
-          className={`${""} w-full flex items-center justify-center gap-10 flex-col md:flex-row `}
+          className={`${""} w-full flex items-center justify-center gap-[5vw] lg:gap-[2.5vw] flex-col lg:flex-row text-white`}
         >
           {buttons?.map((d, i) => {
             return (
@@ -33,7 +33,7 @@ const FinalTwoButtons = ({ downsellComp }) => {
                 }}
                 className={`${
                   d?.color == "green" ? "from-[#600000]" : "from-[#600033]"
-                } bg-gradient-to-r to-[#000033] flex items-center justify-center flex-col gap-3 text-white font-bold px-5 py-4 rounded-lg text-[22px]`}
+                } bg-gradient-to-r to-[#000033] flex items-center justify-center flex-col gap-3 text-[4vw] lg:text-[1.5vw] lg:p-[1vw] p-[2vw]`}
               >
                 <div>{d?.label?.title}</div>
                 <div>{d?.label?.subTitle}</div>
@@ -43,7 +43,7 @@ const FinalTwoButtons = ({ downsellComp }) => {
         </div>
       </div>
       <div
-        className={`${""}  flex items-center justify-center flex-col gap-10 my-10 md:my-20 bg-white`}
+        className={`${""}  flex items-center justify-center flex-col gap-10 my-10 lg:my-20 bg-white`}
       >
         <AboutMe hideText={true} />
       </div>
