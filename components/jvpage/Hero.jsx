@@ -33,7 +33,7 @@ const Hero = () => {
         >
           Launch Goes Live{" "}
           <span className={`${""} underline`}>
-            THURSDAY 31st OCTOBER @ 10am EST
+            Saturday 7th December @ 10am EST
           </span>
         </div>
 

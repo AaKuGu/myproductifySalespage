@@ -66,7 +66,7 @@ const WhyPromote = () => {
 export default WhyPromote;
 
 export const whyToPromoteOne = [
-  "Launching on Thursday 31st OCTOBER @ 10am EST",
+  "Launching on Saturday 7th December @ 10am EST",
   "Earn OVER $400 Per Sale You Bring To The Funnel!",
   "Over $2,500+ In Affiliate Cash Prizes To Be Won",
   "HIGH Converting Sales Copy & VSL Constructed By Industry Experts!",
