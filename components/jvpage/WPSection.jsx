@@ -125,7 +125,7 @@ import JvUpdatesSignUp from "./JvUpdatesSignUp";
 import AffiliateLinkButton from "./AffiliateLinkButton";
 
 const WPSection = () => {
-  const targetDate = new Date("2024-11-30T10:00:00-05:00");
+  const targetDate = new Date("2024-12-07T10:00:00-05:00");
   const [isMounted, setIsMounted] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
     days: 0,

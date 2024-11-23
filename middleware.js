@@ -7,7 +7,8 @@ export async function middleware(request) {
   if (
     pathname === "/" &&
     (hostname === "jv.myproductify.site" ||
-      hostname === "www.jv.myproductify.site" )
+      hostname === "www.jv.myproductify.site" ||
+      hostname === "localhost")
   ) {
     console.log(
       "hostname is either `jv.myproductify.site` or `www.jv.myproductify.site or `localhost:3000`"
