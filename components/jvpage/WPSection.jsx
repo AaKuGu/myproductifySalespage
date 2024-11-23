@@ -205,7 +205,7 @@ const WPSection = () => {
           >
             <div className={`flex items-center justify-center flex-col`}>
               <div>Going Live On</div>
-              <div>Thursday 31st NOVEMBER</div>
+              <div>Thursday 7th December</div>
               <div>@ 10am EST</div>
               <PriceRising deadlineTimeInSeconds={totalSeconds} />
             </div>
