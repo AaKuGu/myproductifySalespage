@@ -214,7 +214,7 @@ const WPSection = () => {
               className={`flex flex-col items-center justify-center gap-[3vw] lg:gap-[1.5vw] relative p-[3vw]`}
             >
               <div className="absolute inset-0 bg-white backdrop-blur-md opacity-10 rounded-lg"></div>
-              <div className="relative z-10">7 Day Launch</div>
+              <div className="relative z-10">5 Day Launch</div>
               <div className="relative z-10">Sign Up For JV Updates:</div>
               <button
                 onClick={() => setshowJvUpdatesSignupPageModel(true)}
