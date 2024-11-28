@@ -21,8 +21,12 @@ const page = () => {
         }}
       />
 
-      <a href="https://warriorplus.com/o2/buy/g886gd/r1wc27/rqhzg3">
+      {/* <a href="https://warriorplus.com/o2/buy/g886gd/r1wc27/rqhzg3">
         <img src="https://warriorplus.com/o2/btn/fn100011001/g886gd/r1wc27/411410" />
+      </a> */}
+
+      <a href="https://warriorplus.com/o2/buy/g886gd/zjd7fx/pqgrbs">
+        <img src="https://warriorplus.com/o2/btn/fn100011001/g886gd/zjd7fx/411403" />
       </a>
     </div>
   );
