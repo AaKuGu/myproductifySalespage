@@ -79,6 +79,20 @@ const FrontendSalesPage = () => {
       <AboutMe />
       <Faq data={faqData} />
       <MainFooter />
+      <Script
+        src="https://warriorplus.com/o2/disclaimer/g886gd"
+        type="text/javascript"
+        defer
+        onLoad={() => {
+          alert("Script loaded successfully");
+        }}
+        onError={(e) => {
+          // The correct way to access the error message is via e.error.message
+          alert(
+            "Error loading the script: " + e.error?.message || "Unknown error"
+          );
+        }}
+      />
       {/* <ScrollButtons /> */}
     </div>
   );
