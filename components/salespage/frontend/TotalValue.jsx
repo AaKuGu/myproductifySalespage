@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
 import PurchaseCard from "./PurchaseCard";
+import WSOBuyJButton from "./WSOBuyJButton";
 
 const TotalValue = () => {
   return (
@@ -68,6 +69,8 @@ const TotalValue = () => {
             </div>
           </div>
         </div>
+        <WSOBuyJButton />
+
         <PurchaseCard />
       </div>
     </section>
