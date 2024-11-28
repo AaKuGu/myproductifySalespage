@@ -29,6 +29,7 @@ import Faq from "./Faq";
 import MainFooter from "./MainFooter";
 import VendorBonuses from "./VendorBonuses";
 import "@/components/authenticated/css/animation.css";
+import Script from "next/script";
 // import WSOBuyJButton from "./WSOBuyJButton";
 
 const FrontendSalesPage = () => {
