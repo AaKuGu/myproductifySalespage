@@ -89,12 +89,6 @@ const FrontendSalesPage = () => {
         onLoad={() => {
           alert("Script loaded successfully");
         }}
-        onError={(e) => {
-          // The correct way to access the error message is via e.error.message
-          alert(
-            "Error loading the script: " + e.error?.message || "Unknown error"
-          );
-        }}
       />
       {/* <ScrollButtons /> */}
     </div>
