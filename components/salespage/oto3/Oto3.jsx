@@ -9,6 +9,9 @@ import MoneyBackGuarantee from "../oto2/MoneyBackGuarantee";
 import DownsellComponent from "../DownsellComponent";
 import OrderNotComplete from "../OrderNotComplete";
 import MainFooter from "../frontend/MainFooter";
+import WSODownsellBuyButton from "../oto1/WSODownsellBuyButton";
+import WSOUpsellBuyButton from "../oto1/WSOBuyButton";
+import FinalTwoButtons from "../oto1/FinalTwoButtons";
 // import SectionOne from "./SectionOne";
 // import SectionTwo from "./SectionTwo";
 // import FewLeft from "./FewLeft";
@@ -168,6 +171,33 @@ const Oto3 = ({ downsellComp }) => {
       <TotalValue />
       <MoneyBackGuarantee />
       <PurchaseCard />
+      {/* <a href="https://warriorplus.com/o2/buy/g886gd/fp25t5/z7mcqg"><img src="https://warriorplus.com/o2/btn/fn100011011/g886gd/fp25t5/411493"></a> */}
+      {/* <a href="https://warriorplus.com/o/nothanks/fp25t5">No Thanks</a> */}
+      <div className={`${""} w-full h-auto flex items-center justify-center `}>
+        {downsellComp ? (
+          <WSODownsellBuyButton
+            linkUrl="https://warriorplus.com/o2/buy/g886gd/qbxt0y/xs673s"
+            imageLink="/buyButtons/proDownsell.png"
+          >
+            <img
+              src="https://warriorplus.com/o2/btn/fn100011011/g886gd/qbxt0y/411494"
+              className="hidden"
+            />
+          </WSODownsellBuyButton>
+        ) : (
+          <WSOUpsellBuyButton
+            linkUrl="https://warriorplus.com/o2/buy/g886gd/fp25t5/z7mcqg"
+            imageLink="/buyButtons/proUpsell.png"
+          >
+            <img
+              src="https://warriorplus.com/o2/btn/fn100011011/g886gd/fp25t5/411493"
+              className="hidden"
+            />
+          </WSOUpsellBuyButton>
+        )}
+      </div>
+      {/* <a href="https://warriorplus.com/o2/buy/g886gd/qbxt0y/xs673s"><img src="https://warriorplus.com/o2/btn/fn100011011/g886gd/qbxt0y/411494"></a> */}
+      <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />
       <Faq data={faqData} />
       <MainFooter />
       {/* <SectionTwo /> */}
@@ -211,3 +241,24 @@ const Oto3 = ({ downsellComp }) => {
 };
 
 export default Oto3;
+
+const buttonsData = [
+  {
+    label: {
+      title: "Yes Give Me 'Pro Upgrade'",
+      subTitle: "Yes Help Me Skip All The Guesswork",
+    },
+    upsellLink: "#WSOUpsellBuyButton",
+    downsellLink: "#WSODownsellBuyButton",
+    color: "green",
+  },
+  {
+    label: {
+      title: "No Thanks",
+      subTitle: "NO I Dont Want Any Work Easy Money",
+    },
+    upsellLink: "https://warriorplus.com/o/nothanks/fp25t5",
+    downsellLink: "https://warriorplus.com/o/nothanks/qbxt0y",
+    color: "red",
+  },
+];
