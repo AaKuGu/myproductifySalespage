@@ -91,7 +91,7 @@ const FrontendSalesPage = () => {
       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       {/* <Script
         src="https://warriorplus.com/o2/disclaimer/g886gd"
-        type="text/javascript"
+        type="text/javascript" 
         defer
         onLoad={() => {
           alert("Script loaded successfully");

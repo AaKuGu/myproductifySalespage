@@ -11,7 +11,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <div class="wplus_spdisclaimer"></div>
+      </body>
+      <script
+        type="text/javascript"
+        src="https://warriorplus.com/o2/disclaimer/g886gd"
+        defer
+      ></script>
     </html>
   );
 }
