@@ -46,7 +46,27 @@ const CoupleOfOptions = ({ downsellComp }) => {
           >
             But
           </div>
-          {downsellComp ? <WSODownsellBuyButton /> : <WSOUpsellBuyButton />}
+          {downsellComp ? (
+            <WSODownsellBuyButton
+              linkUrl="https://warriorplus.com/o2/buy/g886gd/q593vd/k3px4m"
+              imageLink="/buyButtons/bundleDownsell.png"
+            >
+              <img
+                src="https://warriorplus.com/o2/btn/fn100011011/g886gd/q593vd/411411"
+                className="hidden"
+              />
+            </WSODownsellBuyButton>
+          ) : (
+            <WSOUpsellBuyButton
+              linkUrl="https://warriorplus.com/o2/buy/g886gd/r1wc27/rqhzg3"
+              imageLink="/buyButtons/bundleUpsell.png"
+            >
+              <img
+                src="https://warriorplus.com/o2/btn/fn100011001/g886gd/r1wc27/411410"
+                className={`${""} hidden`}
+              ></img>
+            </WSOUpsellBuyButton>
+          )}
         </div>
       </div>
     </div>

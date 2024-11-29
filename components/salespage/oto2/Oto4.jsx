@@ -35,6 +35,9 @@ const Oto4 = ({ downsellComp }) => {
     <div
       className={`${""} w-full min-h-screen flex items-center justify-center flex-col `}
     >
+      {/* res up */}
+
+      {/* res <div className={`${}`}></div> */}
       <OrderNotComplete />
       {downsellComp && <DownsellComponent data={resellerUpgradeDownsellData} />}
       <SectionOne />
@@ -80,8 +83,8 @@ text-purple-900 mt-5 `}
       <MoneyBackGuarantee />
       <TotalValue />
       <SectionTen />
-      <FewLeft />
-      <Faq data={faqData} />
+      <FewLeft downsellComp={downsellComp} />
+      <Faq data={faqData} productIsBundleOrReseller={true} />
       <MainFooter />
     </div>
   );
@@ -140,7 +143,7 @@ export const faqData = [
   },
   {
     q: "What is the link to your support desk?",
-    ans: "If you have any questions or issues, you can open a ticket at our support desk.",
+    ans: "If you have any questions or issues, you can contact us on our company's email aadarsh@aigodam.com",
   },
   {
     q: "Does My Productify come with a commercial license?",

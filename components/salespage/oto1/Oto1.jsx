@@ -64,7 +64,7 @@ const Oto1 = ({ downsellComp }) => {
       <NoThanks />
       <FinalChance />
       <FinalTwoButtons downsellComp={downsellComp} />
-      <Faq data={faqData} />
+      <Faq data={faqData} productIsBundleOrReseller={true} />
       <MainFooter />
     </div>
   );

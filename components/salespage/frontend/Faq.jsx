@@ -1,6 +1,6 @@
 import React from "react";
 
-const Faq = ({ data }) => {
+const Faq = ({ data, productIsBundleOrReseller = false }) => {
   return (
     <div className="w-full min-h-screen bg-blue-50 text-black flex items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-[5vw] lg:gap-[2.5vw] w-[90%] lg:w-[80%] my-[10vw] lg:my-[5vw]">
@@ -14,6 +14,19 @@ const Faq = ({ data }) => {
           Frequently Asked Questions
         </header>
         <div className="flex flex-col items-center justify-center gap-7">
+          {productIsBundleOrReseller && (
+            <div className="flex flex-col items-start justify-center gap-2 text-start text-[4vw] lg:text-[1.5vw] w-full">
+              <div className="text-blue-600 font-bold">
+                Q: When will I be approved for affiliation?{" "}
+              </div>
+              <div>
+                {" "}
+                You will be approved as an Affiliate only after 15 days of your
+                purchase{" "}
+              </div>
+            </div>
+          )}
+
           {data?.map((d, i) => (
             <div
               key={i}

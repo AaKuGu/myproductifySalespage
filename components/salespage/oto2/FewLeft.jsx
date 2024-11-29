@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
+import WSODownsellBuyButton from "../oto1/WSODownsellBuyButton";
+import WSOUpsellBuyButton from "../oto1/WSOBuyButton";
 
-const FewLeft = () => {
+const FewLeft = ({ downsellComp }) => {
   return (
     <div className={`${""} flex items-center justify-center w-full h-auto`}>
       <div
@@ -35,8 +37,29 @@ const FewLeft = () => {
           </div>
         </div>
         <div
-          className={`${""} grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 gap-10 my-5 w-full`}
+          className={`${""} w-full h-auto flex items-center justify-center `}
         >
+          {downsellComp ? (
+            <WSODownsellBuyButton
+              linkUrl="https://warriorplus.com/o2/buy/g886gd/z7k1n9/s9x5qn"
+              imageLink="/buyButtons/resellerDownsell.png"
+            >
+              <img
+                src="https://warriorplus.com/o2/btn/fn100011011/g886gd/z7k1n9/412817"
+                className="hidden"
+              />
+            </WSODownsellBuyButton>
+          ) : (
+            <WSOUpsellBuyButton
+              linkUrl="https://warriorplus.com/o2/buy/g886gd/cf8m83/zmk87k"
+              imageLink="/buyButtons/resellerUpsell.png"
+            >
+              <img
+                src="https://warriorplus.com/o2/btn/fn100011001/g886gd/cf8m83/411453"
+                className="hidden"
+              />
+            </WSOUpsellBuyButton>
+          )}
           {/* {resellerPurchaseCards?.map((d, i) => {
             return (
               <div
