@@ -198,6 +198,7 @@ const Oto3 = ({ downsellComp }) => {
       </div>
       {/* <a href="https://warriorplus.com/o2/buy/g886gd/qbxt0y/xs673s"><img src="https://warriorplus.com/o2/btn/fn100011011/g886gd/qbxt0y/411494"></a> */}
       <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />
+      
       <Faq data={faqData} />
       <MainFooter />
       {/* <SectionTwo /> */}

@@ -11,6 +11,10 @@ import DownsellComponent from "../DownsellComponent";
 import { faqData } from "../oto2/Oto4";
 import Faq from "../frontend/Faq";
 import MainFooter from "../frontend/MainFooter";
+import FinalTwoButtons from "../oto1/FinalTwoButtons";
+import WSODownsellBuyButton from "../oto1/WSODownsellBuyButton";
+import WSOUpsellBuyButton from "../oto1/WSOBuyButton";
+import PriceRising from "../frontend/PriceRising";
 
 const ParentPage = ({ downsellComp }) => {
   const proUpgradeDownsellData = {
@@ -34,7 +38,34 @@ const ParentPage = ({ downsellComp }) => {
       <SectionFive />
       {/* <SectionSix /> */}
       <SectionSeven />
-      <FinalPaymentSection />
+      <div className={`${""} w-full h-auto flex items-center justify-center `}>
+        {downsellComp ? (
+          <WSODownsellBuyButton
+            linkUrl="https://warriorplus.com/o2/buy/g886gd/vb0pqq/wk196f"
+            imageLink="/buyButtons/proDownsell.png"
+          >
+            <img
+              src="https://warriorplus.com/o2/btn/fn100011011/g886gd/vb0pqq/414105"
+              className="hidden"
+            />
+          </WSODownsellBuyButton>
+        ) : (
+          <WSOUpsellBuyButton
+            linkUrl="https://warriorplus.com/o2/buy/g886gd/vl8vhr/f9988s"
+            imageLink="/buyButtons/unlimitedUpsell.png"
+          >
+            <img
+              src="https://warriorplus.com/o2/btn/fn100011011/g886gd/vl8vhr/414103"
+              className="hidden"
+            />
+          </WSOUpsellBuyButton>
+        )}
+      </div>
+      <PriceRising isWhiteBg={true} />
+
+      {/* <FinalPaymentSection /> */}
+      <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />
+
       <Faq data={faqData} />
       <MainFooter />
     </div>
@@ -42,3 +73,24 @@ const ParentPage = ({ downsellComp }) => {
 };
 
 export default ParentPage;
+
+const buttonsData = [
+  {
+    label: {
+      title: "Yes Give Me 'Unlimited Upgrade'",
+      subTitle: "Yes Help Me Skip All The Guesswork",
+    },
+    upsellLink: "#WSOUpsellBuyButton",
+    downsellLink: "#WSODownsellBuyButton",
+    color: "green",
+  },
+  {
+    label: {
+      title: "No Thanks",
+      subTitle: "NO I Dont Want Any Work Easy Money",
+    },
+    upsellLink: "https://warriorplus.com/o/nothanks/vl8vhr",
+    downsellLink: "https://warriorplus.com/o/nothanks/vb0pqq",
+    color: "red",
+  },
+];
