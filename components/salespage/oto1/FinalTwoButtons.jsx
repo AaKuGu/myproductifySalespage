@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { handleSmoothScroll } from "@/utils/utils";
 
-const FinalTwoButtons = ({ downsellComp }) => {
+const FinalTwoButtons = ({ buttonsData, downsellComp }) => {
   return (
     <div
       className={`${""} h-auto w-full flex items-center justify-center  text-black flex-col  `}
@@ -23,7 +23,7 @@ const FinalTwoButtons = ({ downsellComp }) => {
         <div
           className={`${""} w-full flex items-center justify-center gap-[5vw] lg:gap-[2.5vw] flex-col lg:flex-row text-white`}
         >
-          {buttons?.map((d, i) => {
+          {buttonsData?.map((d, i) => {
             return (
               <Link
                 href={downsellComp ? d?.downsellLink : d?.upsellLink}
@@ -53,23 +53,4 @@ const FinalTwoButtons = ({ downsellComp }) => {
 
 export default FinalTwoButtons;
 
-const buttons = [
-  {
-    label: {
-      title: "Yes Give Me 'Bundle Upgrade'",
-      subTitle: "Yes Help Me Skip All The Guesswork",
-    },
-    upsellLink: "#WSOUpsellBuyButton",
-    downsellLink: "#WSODownsellBuyButton",
-    color: "green",
-  },
-  {
-    label: {
-      title: "No Thanks",
-      subTitle: "NO I Dont Want Any Work Easy Money",
-    },
-    upsellLink: "https://warriorplus.com/o/nothanks/r1wc27",
-    downsellLink: "https://warriorplus.com/o/nothanks/q593vd",
-    color: "red",
-  },
-];
+

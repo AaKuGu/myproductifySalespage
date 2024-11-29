@@ -63,7 +63,7 @@ const Oto1 = ({ downsellComp }) => {
       <PriceRising />
       <NoThanks />
       <FinalChance />
-      <FinalTwoButtons downsellComp={downsellComp} />
+      <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />
       <Faq data={faqData} productIsBundleOrReseller={true} />
       <MainFooter />
     </div>
@@ -71,3 +71,24 @@ const Oto1 = ({ downsellComp }) => {
 };
 
 export default Oto1;
+
+const buttonsData = [
+  {
+    label: {
+      title: "Yes Give Me 'Bundle Upgrade'",
+      subTitle: "Yes Help Me Skip All The Guesswork",
+    },
+    upsellLink: "#WSOUpsellBuyButton",
+    downsellLink: "#WSODownsellBuyButton",
+    color: "green",
+  },
+  {
+    label: {
+      title: "No Thanks",
+      subTitle: "NO I Dont Want Any Work Easy Money",
+    },
+    upsellLink: "https://warriorplus.com/o/nothanks/r1wc27",
+    downsellLink: "https://warriorplus.com/o/nothanks/q593vd",
+    color: "red",
+  },
+];

@@ -54,7 +54,7 @@ export const upgradesData = [
     subTitle:
       "Save Time and Eliminate Effort with Ready-to-Sell Course Pages, Templates, and Marketing Materials!",
     image: "/logo/resellerBanner.png",
-    version: "My Productify Pro Upgrade",
+    version: "My Productify Reseller Upgrade",
     data: resellerLicenseBenefits,
   },
   {

@@ -18,6 +18,7 @@ import Faq from "../frontend/Faq";
 import MainFooter from "../frontend/MainFooter";
 import OrderNotComplete from "../OrderNotComplete";
 import DownsellComponent from "../DownsellComponent";
+import FinalTwoButtons from "../oto1/FinalTwoButtons";
 // import SectionTweleve from "../frontend/SectionTweleve";
 
 const Oto4 = ({ downsellComp }) => {
@@ -84,6 +85,7 @@ text-purple-900 mt-5 `}
       <TotalValue />
       <SectionTen />
       <FewLeft downsellComp={downsellComp} />
+      <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />
       <Faq data={faqData} productIsBundleOrReseller={true} />
       <MainFooter />
     </div>
@@ -148,5 +150,26 @@ export const faqData = [
   {
     q: "Does My Productify come with a commercial license?",
     ans: "Yes! With the commercial license, you will be able to create course pages, email opt-in pages, links, QR codes, and more for your clients using My Productify.",
+  },
+];
+
+const buttonsData = [
+  {
+    label: {
+      title: "Yes Give Me 'Reseller Upgrade'",
+      subTitle: "Yes Help Me Skip All The Guesswork",
+    },
+    upsellLink: "#WSOUpsellBuyButton",
+    downsellLink: "#WSODownsellBuyButton",
+    color: "green",
+  },
+  {
+    label: {
+      title: "No Thanks",
+      subTitle: "NO I Dont Want Any Work Easy Money",
+    },
+    upsellLink: "https://warriorplus.com/o/nothanks/cf8m83",
+    downsellLink: "https://warriorplus.com/o/nothanks/z7k1n9",
+    color: "red",
   },
 ];
