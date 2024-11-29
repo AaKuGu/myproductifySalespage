@@ -35,11 +35,11 @@ import Script from "next/script";
 // import WSOBuyJButton from "./WSOBuyJButton";
 
 const FrontendSalesPage = () => {
-  const htmlContent = `
-    <a href="https://warriorplus.com/o2/buy/g886gd/zjd7fx/pqgrbs">
-      <img src="https://warriorplus.com/o2/btn/fn100011001/g886gd/zjd7fx/411403" alt="Buy Now" />
-    </a>
-  `;
+  // const htmlContent = `
+  //   <a href="https://warriorplus.com/o2/buy/g886gd/zjd7fx/pqgrbs">
+  //     <img src="https://warriorplus.com/o2/btn/fn100011001/g886gd/zjd7fx/411403" alt="Buy Now" />
+  //   </a>
+  // `;
 
   return (
     <div
@@ -88,7 +88,7 @@ const FrontendSalesPage = () => {
       <AboutMe />
       <Faq data={faqData} />
       <MainFooter />
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+      {/* <div dangerouslySetInnerHTML={{ __html: htmlContent }} /> */}
       {/* <Script
         src="https://warriorplus.com/o2/disclaimer/g886gd"
         type="text/javascript" 
