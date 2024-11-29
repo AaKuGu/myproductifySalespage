@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <div class="wplus_spdisclaimer"></div>
+        <div className="wplus_spdisclaimer"></div>
       </body>
       <script
         type="text/javascript"
