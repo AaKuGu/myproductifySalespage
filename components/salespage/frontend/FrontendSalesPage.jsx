@@ -63,7 +63,7 @@ const FrontendSalesPage = () => {
           return <SectionTweleve data={d} index={i} key={i} />;
         })}
       </div>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <SectionThree />
       <SectionFour />
       <SectionFive />

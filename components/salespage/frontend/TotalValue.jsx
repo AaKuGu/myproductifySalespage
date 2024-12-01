@@ -73,7 +73,10 @@ const TotalValue = () => {
 
         <PurchaseCard />
         {/* <a href="https://warriorplus.com/o2/buy/g886gd/zjd7fx/pqgrbs"> */}
-        <img src="https://warriorplus.com/o2/btn/fn100011001/g886gd/zjd7fx/411403" />
+        <img
+          src="https://warriorplus.com/o2/btn/fn100011001/g886gd/zjd7fx/411403"
+          className={`${""} hidden`}
+        />
         {/* </a> */}
       </div>
     </section>

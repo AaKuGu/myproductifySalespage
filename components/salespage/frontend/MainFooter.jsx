@@ -1,3 +1,4 @@
+import DisclaimerCode from "@/components/DisclaimerCode";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -19,16 +20,20 @@ const MainFooter = () => {
           My Productify 2024 – Copyright © All Rights Reserved
         </div>
         <div className="my-5 text-center text-[4vw] lg:text-[1.5vw] px-4 lg:px-16">
-          Earnings Disclaimer: We strive to provide an accurate representation
-          of our product and its potential benefits. Any claims regarding actual
-          earnings or results can be substantiated upon request. The
-          testimonials and examples shared reflect exceptional outcomes and may
-          not be typical for the average user. They are not meant to guarantee
-          that anyone will achieve the same or similar results. Each person’s
-          success is influenced by their unique background, commitment,
-          enthusiasm, and motivation. As with any business venture, there is a
-          risk of financial loss, and we cannot guarantee that you will earn any
-          income.
+          <DisclaimerCode />
+          <br />
+          <p>
+            Earnings Disclaimer: We strive to provide an accurate representation
+            of our product and its potential benefits. Any claims regarding
+            actual earnings or results can be substantiated upon request. The
+            testimonials and examples shared reflect exceptional outcomes and
+            may not be typical for the average user. They are not meant to
+            guarantee that anyone will achieve the same or similar results. Each
+            person’s success is influenced by their unique background,
+            commitment, enthusiasm, and motivation. As with any business
+            venture, there is a risk of financial loss, and we cannot guarantee
+            that you will earn any income.
+          </p>
         </div>
         <div className="flex gap-[4vw] lg:gap-[2vw] items-center justify-center flex-wrap">
           {links?.map((d, i) => (

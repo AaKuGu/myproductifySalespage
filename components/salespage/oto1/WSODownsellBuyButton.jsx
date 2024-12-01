@@ -1,3 +1,4 @@
+import DisclaimerCode from "@/components/DisclaimerCode";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -16,6 +17,7 @@ const WSODownsellBuyButton = ({ linkUrl, imageLink, children }) => {
         height={500}
         className={`${""} w-full lg:w-[40vw]`}
       />
+      <DisclaimerCode />
       {children}
     </Link>
   );

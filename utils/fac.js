@@ -7,6 +7,7 @@ export const buildList = async (email, type) => {
       `${process.env.NEXT_PUBLIC_backend_url}/jvListRoutes/newsletter`,
       { email, type }
     );
+    console.log("🚀 ~ buildList ~ response:", response);
     return response.data;
   } catch (error) {
     if (error.response && error.response.data) {
