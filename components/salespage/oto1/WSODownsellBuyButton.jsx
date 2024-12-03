@@ -8,7 +8,7 @@ const WSODownsellBuyButton = ({ linkUrl, imageLink, children }) => {
     <Link
       href={linkUrl}
       target="_blank"
-      className={`${""} w-auto rounded-lg h-auto text-black flex items-center justify-center`}
+      className={`${""} w-[95%] md:w-[80%] rounded-lg h-auto text-black flex items-center justify-center flex-col gap-[6vw] lg:gap-[3vw]`}
       id="WSODownsellBuyButton"
     >
       <Image

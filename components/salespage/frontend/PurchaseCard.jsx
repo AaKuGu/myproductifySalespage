@@ -34,7 +34,7 @@ const PurchaseCard = ({ orange = false }) => {
           className="w-[50vw] lg:w-[20vw] mt-[2vw]"
           alt="Small Money Back"
         />
-        <PriceRising />
+        {/* <PriceRising /> */}
       </div>
     </div>
   );

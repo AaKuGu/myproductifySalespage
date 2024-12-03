@@ -46,10 +46,13 @@ const FewLeft = ({ downsellComp }) => {
           <div>Click The Button Below Now To Claim</div>
           <div>Your 'Bundle Pass' Massive Discount Now</div>
         </div>
+        {/* {JSON.stringify(downsellComp)} */}
         <Button
           data={{
             title: "Get Instant Access To All My Productify Upgrades",
-            link: downsellComp ? "#WSODownsellBuyButton" : "WSOUpsellBuyButton",
+            link: downsellComp
+              ? "#WSODownsellBuyButton"
+              : "#WSOUpsellBuyButton",
           }}
         />
         <div
@@ -59,9 +62,9 @@ const FewLeft = ({ downsellComp }) => {
           <div>Payment Save 37% | 30 Day Money Back Guarantee</div>
         </div>
         <div className={`${""}text-[4vw] lg:text-[1.5vw] text-center`}>
-          <b className={`${''} text-red-500`}>Warning!</b> This Is An EXCLUSIVE ONE TIME Offer, And If You Close
-          This Page And Come Back Later, You Will Miss Out On This
-          Highly-Discounted Pricing
+          <b className={`${""} text-red-500`}>Warning!</b> This Is An EXCLUSIVE
+          ONE TIME Offer, And If You Close This Page And Come Back Later, You
+          Will Miss Out On This Highly-Discounted Pricing
         </div>
       </div>
     </div>

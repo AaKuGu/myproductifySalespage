@@ -9,7 +9,7 @@ const WSOBuyJButton = () => {
       className={`${""} w-full  flex items-center justify-center flex-col gap-[10vw] md:gap-[3vw]`}
     >
       <div
-        className={`${""} bg-green-500 w-full md:w-[40%] flex items-center justify-center h-full`}
+        className={`${""}  w-full md:w-[40%] flex items-center justify-center h-full`}
       >
         <a
           href="https://warriorplus.com/o2/buy/g886gd/zjd7fx/pqgrbs"

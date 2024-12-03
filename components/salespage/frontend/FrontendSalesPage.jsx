@@ -47,7 +47,7 @@ const FrontendSalesPage = () => {
     >
       <SectionOne />
       <SectionTwo />
-      <PriceRising isWhiteBg={true} deadlineTimeInSeconds={1800} />
+      {/* <PriceRising isWhiteBg={true} deadlineTimeInSeconds={1800} /> */}
       <ThreeStepsComponent />
       <div
         className={`${""} w-[100vw] min-h-[100vh] flex flex-col items-center justify-center gap-[2vw] bg-black py-[3vw]`}

@@ -60,7 +60,7 @@ const Oto1 = ({ downsellComp }) => {
       <CoupleOfOptions downsellComp={downsellComp} />
       <MoneyBackGuarantee />
       <FewLeft downsellComp={downsellComp} />
-      <PriceRising />
+      {/* <PriceRising /> */}
       <NoThanks />
       <FinalChance />
       <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />

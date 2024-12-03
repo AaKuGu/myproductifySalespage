@@ -2,7 +2,9 @@ import React from "react";
 
 const DisclaimerCode = () => {
   return (
-    <p className={`${""} w-[95%] md:w-[80%] text-[4vw] md:text-[1.5vw] italic text-center`}>
+    <p
+      className={`${""} w-full text-[4vw] md:text-[1.5vw] italic text-center `}
+    >
       Disclaimer: WarriorPlus is used to help manage the sale of products on
       this site. While WarriorPlus helps facilitate the sale, all payments are
       made directly to the product vendor and NOT WarriorPlus. Thus, all product

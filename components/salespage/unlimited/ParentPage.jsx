@@ -38,7 +38,7 @@ const ParentPage = ({ downsellComp }) => {
       <SectionFive />
       {/* <SectionSix /> */}
       <SectionSeven />
-      <div className={`${""} w-full h-auto flex items-center justify-center `}>
+      <div className={`${""} w-[90%] md:w-[80%] h-auto flex items-center justify-center `}>
         {downsellComp ? (
           <WSODownsellBuyButton
             linkUrl="https://warriorplus.com/o2/buy/g886gd/vb0pqq/wk196f"
@@ -61,7 +61,7 @@ const ParentPage = ({ downsellComp }) => {
           </WSOUpsellBuyButton>
         )}
       </div>
-      <PriceRising isWhiteBg={true} />
+      {/* <PriceRising isWhiteBg={true} /> */}
 
       {/* <FinalPaymentSection /> */}
       <FinalTwoButtons downsellComp={downsellComp} buttonsData={buttonsData} />

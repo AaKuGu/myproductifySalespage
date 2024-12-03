@@ -33,10 +33,10 @@ const SectionOne = () => {
         <div className="header-text ">
           <Image
             src="/logo/Bundlee.png"
-            height={100}
-            width={500}
+            height={150}
+            width={600}
             alt="website logo"
-            className="w-[70vw] lg:w-[30vw] "
+            className="w-[80vw] lg:w-[40vw] "
             priority={true}
           />
         </div>

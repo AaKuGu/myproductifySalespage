@@ -10,6 +10,7 @@ const Button = ({ data }) => {
       onClick={handleSmoothScroll} // Attach the smooth scroll handler
       className={`bg-yellow-400 text-black px-5 py-[2vw] lg:py-[1vw] font-bold text-[4vw] lg:text-[1.5vw] mb-5 lg:mb-10 transition-transform transform hover:scale-105 cursor-pointer w-[90%] lg:w-[70%] my-5 animate-slow-bounce text-center`}
     >
+      {/* {JSON.stringify(data?.link)} */}
       {data?.title}
     </a>
   );

@@ -33,7 +33,7 @@ const PurchaseCard = ({ orange = false }) => {
           <span>& Save ${147 - 37} Now</span>
         </header>
 
-        <PurchaseButtonDark />
+        {/* <PurchaseButtonDark /> */}
       </div>
     </div>
   );
