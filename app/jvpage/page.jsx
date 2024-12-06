@@ -7,15 +7,13 @@ import JvSupport from "@/components/jvpage/JvSupport";
 import Reciprocation from "@/components/jvpage/Reciprocation";
 import WhyPromote from "@/components/jvpage/WhyPromote";
 import WPSection from "@/components/jvpage/WPSection";
+import NotReady from "@/components/NotReady";
 import React from "react";
 
 const page = () => {
   return (
     <div
       className={`${""} h-auto w-full flex items-center justify-start flex-col text-white bg-contain bg-center bg-no-repeat`}
-      // style={{
-      //   background: "linear-gradient(to right,#000000, #1a0000)",
-      // }}
       style={{
         background: 'url("/background/heroBg.png")',
         backgroundAttachment: "fixed", // Parallax effect
@@ -25,8 +23,9 @@ const page = () => {
       }}
     >
       <section
-        className={`${""} w-full  flex items-center justify-center flex-col font-bold`}
+        className={`${""} w-full  flex items-center justify-center flex-col font-bold relative`}
       >
+        <NotReady />
         <Header />
         <Hero />
         <Reciprocation />
