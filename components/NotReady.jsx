@@ -100,7 +100,7 @@ const NotReady = () => {
         <div className="w-[80vw] p-[5vw] lg:p-[3vw] bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 text-white rounded-xl shadow-2xl transform transition-transform duration-500 ease-in-out scale-105 flex flex-col items-center justify-center text-center animate-bounce-slow relative">
           <button
             onClick={handleClose}
-            className="absolute top-1 right-1 text-3xl font-extrabold bg-white rounded-full p-3 py-[5px] text-black hover:bg-gray-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-300 ease-in-out shadow-md"
+            className="absolute top-1 right-1 text-[4vw] lg:text-[2.5vw] font-extrabold bg-white rounded-full p-[2vw] py-[0.5vw] text-black hover:bg-gray-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-300 ease-in-out shadow-md"
             aria-label="Close"
           >
             ×
@@ -115,12 +115,12 @@ const NotReady = () => {
           <p className="mt-4 font-medium text-[3vw] lg:text-[1.5vw] tracking-wide text-opacity-90">
             Please keep an eye on them for updates!
           </p>
-          <div className="mt-6 italic text-[3.5vw] lg:text-[2.3vw] text-gray-200">
+          <div className="mt-6 italic text-[4vw] lg:text-[2.3vw] text-gray-200">
             <p>Check back soon for the latest details!</p>
           </div>
-          <div className="mt-6 text-2xl font-semibold text-gray-100">
+          <div className="mt-6 text-[6vw] lg:text-[3vw] font-semibold text-gray-100">
             <p>Closing in: </p>
-            <div className="text-4xl font-extrabold text-yellow-400 animate-pulse">
+            <div className=" font-extrabold text-yellow-400 animate-pulse">
               {countdown} seconds
             </div>
           </div>
