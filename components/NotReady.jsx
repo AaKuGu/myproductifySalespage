@@ -106,7 +106,7 @@ const NotReady = () => {
             ×
           </button>
 
-          <div className="text-[4.5vw] lg:text-[3vw] font-extrabold tracking-wide leading-tight">
+          <div className="text-[4.5vw] lg:text-[3vw] font-extrabold tracking-wide leading-[7.5vw] lg:leading-[5vw]">
             <p>
               The JV Page, JV Docs, JV Prizes, and Sales Page are not yet 100%
               finalized.
