@@ -125,7 +125,7 @@ import JvUpdatesSignUp from "./JvUpdatesSignUp";
 import AffiliateLinkButton from "./AffiliateLinkButton";
 
 const WPSection = () => {
-  const targetDate = new Date("2024-12-07T10:00:00-05:00");
+  const targetDate = new Date("2025-01-05T11:00:00-05:00");
   const [isMounted, setIsMounted] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -205,8 +205,8 @@ const WPSection = () => {
           >
             <div className={`flex items-center justify-center flex-col`}>
               <div>Going Live On</div>
-              <div>Saturday 7th December</div>
-              <div>@ 10am EST</div>
+              <div>Sunday 5th January</div>
+              <div>@ 11am EST</div>
               <PriceRising deadlineTimeInSeconds={totalSeconds} />
             </div>
             <div

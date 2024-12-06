@@ -36,7 +36,8 @@ const Header = () => {
         })}
       </ul>
       <Link
-        href="/"
+        href="https://warriorplus.com/aff-offer/o/g886gd"
+        target="_blank"
         className={`${""} flex items-center justify-center px-[5vw] py-[2vw] lg:px-[2vw] lg:py-[0.5vw] font-bold text-[5vw] lg:text-[1.5vw] bg-gradient-to-r from-[#000033] to-[#330000] lg:hover:from-[#330000] lg:hover:to-[#000033] duration-600 rounded-lg`}
       >
         Affiliate&nbsp;Link
