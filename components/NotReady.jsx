@@ -100,7 +100,7 @@ const NotReady = () => {
         <div className="w-[80vw] p-[5vw] lg:p-[3vw] bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 text-white rounded-xl shadow-2xl transform transition-transform duration-500 ease-in-out scale-105 flex flex-col items-center justify-center text-center animate-bounce-slow relative">
           <button
             onClick={handleClose}
-            className="absolute top-1 right-1 text-[4vw] lg:text-[2.5vw] font-extrabold bg-white rounded-full p-[2vw] py-[0.5vw] text-black hover:bg-gray-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-300 ease-in-out shadow-md"
+            className="absolute top-1 right-1 text-[4vw] lg:text-[2.5vw] font-extrabold bg-white rounded-full px-[2vw] lg:px-[1.5vw] py-[0.5vw] text-black hover:bg-gray-300 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-300 ease-in-out shadow-md"
             aria-label="Close"
           >
             ×

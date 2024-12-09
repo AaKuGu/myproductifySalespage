@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 // import { FaSkype } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa6";
+import { FaFacebook, FaSkype } from "react-icons/fa6";
 
 const JvSupport = () => {
   return (
@@ -27,7 +27,7 @@ const JvSupport = () => {
         </div>
         <div>Thank you and we appreciate your help and support!</div>
       </div>
-      <div>
+      <div className={`${""}  flex items-center justify-center flex-col `}>
         <Image
           src="/logo/me.png"
           width={400}
@@ -59,11 +59,11 @@ const JvSupport = () => {
 export default JvSupport;
 
 const connect = [
-  // {
-  //   label: "Skype",
-  //   icon: <FaSkype />,
-  //   link: "https://join.skype.com/invite/x9550B7Wev0O",
-  // },
+  {
+    label: "Skype",
+    icon: <FaSkype />,
+    link: "skype:live:.cid.752087389c5f038e?chat",
+  },
   {
     label: "Facebook",
     icon: <FaFacebook />,

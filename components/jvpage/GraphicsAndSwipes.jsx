@@ -111,7 +111,7 @@ const GraphicsAndSwipes = () => {
           >
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/6GEaOwd7ckw"
+              src="https://www.youtube.com/embed/6GEaOwd7ckw?cc_load_policy=1"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

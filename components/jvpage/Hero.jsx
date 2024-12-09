@@ -44,28 +44,29 @@ const Hero = () => {
             My Productify
           </span>
         </header>
-        <div className={`${""} mb-[5vw] lg:mb-[3vw] lg:w-[80%]`}>
+        <div className={`${""} mb-[5vw] lg:mb-[3vw] lg:w-[90%] `}>
           <p
             className={`${""} text-[2.8vw] lg:text-[2.3vw] leading-[10vw] lg:leading-[5vw] text-center font-extrabold  items-center justify-center flex-col hidden lg:flex `}
           >
-            <div>Promote This Ground Breaking Technology Which Transforms</div>
+            <div> A Tool which transforms AnyOne into</div>
             <div>
-              AnyOne Into{" "}
+              {" "}
               <span className={`${""} text-orange-500 text-[2.5vw] italic`}>
                 Product-Creator&nbsp;&nbsp;
               </span>
-              with its intuative
-            </div>
-            <div>
-              {" "}
+              with its intuative&nbsp;
               <span className={`${""} text-blue-500 text-[2.5vw] italic`}>
                 Drag-and-Drop
               </span>{" "}
+            </div>
+            <div>
+              {" "}
               builder and customizable{" "}
+              <span className={`${""} text-green-500 text-[2.5vw] italic`}>
+                Course Pages & Email Optin Pages
+              </span>{" "}
             </div>
-            <div className={`${""} text-green-500 text-[2.5vw] italic`}>
-              Course Pages & Email Optin Pages
-            </div>
+
             {/* <i>
               <u
                 className={`${"text-yellow-500 font-semibold text-[5vw] lg:text-[2vw]"}`}
@@ -90,18 +91,30 @@ const Hero = () => {
           <p
             className={`${""} text-[4vw] lg:text-[2.3vw] leading-[10vw] lg:leading-[5vw] text-center font-extrabold  items-center justify-center flex-col flex lg:hidden `}
           >
-            <div>Promote This Ground Breaking Technology </div>
-            <div>Which Transforms AnyOne Into</div>
+            <div>A Tool which transforms AnyOne into </div>
+            <div>
+              {" "}
+              <span className={`${""} text-orange-500  italic`}>
+                Product-Creator&nbsp;&nbsp;
+              </span>
+              with its intuative&nbsp;&nbsp;
+            </div>
             <div>
               {" "}
               <span
                 className={`${""} text-orange-500 text-[4.5vw] lg:text-[2.5vw] italic`}
               >
-                Product-Creator&nbsp;&nbsp;
+                <span className={`${""} text-blue-500  italic`}>
+                  Drag-and-Drop
+                </span>{" "}
+                builder and customizable{" "}
+                <span className={`${""} text-green-500  italic`}>
+                  Course Pages & Email Optin Pages
+                </span>{" "}
               </span>
-              with its intuative
+              {/* with its intuative */}
             </div>
-            <div>
+            {/* <div>
               {" "}
               <span
                 className={`${""} text-blue-500 text-[4.5vw] lg:text-[2.5vw] italic`}
@@ -114,7 +127,7 @@ const Hero = () => {
               className={`${""} text-green-500 text-[4.5vw] lg:text-[2.5vw] italic`}
             >
               Course Pages & Email Optin Pages
-            </div>
+            </div> */}
             {/* <i>
               <u
                 className={`${"text-yellow-500 font-semibold text-[5vw] lg:text-[2vw]"}`}
