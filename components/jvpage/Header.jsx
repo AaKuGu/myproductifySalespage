@@ -1,12 +1,12 @@
-"use client";
+// "use client";
 
-import { handleSmoothScroll } from "@/utils/utils";
+// import { handleSmoothScroll } from "@/utils/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Header = () => {
-  return (
+  return (  
     <div
       className={`${""}  h-auto flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-[3vw] bg-black w-full border-white border-b-[0.3vw] fixed top-0 left-0 z-[100]`}
     >
@@ -23,11 +23,11 @@ const Header = () => {
           return (
             <Link
               href={d?.link}
-              onClick={(e) => {
-                if (!d?.newTab) {
-                  handleSmoothScroll(e);
-                }
-              }}
+              // onClick={(e) => {
+              //   if (!d?.newTab) {
+              //     handleSmoothScroll(e);
+              //   }
+              // }}
               target={d?.newTab ? "_blank" : undefined}
             >
               {d?.label}

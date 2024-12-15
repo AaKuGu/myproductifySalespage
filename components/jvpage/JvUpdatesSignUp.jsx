@@ -35,7 +35,7 @@ const JvUpdatesSignUp = ({ onClose }) => {
 
   return (
     <div
-      className="relative bg-white text-black p-6 rounded-lg shadow-md text-center w-[90vw] lg:w-[50vw] py-[6vw] lg:py-[3vw] px-[5vw] lg:px-[3vw]"
+      className="relative bg-white text-black p-6 rounded-lg shadow-md text-center w-[90vw]  lg:w-[50vw] py-[6vw] lg:py-[3vw] px-[5vw] lg:px-[3vw]"
       ref={modalRef} // Attach the ref here
     >
       <button

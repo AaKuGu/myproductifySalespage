@@ -44,7 +44,7 @@ const PriceRising = ({ deadlineTimeInSeconds = 1800, isWhiteBg = false }) => {
         } flex flex-col items-center justify-center gap-[1vw] lg:gap-[1vw] py-[5vw] lg:py-[3vw] w-[90%] md:w-[95%] lg:w-[80%]`}
       >
         <h2 className="font-bold text-[5vw] lg:text-[2.5vw]">
-          Hurry! Price rising in:
+          Count Down Timer For Launch
         </h2>
         <div className="bg-transparent flex justify-center space-x-4 mt-4 px-5 py-2 rounded-lg font-bold text-white gap-[2vw] lg:gap-[4vw] text-[3vw] lg:text-[1vw]">
           <div className={commonStyles}>

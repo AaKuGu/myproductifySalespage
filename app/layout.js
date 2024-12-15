@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         src="https://warriorplus.com/o2/disclaimer/g886gd"
         defer
       ></script>
-    </html>
+    </html> 
   );
 }
 
