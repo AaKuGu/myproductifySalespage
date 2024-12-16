@@ -41,12 +41,11 @@ const Prizes = () => {
           className={`${""} flex items-center justify-center flex-col font-normal italic text-[3vw] lg:text-[1.5vw] gap-[3vw] lg:gap-[1.5vw]`}
         >
           <p>
-            <strong>Important : </strong> You Need To Earn The Same Amount Of
-            The Prize In Order To Qualify For The Full Prize Money.
+            <strong>Important : </strong> You should make commissions equal to
+            prize money OR else you'll be moved to the next prize available.
           </p>
           <p>
-            If You Don’t Then You’ll Be Paid Out On A Pro-Rata Basis Based On
-            The Commissions Made...
+            No teams allowed. We want the competition to be as fair as possible
           </p>
         </div>
       </div>
