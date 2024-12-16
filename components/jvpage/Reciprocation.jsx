@@ -25,10 +25,10 @@ const Reciprocation = () => {
           YES! Of Course We Do!
         </div>
         <div
-          className={`${""} flex items-start justify-center flex-col gap-[3vw] lg:gap-[1vw] text-[3vw] lg:text-[1.8vw] font-normal w-full lg:w-[50%]`}
+          className={`${""} flex items-start justify-center flex-col gap-[3vw] lg:gap-[1vw] text-[3vw] lg:text-[1.8vw] font-normal w-full lg:w-[50%] `}
         >
           <div
-            className={`${""} w-full flex items-start justify-center gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw]`}
+            className={`${""} w-full flex items-center justify-start gap-[5vw] lg:gap-[1.4vw]  text-[5vw] lg:text-[1.5vw] `}
           >
             <span className={`${""} text-yellow-300`}>
               <FaRegHandPointRight />

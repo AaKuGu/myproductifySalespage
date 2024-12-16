@@ -68,7 +68,7 @@ export default WhyPromote;
 export const whyToPromoteOne = [
   "Launching on Sunday 5th January @ 11am EST",
   "Earn OVER $200+ Per Sale You Bring To The Funnel!",
-  "Over $1000+ In Affiliate Cash Prizes To Be Won",
+  "Over $600+ In Affiliate Cash Prizes To Be Won",
   "HIGH Converting Sales Copy & VSL Constructed By Industry Experts!",
 ];
 

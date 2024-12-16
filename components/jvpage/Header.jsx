@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 
 const Header = () => {
-  return (  
+  return (
     <div
       className={`${""}  h-auto flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-[3vw] bg-black w-full border-white border-b-[0.3vw] fixed top-0 left-0 z-[100]`}
     >
@@ -17,12 +17,13 @@ const Header = () => {
         className={`${""} w-[50vw] lg:w-[20vw]`}
       />
       <ul
-        className={`${""} flex items-center justify-center gap-[10vw] lg:gap-[5vw] text-[4vw] lg:text-[1.5vw] `}
+        className={`${""} flex items-center justify-center gap-[10vw] lg:gap-[5vw] text-[3vw] lg:text-[1.1vw] `}
       >
         {headerMenus?.map((d, i) => {
           return (
             <Link
               href={d?.link}
+              className={`${''} underline italic`}
               // onClick={(e) => {
               //   if (!d?.newTab) {
               //     handleSmoothScroll(e);
@@ -50,8 +51,13 @@ export default Header;
 
 const headerMenus = [
   {
-    label: "Details",
-    link: "#details",
+    label: "Funnel",
+    link: "#funnel",
+    newTab: false,
+  },
+  {
+    label: "Prizes",
+    link: "#prizes",
     newTab: false,
   },
   {

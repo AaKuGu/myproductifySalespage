@@ -4,6 +4,7 @@ import GraphicsAndSwipes from "@/components/jvpage/GraphicsAndSwipes";
 import Header from "@/components/jvpage/Header";
 import Hero from "@/components/jvpage/Hero";
 import JvSupport from "@/components/jvpage/JvSupport";
+import Prizes from "@/components/jvpage/Prizes";
 import Reciprocation from "@/components/jvpage/Reciprocation";
 import WhyPromote from "@/components/jvpage/WhyPromote";
 import WPSection from "@/components/jvpage/WPSection";
@@ -31,6 +32,7 @@ const page = () => {
         <Reciprocation />
         <Funnels />
         <WPSection />
+        <Prizes />
         <JvSupport />
         <div className={`${""} my-[5vw] lg:my-[3vw]`}>
           <AffiliateLinkButton />
