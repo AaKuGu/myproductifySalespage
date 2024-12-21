@@ -252,7 +252,7 @@ const SectionTwo = () => {
             <div>Course Product Just Got Faster & Easier</div>
           </div>
           <div className="font-bold text-xl sm:text-2xl md:text-3xl text-[5vw] lg:text-[2vw]">
-            Get My Productify & Save $949 Monthly
+            Get My Productify & Save $200+ Monthly
           </div>
           <div
             className="text-[5vw] lg:text-[2vw] px-[1vw] py-[0.5vw] rounded-[0.5vw] font-bold"
@@ -260,7 +260,7 @@ const SectionTwo = () => {
               background: "linear-gradient(to bottom, purple , blue)",
             }}
           >
-            Real Price- $978/M Get It Today For Only $17
+            Real Price- $90/M Get It Today For Only $17
           </div>
           <PurchaseButton />
         </div>
