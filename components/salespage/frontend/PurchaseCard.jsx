@@ -6,10 +6,7 @@ import PriceRising from "./PriceRising";
 
 const PurchaseCard = ({ orange = false }) => {
   return (
-    <div
-      className="w-full flex flex-col items-center justify-between p-2 sm:p-3 md:p-10 bg-blue-800 relative"
-      
-    >
+    <div className="w-full flex flex-col items-center justify-between p-2 sm:p-3 md:p-10 bg-blue-800 relative">
       <div className="absolute inset-0">
         <Image
           src="/logo/dotBg.png"
@@ -24,7 +21,7 @@ const PurchaseCard = ({ orange = false }) => {
         </div>
         <header className="text-[4.5vw] lg:text-[2vw] font-bold text-center mb-[2vw]">
           <span className="font-bold rounded-lg">Get My Productify </span>
-          <span>& Save $978/M Now</span>
+          <span>& Save $200+/M Now</span>
         </header>
         <PurchaseButtonDark />
         <Image
