@@ -26,7 +26,7 @@ const page = () => {
       <section
         className={`${""} w-full  flex items-center justify-center flex-col font-bold relative`}
       >
-        <NotReady />
+        {/* <NotReady /> */}
         <Header />
         <Hero />
         <Reciprocation />
