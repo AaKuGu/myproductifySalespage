@@ -20,6 +20,12 @@ const ThankYouPage = () => {
           <strong> aadarsh@aigodam.com</strong>
         </p>
         <p className="text-center text-lg text-gray-600 mb-4">
+          If You found out that you did not receive your credentials, please
+          contact with the required purchase receipt and we will provide you
+          with your credentials as soon as possible and within 24 hours of
+          purchase.
+        </p>
+        <p className="text-center text-lg text-gray-600 mb-4">
           For any queries, reach out to us at{" "}
           <a
             href="mailto:aadarsh@aigodam.com"
@@ -32,17 +38,6 @@ const ThankYouPage = () => {
         <p className="text-center text-lg text-gray-600 mb-4">
           If you purchased any upgrades, your account has been upgraded
           accordingly.
-        </p>
-        <p className="text-center text-lg text-gray-600">
-          Visit parent website:{" "}
-          <a
-            href="https://www.aigodam.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-indigo-500 underline"
-          >
-            Ai Godam
-          </a>
         </p>
         <p className="text-center text-lg text-gray-600">
           Visit product website:{" "}
